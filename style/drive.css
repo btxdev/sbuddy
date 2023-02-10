@@ -1,0 +1,698 @@
+.drive{
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+  height: 90.9vh;
+  overflow: hidden;
+  box-shadow: 0px 8px 16px 3px rgba(93, 120, 255, 0);
+}
+.drive-info{
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  width: 300px;
+  margin-right: -4px;
+  height: 100%;
+  overflow: auto;
+  margin-left: 00px;
+  transition: 0.25s all;
+  border-right: 1px solid #8080802e;
+}
+.drive-main{
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  width: calc(100% - 300px);
+  margin-right: -4px;
+  height: 100%;
+  overflow: auto;
+  transition: 0.25s all;
+}
+.drive-info-container{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: calc(100% - 40px);
+  margin-left: 20px;
+}
+.drive-info-container-title{
+  font-size: 30px;
+  font-family: pfl;
+  margin-bottom: 15px;
+}
+.drive-info-container-title > span{
+  display: inline-block;
+  vertical-align: middle;
+}
+.drive-info-container-title-text{
+  font-size: 35px;
+}
+.drive-info-container-btn1{
+  width: 100%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: relative;
+  background-color: transparent;
+  cursor: pointer;
+  font-weight: 500;
+  color: #303036;
+  padding: 10px;
+  border-radius: var(--border-r);
+  transition: 0.15s all;
+}
+.drive-info-container-btn1:hover{
+  background-color: var(--colorMainPurple2);
+  color: #303036;
+}
+.drive-info-container-btn2{
+  width: 100%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: relative;
+  font-weight: 500;
+  background-color: transparent;
+  cursor: pointer;
+  color: #303036;
+  padding: 10px;
+  border-radius: var(--border-r);
+  transition: 0.15s all;
+}
+.drive-info-container-btn2:hover{
+  background-color: var(--colorMainYellow2);
+  color: #303036;
+}
+.drive-info-container-btn3{
+  width: 100%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: relative;
+  font-weight: 500;
+  background-color: transparent;
+  cursor: pointer;
+  color: #303036;
+  padding: 10px;
+  border-radius: var(--border-r);
+  transition: 0.15s all;
+}
+.drive-info-container-btn3:hover{
+  background-color: var(--colorMainBlue2);
+  color: #303036;
+}
+.drive-info-container-btn1-ico{
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  background-color: var(--colorMainPurple);
+  border-radius: var(--border-rSmall);
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  font-size: 22px;
+}
+.drive-info-container-btn2-ico{
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  background-color: var(--colorMainYellow);
+  border-radius: var(--border-rSmall);
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  font-size: 22px;
+}
+.drive-info-container-btn3-ico{
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  background-color: var(--colorMainBlue);
+  border-radius: var(--border-rSmall);
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  font-size: 22px;
+}
+.drive-info-container-btn-text{
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  width: calc(100% - 60px);
+  margin-left: 10px;
+}
+.drive-info-container-btn-none{
+  cursor: no-drop;
+  opacity: 0.5;
+  user-select: none;
+}
+.drive-info-container-btn-none:hover{
+  background-color: #00000000;
+}
+.drive-info-container-size{
+  width: 100%;
+  position: relative;
+  margin-bottom: 25px;
+}
+.drive-info-container-size-title{
+  margin-top: 10px;
+  margin-bottom: 25px;
+  font-size: 19px;
+  font-family: pfb;
+}
+.drive-info-container-size-line{
+  width: 100%;
+  border-radius: var(--border-r);
+  background-color: var(--colorMainBlue2);
+  height: 4px;
+}
+.drive-info-container-size-line-p{
+  height: 100%;
+  position: relative;
+  border-radius: var(--border-r);
+  background-color: var(--colorMainBlue);
+}
+.drive-info-container-size-text1{
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  width: 50%;
+  margin-right: -4px;
+  text-align: left;
+  opacity: 0.75;
+  font-family: pfl;
+  font-size: 15px;
+}
+.drive-info-container-size-text2{
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  width: 50%;
+  margin-right: -4px;
+  text-align: right;
+  opacity: 0.75;
+  font-family: pfl;
+  font-size: 15px;
+}
+.drive-info-container-size-text-2{
+  font-family: pfl;
+  width: 100%;
+  font-size: 17px;
+  margin-top: -10px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+.drive-info-container-size-line-p:before{
+  content: '';
+  position: absolute;
+  height: calc(11px * 1);
+  width: calc(11px * 1);
+  border-radius: var(--border-r);
+  background: radial-gradient(ellipse at center, #fff 0%, #fff 6%, #fff 30%, var(--colorMainBlue) 35%, var(--colorMainBlue) 100%);
+  z-index: 1;
+  right: 0;
+  top: calc(-3px * 1);
+  transform: translate(50%, 0px);
+  transition: 0.15s all ease-in-out;
+}
+.drive-main-header{
+  position: relative;
+  width: 100%;
+  border-bottom: 1px solid #8080802e;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+.drive-main-header-ico{
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  height: 32px;
+  width: 32px;
+  text-align: center;
+  line-height: 32px;
+  color: var(--colorMainPurple);
+  font-size: 26px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.drive-main-header-text{
+  width: calc(100% - 55px);
+  margin-left: 10px;
+  font-size: 18.5px;
+  font-family: pfb;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  margin-top: 3px;
+}
+.drive-main-header-text:after{
+  content: attr(data-size);
+  font-family: pfl;
+  margin-left: 15px;
+  opacity: 0.5;
+}
+.drive-main-main-sort{
+  position: relative;
+  width: 100%;
+  padding: 2px 13px;
+}
+.drive-main-main-sort-elem{
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  text-align: left;
+  padding: 0px 10px;
+  font-family: pfl;
+  cursor: pointer;
+  transition: 0.15s all;
+}
+.drive-main-main-sort-elem:hover{
+  background-color: #8484841f;
+}
+.drive-main-main-elem{
+  width: 100%;
+  padding: 5px 13px;
+  transition: 0.15s all;
+  cursor: pointer;
+}
+.drive-main-main-elem:hover{
+  background-color: #aad9ec63;
+}
+.drive-main-main-elem-ch{
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  margin-right: 15px;
+}
+.drive-main-main-elem-ico{
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.drive-main-main-elem-name{
+  width: 37%;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  margin-left: 10px;
+  font-family: pfl;
+  word-break: break-word;
+}
+.drive-main-main-elem-size{
+  width: 20%;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  margin-left: 10px;
+  font-family: pfl;
+  text-align: right;
+}
+.drive-main-main-elem-date{
+  width: 20%;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  margin-left: 10px;
+  font-family: pfl;
+  text-align: right;
+}
+
+
+
+
+.drive-main::-webkit-scrollbar {
+    width: 5px;
+    cursor: pointer;
+    transition: 0.25s all;
+}
+.drive-main::-webkit-scrollbar-button {
+    display: block;
+    height: 0px;
+    border-radius: 0px;
+    transition: 0.25s all;
+}
+.drive-main::-o-scrollbar {
+    width: 5px;
+    cursor: pointer;
+    transition: 0.25s all;
+}
+.drive-main::-o-scrollbar-button {
+    display: block;
+    height: 4px;
+    border-radius: 0px;
+    transition: 0.25s all;
+}
+.drive-main::-ms-scrollbar {
+    width: 5px;
+    cursor: pointer;
+    transition: 0.25s all;
+}
+.drive-main::-ms-scrollbar-button {
+    display: block;
+    height: 0px;
+    border-radius: 0px;
+    transition: 0.25s all;
+}
+.drive-main::-moz-scrollbar-button {
+    display: block;
+    height: 0px;
+    border-radius: 0px;
+    transition: 0.25s all;
+}
+.drive-main::-webkit-scrollbar-thumb{
+  background-color: rgba(0,0,0,0.1);
+  border-radius: 0px;
+  cursor: pointer;
+  transition: 0.25s all;
+  border-radius: var(--border-r);
+}
+.drive-main::-webkit-scrollbar-thumb:hover{
+  background-color: rgba(0,0,0,0.25);
+}
+.drive-main::-moz-scrollbar {
+    width: 5px;
+    cursor: pointer;
+    transition: 0.25s all;
+}
+.drive-main::-moz-scrollbar-thumb{
+  background-color: rgba(0,0,0,0.05);
+  border-radius: 0px;
+  cursor: pointer;
+  transition: 0.25s all;
+  border-radius: var(--border-r);
+}
+.drive-main::-moz-scrollbar-thumb:hover{
+  background-color: rgba(0,0,0,0.25);
+}
+
+.drive-main::-o-scrollbar-thumb{
+  background-color: rgba(0,0,0,0.05);
+  border-radius: 0px;
+  cursor: pointer;
+  transition: 0.25s all;
+  border-radius: var(--border-r);
+}
+.drive-main::-o-scrollbar-thumb:hover{
+  background-color: rgba(0,0,0,0.25);
+}
+
+.drive-main::-ms-scrollbar-thumb{
+  background-color: rgba(0,0,0,0.05);
+  border-radius: 0px;
+  cursor: pointer;
+  transition: 0.25s all;
+  border-radius: var(--border-r);
+}
+.drive-main::-ms-scrollbar {
+    width: 5px;
+    cursor: pointer;
+    transition: 0.25s all;
+}
+.drive-main::-ms-scrollbar-thumb:hover{
+  background-color: rgba(0,0,0,0.25);
+}
+
+.drive-info::-webkit-scrollbar {
+    width: 5px;
+    cursor: pointer;
+    transition: 0.25s all;
+}
+.drive-info::-webkit-scrollbar-button {
+    display: block;
+    height: 0px;
+    border-radius: 0px;
+    transition: 0.25s all;
+}
+.drive-info::-o-scrollbar {
+    width: 5px;
+    cursor: pointer;
+    transition: 0.25s all;
+}
+.drive-info::-o-scrollbar-button {
+    display: block;
+    height: 4px;
+    border-radius: 0px;
+    transition: 0.25s all;
+}
+.drive-info::-ms-scrollbar {
+    width: 5px;
+    cursor: pointer;
+    transition: 0.25s all;
+}
+.drive-info::-ms-scrollbar-button {
+    display: block;
+    height: 0px;
+    border-radius: 0px;
+    transition: 0.25s all;
+}
+.drive-info::-moz-scrollbar-button {
+    display: block;
+    height: 0px;
+    border-radius: 0px;
+    transition: 0.25s all;
+}
+.drive-info::-webkit-scrollbar-thumb{
+  background-color: rgba(0,0,0,0.1);
+  border-radius: 0px;
+  cursor: pointer;
+  transition: 0.25s all;
+  border-radius: var(--border-r);
+}
+.drive-info::-webkit-scrollbar-thumb:hover{
+  background-color: rgba(0,0,0,0.25);
+}
+.drive-info::-moz-scrollbar {
+    width: 5px;
+    cursor: pointer;
+    transition: 0.25s all;
+}
+.drive-info::-moz-scrollbar-thumb{
+  background-color: rgba(0,0,0,0.05);
+  border-radius: 0px;
+  cursor: pointer;
+  transition: 0.25s all;
+  border-radius: var(--border-r);
+}
+.drive-info::-moz-scrollbar-thumb:hover{
+  background-color: rgba(0,0,0,0.25);
+}
+
+.drive-info::-o-scrollbar-thumb{
+  background-color: rgba(0,0,0,0.05);
+  border-radius: 0px;
+  cursor: pointer;
+  transition: 0.25s all;
+  border-radius: var(--border-r);
+}
+.drive-info::-o-scrollbar-thumb:hover{
+  background-color: rgba(0,0,0,0.25);
+}
+
+.drive-info::-ms-scrollbar-thumb{
+  background-color: rgba(0,0,0,0.05);
+  border-radius: 0px;
+  cursor: pointer;
+  transition: 0.25s all;
+  border-radius: var(--border-r);
+}
+.drive-info::-ms-scrollbar {
+    width: 5px;
+    cursor: pointer;
+    transition: 0.25s all;
+}
+.drive-info::-ms-scrollbar-thumb:hover{
+  background-color: rgba(0,0,0,0.25);
+}
+.drive-draganddrop{
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #fdd83557;
+  z-index: 999;
+  transition: 0.25s all;
+  backdrop-filter: saturate(180%) blur(12px);
+}
+.drive-draganddrop-ab{
+  position: absolute;
+  height: calc(100% - 50px);
+  width: calc(100% - 50px);
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  border: 3px dashed #303036;
+  border-radius: var(--border-r);
+  transition: 0.15s all;
+}
+.drive-draganddrop-text{
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  width: 40%;
+  text-align: center;
+  height: 100px;
+}
+.drive-draganddrop-text-ico{
+  font-size: 50px;
+  color: #303036;
+}
+.drive-draganddrop-text-elem{
+  font-family: pfm;
+  font-size: 20px;
+}
+@media only screen and (min-width: 641px){
+  .drive{
+      margin-top: 100px;
+      margin-bottom: 100px;
+      height: 75vh;
+      box-shadow: 0px 8px 16px 3px rgba(93, 120, 255, 0.1);
+    }
+}
+@media only screen and (min-width: 100px) and (max-width: 640px){
+  .drive-info-container-btn-text{
+    display: none;
+    margin-left: 0px;
+    overflow: hidden;
+    max-width: 0px;
+  }
+  .drive-info{
+    width: 65px;
+  }
+  .drive-info-container{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: calc(100% - 40px);
+    margin-left: 0px;
+  }
+  .drive-info-container-title{
+    display: none;
+  }
+  .drive-info-container-size{
+    display: none;
+  }
+  .drive-info-container{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: calc(100% - 40px);
+    margin-left: 0px;
+  }
+  .drive-main{
+    width: calc(100% - 65px);
+  }
+  .drive-main-main-sort{
+    display: none;
+  }
+  .drive-main-main-elem{
+    width: calc(100% - 13px);
+    padding: 5px 13px;
+    transition: 0.15s all;
+    cursor: pointer;
+    background-color: #f3f3f3;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: var(--border-r);
+    position: relative;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    white-space: nowrap;
+    overflow: hidden;
+    user-select: none;
+  }
+  .drive-main-main-elem:hover > .drive-main-main-elem-ch{
+    background-color: #def0f8;
+  }
+  .drive-main-main-elem-ch{
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    margin-right: 15px;
+    z-index: 9;
+    background-color: #f3f3f3;
+    border-radius: var(--border-rSmall);
+    left: 11px;
+    padding-left: 6px;
+    padding-top: 5px;
+    padding-right: 0px;
+    transition: 0.15s all;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  .drive-main-main-elem-ico{
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 0px;
+  }
+  .drive-main-main-elem-name{
+    width: calc(100% - 162px);
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    margin-left: 10px;
+    font-family: pfl;
+    white-space: normal;
+  }
+  .drive-main-main-elem-date{
+    width: calc(100% - 186px);
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    font-family: pfl;
+    text-align: right;
+  }
+  .drive-main-main-elem-size{
+    display: none;
+  }
+  .drive-info-container-btn1:hover{
+    background-color: transparent;
+    color: #303036;
+  }
+  .drive-info-container-btn2:hover{
+    background-color: transparent;
+    color: #303036;
+  }
+  .drive-info-container-btn3:hover{
+    background-color: transparent;
+    color: #303036;
+  }
+  footer{
+    display: none;
+  }
+  footer2{
+    display: none;
+  }
+  .checkbox-checked:not(checked){
+    opacity: 0;
+    visibility: hidden;
+  }
+}

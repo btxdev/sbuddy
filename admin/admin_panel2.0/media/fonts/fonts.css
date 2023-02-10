@@ -1,0 +1,44 @@
+@font-face {
+  src: local("feather.woff"), url("feather.woff");
+  font-family: ico;
+}
+@font-face {
+  src: local("materialdesignicons-webfont.woff2"), url("materialdesignicons-webfont.woff2");
+  font-family: ico2;
+}
+@font-face {
+  src: local("Quicksand Light"), local('Quicksand-Light'), local('Quicksand'), url("Quicksand Light.ttf");
+  font-family: pfdl;
+}
+@font-face {
+  src: local("Quicksand Medium.ttf"), url("Quicksand Medium.ttf");
+  font-family: pfdm;
+}
+@font-face {
+  src: local("Quicksand Regular.ttf"), url("Quicksand Regular.ttf");
+  font-family: pfdr;
+}
+@font-face {
+  src: local("Quicksand.ttf"), url("Quicksand.ttf");
+  font-family: pfdb;
+}
+@font-face {
+  src: local("Product Sans Light"), local("ProductSans-Light"), local("Product Sans.ttf"), url("Product Sans Light.ttf");
+  font-family: pfl;
+}
+@font-face {
+  src: local("Product Sans Medium.ttf"), url("Product Sans Medium.ttf");
+  font-family: pfm;
+}
+@font-face {
+  src: local("Product Sans.ttf"), url("Product Sans.ttf");
+  font-family: pfr;
+}
+@font-face {
+  src: url("Reef.otf"), url("Reef.otf");
+  font-family: ru;
+}
+@font-face {
+  src: local("Product Sans Bold.ttf"), url("Product Sans Bold.ttf");
+  font-family: pfb;
+}

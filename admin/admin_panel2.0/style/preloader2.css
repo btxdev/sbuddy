@@ -1,0 +1,104 @@
+.circles {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: scale(0.35);
+}
+.circles div {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 100%;
+  transform-origin: top left;
+}
+.large-circle {
+  background: #ffa000;
+  width: 150px;
+  height: 150px;
+  animation: grow cubic-bezier(0.785, 0.135, 0.15, 0.86) 3s infinite;
+}
+.mid-circle {
+  background: #f97015;
+  width: 100px;
+  height: 100px;
+  animation: grow cubic-bezier(0.785, 0.135, 0.15, 0.86) 3s infinite 0.5s;
+}
+.small-circle {
+  background: var(--white);
+  width: 50px;
+  height: 50px;
+  animation: grow cubic-bezier(0.785, 0.135, 0.15, 0.86) 3s infinite 0.8s;
+}
+@-moz-keyframes grow {
+  0% {
+    opacity: 0;
+    transform: scale(0) translate(-50%, -50%);
+  }
+  40% {
+    opacity: 1;
+    transform: scale(1.2) translate(-50%, -50%);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(1) translate(-50%, -50%);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0) translate(-50%, -50%);
+  }
+}
+@-webkit-keyframes grow {
+  0% {
+    opacity: 0;
+    transform: scale(0) translate(-50%, -50%);
+  }
+  40% {
+    opacity: 1;
+    transform: scale(1.2) translate(-50%, -50%);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(1) translate(-50%, -50%);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0) translate(-50%, -50%);
+  }
+}
+@-o-keyframes grow {
+  0% {
+    opacity: 0;
+    transform: scale(0) translate(-50%, -50%);
+  }
+  40% {
+    opacity: 1;
+    transform: scale(1.2) translate(-50%, -50%);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(1) translate(-50%, -50%);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0) translate(-50%, -50%);
+  }
+}
+@keyframes grow {
+  0% {
+    opacity: 0;
+    transform: scale(0) translate(-50%, -50%);
+  }
+  40% {
+    opacity: 1;
+    transform: scale(1.2) translate(-50%, -50%);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(1) translate(-50%, -50%);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0) translate(-50%, -50%);
+  }
+}

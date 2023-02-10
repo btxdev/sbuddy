@@ -1,0 +1,44 @@
+@font-face {
+  src: url("feather.woff");
+  font-family: ico;
+}
+@font-face {
+  src: url("materialdesignicons-webfont.woff2");
+  font-family: ico2;
+}
+@font-face {
+  src: url("Quicksand Light.ttf");
+  font-family: pfdl;
+}
+@font-face {
+  src: url("Quicksand Medium.ttf");
+  font-family: pfdm;
+}
+@font-face {
+  src: url("Quicksand Regular.ttf");
+  font-family: pfdr;
+}
+@font-face {
+  src: url("Quicksand.ttf");
+  font-family: pfdb;
+}
+@font-face {
+  src: url("Product Sans Light.ttf");
+  font-family: pfl;
+}
+@font-face {
+  src: url("Product Sans Medium.ttf");
+  font-family: pfm;
+}
+@font-face {
+  src: url("Product Sans.ttf");
+  font-family: pfr;
+}
+@font-face {
+  src: url("Reef.otf");
+  font-family: ru;
+}
+@font-face {
+  src: url("Product Sans Bold.ttf");
+  font-family: pfb;
+}

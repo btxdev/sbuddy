@@ -1,0 +1,29 @@
+a{
+  text-decoration: none;
+  color: #303036;
+}
+::selection{
+  background-color: #ff970840;
+}
+.tel{
+  border-bottom: 1px solid transparent;
+  transition: 0.25s border-bottom;
+  color: #303036;
+}
+.tel:hover{
+  color: #303036;
+  border-bottom: 1px dashed #303036;
+}
+.fotter-a{
+  border-bottom: 1px solid transparent;
+  transition: 0.25s border-bottom;
+  color: #303036;
+}
+.fotter-a:hover{
+  border-bottom: 1px dashed #303036;
+  color: #303036;
+}
+.footera:hover{
+  color: #303036;
+  border-bottom: 1px dashed #303036;
+}

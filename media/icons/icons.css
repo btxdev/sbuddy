@@ -1,0 +1,397 @@
+/*
+ *
+ *  Developed by INSOweb
+ *  <http://insoweb.ru>
+ *
+ */
+
+.icons-vk:before{
+  content: '';
+  font-family: ico;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('../svg/vk.svg');
+  background-size: contain;
+  height: 60%;
+  width: 60%;
+  position: absolute;
+  z-index: 11;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  filter: invert(1);
+  transition: 0.15s all ease-in-out;
+}
+.icons-vk:hover:before{
+  filter: invert(0);
+}
+.icons-fb:before{
+  content: '';
+  font-family: ico;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('../svg/facebook.svg');
+  background-size: contain;
+  height: 60%;
+  width: 60%;
+  position: absolute;
+  z-index: 11;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  filter: invert(1);
+  transition: 0.15s all ease-in-out;
+}
+.icons-fb:hover:before{
+  filter: invert(0);
+}
+.icons-tw:before{
+  content: '';
+  font-family: ico;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('../svg/twitter.svg');
+  background-size: contain;
+  height: 60%;
+  width: 60%;
+  position: absolute;
+  z-index: 11;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  filter: invert(1);
+  transition: 0.15s all ease-in-out;
+}
+.icons-tw:hover:before{
+  filter: invert(0);
+}
+.icons-whatsapp:before{
+  content: '';
+  font-family: ico;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('../svg/whatsapp.svg');
+  background-size: contain;
+  height: 60%;
+  width: 60%;
+  position: absolute;
+  z-index: 11;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  filter: invert(1);
+  transition: 0.15s all ease-in-out;
+}
+.icons-whatsapp:hover:before{
+  filter: invert(0);
+}
+.icons-instagram:before{
+  content: '';
+  font-family: ico;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('../svg/instagram.svg');
+  background-size: contain;
+  height: 60%;
+  width: 60%;
+  position: absolute;
+  z-index: 11;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  filter: invert(1);
+  transition: 0.15s all ease-in-out;
+}
+.icons-instagram:hover:before{
+  filter: invert(0);
+}
+.icons-left:before{
+  font-family: ico;
+  content: '\E843';
+}
+.icons-top:before{
+  font-family: ico;
+  content: '\E845';
+}
+.icons-right:before{
+  font-family: ico;
+  content: '\E844';
+}
+.icons-bottom:before{
+  font-family: ico;
+  content: '\E842';
+}
+.icons-tel:before{
+  font-family: ico;
+  content: '\E8AA';
+}
+.icons-email:before{
+  font-family: ico;
+  content: '\E830';
+}
+.icons-check:before{
+  font-family: ico;
+  content: '\E840';
+}
+.icons-point:before{
+  font-family: ico;
+  content: '\E88E';
+}
+.icons-shield:before{
+  font-family: ico;
+  content: '\E8C2';
+}
+.icons-shield-bolt:before{
+  font-family: ico;
+  content: '\E949';
+}
+.icons-imgAdd:before{
+  font-family: ico;
+  content: '\E913';
+}
+.icons-folderNew:before{
+  font-family: ico;
+  content: '\E90E';
+}
+.icons-folderNew-bolt:before{
+  font-family: ico;
+  content: '\E94C';
+}
+.icons-reload:before{
+  font-family: ico;
+  content: '\E8BB';
+}
+.icons-upload:before{
+  font-family: ico;
+  content: '\E864';
+}
+.icons-uploadFile:before{
+  font-family: ico;
+  content: '\E918';
+}
+.icons-uploadFolder:before{
+  font-family: ico;
+  content: '\E917';
+}
+.icons-rename:before{
+  font-family: ico;
+  content: '\E868';
+}
+.icons-move:before{
+  font-family: ico;
+  content: '\E89C';
+}
+.icons-remove:before{
+  font-family: ico;
+  content: '\E8DA';
+}
+.icons-folder:before{
+  font-family: ico;
+  content: '\E874';
+}
+.icons-folder-bolt:before{
+  font-family: ico;
+  content: '\E94D';
+}
+.icons-point-bolt:before{
+  font-family: ico;
+  content: '\E947';
+}
+.icons-license:before{
+  font-family: ico;
+  content: '\E948';
+}
+.icons-star:before{
+  font-family: ico;
+  content: '\E90B';
+}
+.icons-error-bolt:before{
+  font-family: ico;
+  content: '\E93A';
+}
+.icons-error:before{
+  font-family: ico;
+  content: '\E8F7';
+}
+.icons-good-bolt:before{
+  font-family: ico;
+  content: '\E944';
+}
+.icons-good:before{
+  font-family: ico;
+  content: '\E943';
+}
+.icons-time-bolt:before{
+  font-family: ico;
+  content: '\E945';
+}
+.icons-time:before{
+  font-family: ico;
+  content: '\E8F2';
+}
+.icons-send:before{
+  font-family: ico;
+  content: '\E90D';
+}
+.icons-close:before{
+  font-family: ico;
+  content: '\E8F6';
+}
+.icons-warning-bolt:before{
+  font-family: ico;
+  content: '\E93B';
+}
+.icons-warning:before{
+  font-family: ico;
+  content: '\E81E';
+}
+.icons-stop-bolt:before{
+  font-family: ico;
+  content: '\E93C';
+}
+.icons-stop:before{
+  font-family: ico;
+  content: '\E81B';
+}
+.icons-info-bolt:before{
+  font-family: ico;
+  content: '\E93E';
+}
+.icons-info:before{
+  font-family: ico;
+  content: '\E87F';
+}
+.icons-news:before{
+  font-family: ico;
+  content: '\E837';
+}
+.icons-date:before{
+  font-family: ico;
+  content: '\E83A';
+}
+.icons-like:before{
+  font-family: ico;
+  content: '\E8D6';
+}
+.icons-like-bolt:before{
+  font-family: ico;
+  content: '\E93F';
+}
+.icons-dislike:before{
+  font-family: ico;
+  content: '\E8D7';
+}
+.icons-dislike-bolt:before{
+  font-family: ico;
+  content: '\E940';
+}
+.icons-user:before{
+  font-family: ico;
+  content: '\E8E9';
+}
+.icons-user-checked:before{
+  font-family: ico;
+  content: '\E8E5';
+}
+.icons-download:before{
+  font-family: ico;
+  content: '\E864';
+}
+.icons-copy:before{
+  font-family: ico;
+  content: '\E855';
+}
+.icons-book:before{
+  font-family: ico;
+  content: '\E926';
+}
+.icons-file:before{
+  font-family: ico;
+  content: '\E904';
+}
+.icons-plus:before{
+  font-family: ico;
+  content: '\E8B1';
+}
+.icons-files:before{
+  font-family: ico;
+  content: '\E872';
+}
+.icons-selectAll:before{
+  font-family: ico;
+  content: '\E867';
+}
+.icons-cut:before{
+  font-family: ico;
+  content: '\E8BF';
+}
+.icons-past:before{
+  font-family: ico;
+  content: '\E84B';
+}
+.icons-full:before{
+  font-family: ico;
+  content: '\E908';
+}
+.icons-nofull:before{
+  font-family: ico;
+  content: '\E88D';
+}
+.icons-lock:before{
+  font-family: ico;
+  content: '\E914';
+}
+.icons-eyeOpen:before{
+  font-family: ico;
+  content: '\E86A';
+}
+.icons-eyeСlosed:before{
+  font-family: ico;
+  content: '\E86E';
+}
+.icons-checked:before{
+  font-family: ico;
+  content: '\E83F';
+}
+.icons-place:before{
+  font-family: ico;
+  content: '\E82E';
+}
+.icons-place-bolt:before{
+  font-family: ico;
+  content: '\E941';
+}
+.icons-home:before{
+  font-family: ico;
+  content: '\E87A';
+}
+.icons-school:before{
+  font-family: ico;
+  content: '\E942';
+}
+.icons-timetable:before{
+  font-family: ico;
+  content: '\E878';
+}
+.icons-reviews:before{
+  font-family: ico;
+  content: '\E86B';
+}
+.icons-social:before{
+  font-family: ico;
+  content: '\E8C0';
+}
+.icons-login:before{
+  font-family: ico;
+  content: '\E885';
+}

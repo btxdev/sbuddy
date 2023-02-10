@@ -1,0 +1,24 @@
+@font-face {
+  font-family: ico;
+  src: url("feather.woff");
+}
+@font-face {
+  src: url("L.ttf");
+  font-family: pfl;
+}
+@font-face {
+  src: url("M.ttf");
+  font-family: pfm;
+}
+@font-face {
+  src: url("R.ttf");
+  font-family: pfr;
+}
+@font-face {
+  font-family: "pfb";
+  src: url("B.ttf");
+}
+@font-face {
+  font-family: "pb";
+  src: url("Poppins-Bold.ttf");
+}

@@ -1,0 +1,227 @@
+.onlinelearning-date{
+  position: relative;
+  width: 100%;
+}
+.onlinelearning-date-elem{
+  position: relative;
+  padding: 10px;
+  border-radius: var(--border-r);
+  background-color: #fff;
+  margin-bottom: 25px;
+  user-select: none;
+  box-shadow: 0px 0px 40px 0 rgba(216, 216, 216, 0.45);
+}
+.onlinelearning-date-elem-elem1{
+  width: 100%;
+  position: relative;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.15s all;
+  border-radius: var(--border-rSmall);
+}
+.onlinelearning-date-elem-elem{
+  width: 100%;
+  position: relative;
+  padding: 10px;
+  transition: 0.15s all;
+  border-radius: var(--border-rSmall);
+}
+.onlinelearning-date-elem-elem-ico-checked{
+  position: absolute;
+  height: 22px;
+  width: 22px;
+  right: 0;
+  bottom: 0;
+  transform: translate(25%, 25%);
+  margin: auto;
+  color: #fff;
+  border-radius: var(--border-rWindow);
+  background-color: var(--green);
+  transition: 0.15s all;
+  line-height: 22px;
+  font-size: 20px;
+}
+.onlinelearning-date-elem-elem2{
+  width: 100%;
+  position: relative;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.15s all;
+  border-radius: var(--border-rSmall);
+}
+.onlinelearning-date-elem-elem3{
+  width: 100%;
+  position: relative;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.15s all;
+  border-radius: var(--border-rSmall);
+}
+.onlinelearning-date-elem-title{
+  font-size: 21px;
+  font-family: pfb;
+  margin-left: 10px;
+  margin-top: 2px;
+  margin-bottom: 10px;
+}
+.onlinelearning-date-elem-elem1 > .onlinelearning-date-elem-elem-ico{
+  background-color: var(--colorMainPurple);
+}
+.onlinelearning-date-elem-elem1:hover{
+  background-color: var(--colorMainPurple2);
+}
+.onlinelearning-date-elem-elem2 > .onlinelearning-date-elem-elem-ico{
+  background-color: var(--colorMainYellow);
+}
+.onlinelearning-date-elem-elem2:hover{
+  background-color: var(--colorMainYellow2);
+}
+.onlinelearning-date-elem-elem3 > .onlinelearning-date-elem-elem-ico{
+  background-color: var(--colorMainBlue);
+}
+.onlinelearning-date-elem-elem3:hover{
+  background-color: var(--colorMainBlue2);
+}
+.onlinelearning-date-elem-elem-ico{
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  height: 50px;
+  width: 50px;
+  transition: 0.15s all;
+  border-radius: var(--border-rSmall);
+  text-align: center;
+  line-height: 50px;
+  font-size: 35px;
+  font-family: pfb;
+  color: #fff;
+}
+.onlinelearning-date-elem-elem-text{
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  width: calc(100% - 64px);
+  margin-left: 10px;
+  font-family: pfl;
+  font-size: 18px;
+}
+.onlinelearning-date-elem-elem-text-title{
+  font-size: 20px;
+  font-family: pfb;
+}
+.onlinelearning-date-elem-block{
+  width: calc(100% - 20px);
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.onlinelearning-date-elem-block-table{
+  position: relative;
+  min-width: max-content;
+}
+.onlinelearning-date-elem-block-table-title{
+  position: relative;
+  white-space: nowrap;
+  background-color: var(--colorMainBlue2);
+  border: 2px solid var(--colorMainBlue);
+  border-radius: var(--border-rSmall) var(--border-rSmall) 0px 0px;
+}
+.onlinelearning-date-elem-block-table-main{
+  min-width: max-content;
+  position: relative;
+  width: 100%;
+  white-space: nowrap;
+  border-bottom: 2px solid var(--colorMainBlue);
+  border-left: 2px solid var(--colorMainBlue);
+  border-right: 2px solid var(--colorMainBlue);
+  border-radius: 0px;
+}
+.onlinelearning-date-elem-block-table-title-td{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: -4px;
+  padding: 10px;
+  text-align: center;
+  font-family: pfb;
+  white-space: normal;
+}
+.onlinelearning-date-elem-block-table-title-td:nth-child(1){
+  width: 80px;
+  max-width: 80px;
+  border-right: 2px solid var(--colorMainBlue);
+}
+.onlinelearning-date-elem-block-table-title-td:nth-child(2){
+  min-width: 230px;
+  width: 37%;
+  border-right: 2px solid var(--colorMainBlue);
+}
+.onlinelearning-date-elem-block-table-title-td:nth-child(3){
+  min-width: 230px;
+  width: 33%;
+  border-right: 2px solid var(--colorMainBlue);
+}
+.onlinelearning-date-elem-block-table-title-td:nth-child(4){
+  min-width: 120px;
+  width: 20%;
+}
+
+.onlinelearning-date-elem-block-table-main-td{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: -4px;
+  padding: 10px;
+  text-align: center;
+  font-family: pfr;
+  white-space: normal;
+}
+.onlinelearning-date-elem-title::after{
+  content: attr(date);
+  margin-left: 10px;
+  font-family: pfb;
+  opacity: 0.5;
+  font-size: 18px;
+}
+.onlinelearning-date-elem-block-table-main-td:nth-child(1){
+  width: 80px;
+  max-width: 80px;
+  border-right: 2px solid var(--colorMainBlue);
+}
+.onlinelearning-date-elem-block-table-main-td:nth-child(2){
+  min-width: 230px;
+  width: 37%;
+  border-right: 2px solid var(--colorMainBlue);
+}
+.onlinelearning-date-elem-block-table-main-td:nth-child(3){
+  min-width: 230px;
+  width: 33%;
+  border-right: 2px solid var(--colorMainBlue);
+}
+.onlinelearning-date-elem-block-table-main-td:nth-child(4){
+  min-width: 120px;
+  width: 20%;
+}
+.onlinelearning-date-elem-block-image{
+  width: 100%;
+  text-align: center;
+}
+.onlinelearning-date-elem-block-image-ico{
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 180px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 50px;
+
+  background-image: url('../media/svg/vacation.svg');
+}
+.onlinelearning-date-elem-block-image-text{
+  margin-top: 25px;
+  font-size: 22px;
+  margin-bottom: 45px;
+  font-family: pfl;
+}

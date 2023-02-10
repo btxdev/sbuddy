@@ -1,0 +1,83 @@
+.contacts-block{
+  width: 100%;
+  margin-bottom: 50px;
+  border-right: 1px dashed #30303663;
+}
+@media only screen and (max-width: 991px)  {
+  #contacts-block-id{
+    border-right: 1px dashed transparent;
+  }
+}
+.contacts-block-title{
+  font-size: 24px;
+  font-family: pfb;
+}
+.contacts-block-title2{
+  font-size: 18px;
+  font-family: pfb;
+  margin-top: 20px;
+}
+.contacts-block-text{
+  width: 100%;
+  white-space: nowrap;
+}
+.contacts-block-text-ico{
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.contacts-block-text-text{
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  width: calc(100% - 40px);
+  margin-left: 10px;
+  margin-right: -4px;
+  white-space: normal;
+  font-size: 18px;
+  font-family: pfl;
+  margin-top: 2px;
+}
+.contacts-block-text-text-a{
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  margin-left: 10px;
+  margin-right: -4px;
+  white-space: normal;
+  font-size: 18px;
+  font-family: pfl;
+  margin-top: 2px;
+  cursor: pointer;
+  border-bottom: 1px dashed #30303663;
+  transition: 0.15s all;
+}
+.contacts-block-text-text-a:hover{
+  border-bottom: 1px dashed #303036;
+}
+.contacts-block-text-text > a{
+  border-bottom: 1px dashed #30303663;
+  transition: 0.15s all;
+}
+.contacts-block-text-text > a:hover{
+  border-bottom: 1px dashed #303036;
+}
+.info-map-block {
+  width: 100%;
+  height: 350px;
+  position: relative;
+  margin-top: 30px;
+  transition: 0.5s all;
+  filter: grayscale(1) brightness(80%);
+  display: block;
+  z-index: 9;
+}
+.info-map-block:hover{
+  filter: grayscale(0) brightness(100%);
+}

@@ -1,0 +1,49 @@
+.DragAndDrop{
+  display: block;
+  position: fixed;
+  z-index: 9999999999999999999999999999999;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0,0,0,0.5);
+  background-image: var(--noise-bg);
+  backdrop-filter: saturate(180%) blur(4px);
+  text-align: center;
+  transition: 0.15s all;
+  color: var(--colorI);
+  
+}
+.DragAndDrop-block{
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 50vh;
+  transform: translate(0px, -50%);
+  display: inline-block;
+}
+.DragAndDrop-block-ico{
+  position: relative;
+  height: 75px;
+  width: 75px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  font-size: 72px;
+}
+.DragAndDrop-block-text{
+  font-size: 23px;
+  margin-top: 15px;
+}
+.DragAndDrop-border{
+  height: calc(100vh - 50px);
+  width: calc(100vw - 50px);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 10px;
+  border: 5px dashed var(--colorI);
+  transition: 0.15s all;
+}

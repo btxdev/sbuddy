@@ -1,0 +1,100 @@
+c-help{
+  display: inline-block;
+  color: #03c003;
+}
+c-info{
+  display: inline-block;
+  color: rgba(252,199,150,1);
+}
+c-number{
+  display: inline-block;
+  color: rgba(126,134,207,1);
+}
+c-good{
+  display: inline-block;
+  color: #03c003;
+}
+c-func{
+  display: inline-block;
+  color: rgba(160,93,255,1);
+}
+c-error{
+  display: inline-block;
+  color: #ff0b0b;
+}
+c-default{
+  display: inline-block;
+  color: #fff;
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+c-func::selection{
+  color: rgba(160,93,255,1);
+  background-color: #fff;
+}
+c-help::selection{
+  color: #03c003;
+  background-color: #fff;
+}
+c-login::selection{
+  color: #03c003;
+  background-color: #fff;
+}
+c-error::selection{
+  color: #ff0b0b;
+  background-color: #fff;
+}
+.console-main::selection{
+  background-color: #fff;
+  color: #303036;
+}
+.console-main-textarea::-webkit-scrollbar {
+    width: 3px;
+    cursor: pointer;
+    transition: 0.25s all;
+}
+.console-main-textarea::-webkit-scrollbar-button {
+    display: block;
+    height: 3px;
+    border-radius: 0px;
+    background-color: transparent;
+    transition: 0.25s all;
+}
+.console-main-textarea::-webkit-scrollbar-thumb {
+    background-color: rgba(255,255,255,0.125);
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.5s all;
+    border: 0px solid #fff;
+}
+.console-main-textarea::-webkit-scrollbar-thumb:hover{
+    border: 0px solid #fff;
+    background-color: rgba(255,255,255,1);
+}
+.console-main-textarea::-webkit-scrollbar-track {
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 0px;
+    width: 100%;
+    transition: 0.25s all;
+}
+.console-main-textarea::-webkit-scrollbar:hover {
+    height: 40px;
+    width: 15px;
+}
+.console-main-textarea::-webkit-scrollbar-corner {
+    width: 15px;
+    transition: 0.25s all;
+}
+*console::selection{
+  background-color: #fff;
+  color: #303036;
+}
+.console-main-textarea::selection{
+  background-color: #fff;
+  color: #303036;
+}
+.console-main-input-block::selection{
+  background-color: #fff;
+  color: #303036;
+}

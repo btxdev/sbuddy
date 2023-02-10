@@ -1,0 +1,249 @@
+detectionInactiveUser{
+  height: 100vh;
+  width: 100vw;
+  z-index: 999999999999999999999999999999999999999999999999999999999999999999999999999999;
+  backdrop-filter: saturate(180%) blur(10px);
+  background-image: var(--noise-bg);
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: none;
+  opacity: 0;
+  transition: 0.25s all;
+}
+.detectionInactiveUser-block{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 500px;
+  width: 450px;
+  text-align: center;
+}
+.detectionInactiveUser-block-img{
+  height: 200px;
+  width: 100%;
+  font-family: pfdb;
+  font-size: 35px;
+  color: var(--color);
+  position: relative;
+}
+.detectionInactiveUser-block-img-text{
+  position: absolute;
+  left: 35px;
+  right: 0;
+  margin: auto;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  bottom: 12px;
+  animation-fill-mode: forwards;
+  z-index: 2;
+  transform: translate(0px, 15px);
+}
+.detectionInactiveUser-block-img-svg{
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  height: 90px;
+  width: 90px;
+  z-index: 1;
+  background-position: center;
+  background-image: url('../media/svg/sleep.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.detectionInactiveUser-anim1{
+  animation: detectionInactiveUser-anim1 ease-in-out infinite 4s;
+}
+.detectionInactiveUser-anim2{
+  animation-delay: 3.8s;
+  animation: detectionInactiveUser-anim2 ease-in-out infinite 4.424s;
+}
+.detectionInactiveUser-anim3{
+  animation-delay: 0.6s;
+  animation: detectionInactiveUser-anim3 ease-in-out infinite 4.2824s;
+}
+.detectionInactiveUser-anim4{
+  animation-delay: 0.72s;
+  animation: detectionInactiveUser-anim4 ease-in-out infinite 4.1357s;
+}
+@keyframes detectionInactiveUser-anim1 {
+  0%{
+    transform: translate(0px, 0px) rotate(0deg) scale(1);
+    opacity: 1;
+  }
+  15%{
+    transform: translate(21px, -21px) rotate(-10deg) scale(0.85);
+    opacity: 1;
+  }
+  30%{
+    transform: translate(-16px, -47px) scale(0.75) rotate(8deg);
+  }
+  50%{
+    transform: translate(22px, -83.1px) scale(0.6) rotate(-13deg);
+  }
+  75%{
+    transform: translate(-7px, -110px) scale(0.5) rotate(-7deg);
+  }
+  89.99%{
+    transform: translate(3px, -130px) scale(0.4) rotate(6deg);
+    opacity: 0;
+  }
+  89.999%{
+    transform: scale(0.4);
+    opacity: 0;
+  }
+  90%{
+    transform: translate(0px, 0px) rotate(0deg) scale(0.2);
+    opacity: 0;
+  }
+  100%{
+    transform: translate(0px, 0px) rotate(0deg) scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes detectionInactiveUser-anim2 {
+  0%{
+    transform: translate(0px, 0px) rotate(0deg) scale(1);
+    opacity: 1;
+  }
+  15%{
+    transform: translate(-18px, -25px) rotate(-4deg) scale(0.9);
+    opacity: 1;
+  }
+  30%{
+    transform: translate(6px, -47px) rotate(-4deg) scale(0.8);
+  }
+  50%{
+    transform: translate(-14px, -66px) rotate(7deg) scale(0.7);
+  }
+  75%{
+    transform: translate(10px, -88px) rotate(-11deg) scale(0.5);
+  }
+  89.99%{
+    transform: translate(-5px, -114px) rotate(10deg) scale(0.4);
+    opacity: 0;
+  }
+  89.999%{
+    transform: scale(0.4);
+    opacity: 0;
+  }
+  90%{
+    transform: translate(0px, 0px) rotate(0deg) scale(0.2);
+    opacity: 0;
+  }
+  100%{
+    transform: translate(0px, 0px) rotate(0deg) scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes detectionInactiveUser-anim3 {
+  0%{
+    transform: translate(0px, 0px) rotate(0deg) scale(1);
+    opacity: 1;
+  }
+  15%{
+    transform: translate(23px, -29px) rotate(-12deg) scale(0.95);
+    opacity: 1;
+  }
+  30%{
+    transform: translate(-15px, -65px) rotate(13deg) scale(0.85);
+  }
+  50%{
+    transform: translate(21px, -89px) rotate(-13deg) scale(0.72);
+  }
+  75%{
+    transform: translate(-7px, -126px) rotate(11deg) scale(0.52);
+  }
+  89.99%{
+    transform: translate(-1px, -153px) rotate(-6deg) scale(0.32);
+    opacity: 0;
+  }
+  89.999%{
+    transform: scale(0.32);
+    opacity: 0;
+  }
+  90%{
+    transform: translate(0px, 0px) rotate(0deg) scale(0.2);
+    opacity: 0;
+  }
+  100%{
+    transform: translate(0px, 0px) rotate(0deg) scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes detectionInactiveUser-anim4 {
+  0%{
+    transform: translate(0px, 0px) rotate(0deg) scale(1);
+    opacity: 1;
+  }
+  15%{
+    transform: translate(-5px, -18px) rotate(4deg) scale(0.935);
+    opacity: 1;
+  }
+  30%{
+    transform: translate(8px, -49px) rotate(-11deg) scale(0.835);
+  }
+  50%{
+    transform: translate(-11px, -73px) rotate(11deg) scale(0.735);
+  }
+  75%{
+    transform: translate(12px, -107px) rotate(-10deg) scale(0.535);
+  }
+  89.99%{
+    transform: translate(-5px, -150px) rotate(13deg) scale(0.335);
+    opacity: 0;
+  }
+  89.999%{
+    transform: scale(0.335);
+    opacity: 0;
+  }
+  90%{
+    transform: translate(0px, 0px) rotate(0deg) scale(0.2);
+    opacity: 0;
+  }
+  100%{
+    transform: translate(0px, 0px) rotate(0deg) scale(1);
+    opacity: 1;
+  }
+}
+
+.detectionInactiveUser-block-text{
+  text-align: center;
+  font-size: 22px;
+  margin-top: 44px;
+  font-family: pfl;
+}
+.detectionInactiveUser-block-text > span{
+  font-family: pfm;
+  font-size: 14px;
+  padding-top: 20px;
+}
+.detectionInactiveUser-block-btn{
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  background-color: var(--bg-color-btn);
+  color: var(--colorI);
+  border: 2px solid var(--bg-color-btn);
+  margin-top: 35px;
+  cursor: pointer;
+  transition: 0.15s all;
+}
+.detectionInactiveUser-block-btn:hover{
+  background-color: var(--white);
+  color: var(--color-btn-hover);
+}

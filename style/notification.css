@@ -1,0 +1,179 @@
+/*
+ *  Study Buddy
+ *  (c) 2020 Study Buddy
+ *  All rights reserved.
+ *
+ *  Developed by INSOweb
+ *  <http://insoweb.ru>
+ *
+ */
+notifications{
+  display: block;
+  position: fixed;
+  right: 22px;
+  bottom: 17px;
+  width: 380px;
+  z-index: 99999999999999;
+}
+.notification{
+  position: relative;
+  width: 100%;
+  max-height: 250px;
+  padding: 10px 10px 15px 15px;
+  border: 1px solid #e8e8e859;
+  background-image: url('../media/img/whitenoise.png');
+  background-size: 50px;
+  background-repeat: repeat;
+  box-shadow: 0px 0px 40px 0 rgba(216, 216, 216, 0.35);
+  background-position: center;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  overflow: hidden;
+  backdrop-filter: saturate(180%) blur(12px);
+  transition: 0.45s all ease-in-out;
+}
+@supports(backdrop-filter: blur(10px)){
+ .notification{
+   background-color: #e6e8fc6b;
+   backdrop-filter: saturate(180%) blur(12px);
+ }
+}
+@supports( not (backdrop-filter: blur(10px))){
+ .notification{
+   background-color: #fff;
+ }
+}
+.notification-ico{
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  height: 50px;
+  width: 50px;
+  margin-right: -4px;
+  margin-top: 5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50px;
+}
+.notification-ico-f{
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  height: 50px;
+  width: 50px;
+  margin-right: -4px;
+  margin-top: 5px;
+  text-align: center;
+  font-size: 40px;
+  color: var(--red);
+  font-weight: 100;
+  line-height: 40px;
+}
+.notification-ico-f-helper{
+  position: absolute;
+  height: 30%;
+  width: 30%;
+  background-color: #fff;
+  top: -10px;
+  border-radius: 50px;
+  z-index: -1;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  right: 0;
+}
+.notification-text{
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  width: calc(100% - 80px);
+  margin-right: -4px;
+  margin-left: 10px;
+  max-height: 220px;
+  overflow: auto;
+}
+.notification-text-title{
+  font-family: pfb;
+  font-size: 20px;
+}
+.notification-text-main{
+  font-family: pfr;
+}
+.notification-exit-full{
+  position: absolute;
+  right: 15px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 14px;
+  width: 14px;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: 0.15s all ease-in-out;
+  z-index: 999;
+}
+.notification-exit{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  height: 14px;
+  width: 14px;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: 0.15s all ease-in-out;
+  z-index: 999;
+}
+.notification-exit:hover{
+  opacity: 0.75;
+}
+.notification-exit:active{
+  transform: scale(0.92);
+}
+.notification-exit-line1{
+  position: absolute;
+  height: 100%;
+  width: 2px;
+  background-color: #303036;
+  transform-origin: center center;
+  transform: rotate(45deg);
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+.notification-exit-line2{
+  position: absolute;
+  height: 100%;
+  width: 2px;
+  background-color: #303036;
+  transform-origin: center center;
+  transform: rotate(-45deg);
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+@media only screen and (min-width: 100px) and (max-width: 991px){
+  notifications{
+    display: block;
+    position: fixed;
+    bottom: initial;
+    width: 90vw;
+    z-index: 99999999999999;
+    top: 25px;
+    right: 0;
+    left: 0;
+    margin: auto;
+  }
+  notifications > div{
+    border-radius: var(--border-r);
+  }
+  .notification{
+    background-color: #fff;
+    backdrop-filter: initial;
+    background-image: initial;
+  }
+}

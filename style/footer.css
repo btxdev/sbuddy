@@ -1,0 +1,120 @@
+/*
+ *  Study Buddy
+ *  (c) 2020 Study Buddy
+ *  All rights reserved.
+ *
+ *  Developed by INSOweb
+ *  <http://insoweb.ru>
+ *
+ */
+
+footer{
+  width: 100%;
+  background-color: #d7f3ff;
+  border-top: 1px solid #aad9ec61;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+footer2{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: block;
+  width: 100%;
+  background-color: #303036;
+  color: #fff;
+  text-align: right;
+}
+footer2 > div > div > a{
+  color: #fff;
+  font-family: pfl;
+  transition: 0.15s all;
+  line-height: 48px;
+  border-bottom: 1px dashed transparent;
+}
+footer2 > div > div > span{
+  color: #fff;
+  font-family: pfl;
+  transition: 0.15s all;
+}
+footer2 > div > div > a:hover{
+  border-bottom: 1px dashed #fff;
+}
+.footer-logo{
+  height: 75px;
+  width: 100%;
+  border-radius: 5px;
+  text-align: center;
+  font-family: pfb;
+  font-size: 25px;
+  line-height: 73px;
+}
+.footer-description{
+  text-align: left;
+  font-family: pfl;
+  margin-top: 15px;
+  font-size: 16px;
+}
+.footer-menu-title{
+  font-family: pfm;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.footer-menu{
+  white-space: normal;
+}
+.footer-menu-elem{
+  display: inline-block;
+  font-family: pfl;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 3px 10px 1px 10px;
+  border-radius: var(--border-rSmall);
+  background-color: transparent;
+  transition: 0.15s all ease-in-out;
+  border-bottom: 2px solid transparent;
+}
+.footer-menu-elem:hover{
+  background-color: var(--colorMainYellow2);
+  border-bottom: 2px solid var(--colorMainBlue);
+}
+.footer-contacts{
+  white-space: nowrap;
+  width: 100%;
+}
+.footer-contacts-ico{
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  height: 30px;
+  width: 30px;
+  margin-right: -4px;
+  font-size: 21px;
+  text-align: center;
+  color: #303036;
+  font-weight: 100;
+}
+.footer-contacts-text{
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  margin-left: 10px;
+  width: calc(100% - 45px);
+  margin-right: -4px;
+  margin-top: 3px;
+  font-family: pfl;
+  font-size: 17px;
+  white-space: normal;
+}
+.footer-contacts-text-elem{
+  display: inline-block;
+  transition: 0.15s all ease-in-out;
+  border-bottom: 1px dashed transparent;
+}
+.footer-contacts-text-elem:hover{
+  border-bottom: 1px dashed var(--color);
+}
+.footer-contacts-text-elem2{
+  display: inline-block;
+  transition: 0.15s all ease-in-out;
+  text-decoration: none;
+}
