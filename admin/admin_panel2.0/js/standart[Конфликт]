@@ -1,0 +1,1375 @@
+var GlobalTheme, localTheme,GlobalWinter,localWinter,GlobalStat,localStat,GlobalError,localError,
+    GlobalName,
+    localName,
+    GlobalDescription,
+    localDescription,
+    GlobalEmailMain,
+    localEmailMain,
+    GlobalEmailForm,
+    localEmailForm,
+    GlobalTel,
+    localTel,
+    GlobalNoti,
+    localNoti,
+    GlobalMsg,
+    localMsg,
+    GlobalLang,
+    localLang,
+    cursourPos,
+    browser,
+    NavStat = false;
+
+
+
+var elem = document.documentElement;
+
+/* Function to open fullscreen mode */
+function openFullscreen(a) {
+  $(a).attr('onclick','closeFullscreen(this)')
+  $(a).find('.main-nav-profile-profile-block-elem-text').text('Режим окна')
+  $(a).find('.main-nav-profile-profile-block-elem-ico').attr('class','main-nav-profile-profile-block-elem-ico icon-nofull')
+  if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+  } else if (elem.mozRequestFullScreen) { /* Firefox */
+    elem.mozRequestFullScreen();
+  } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
+    elem.webkitRequestFullscreen();
+  } else if (elem.msRequestFullscreen) { /* IE/Edge */
+    elem = window.top.document.body; //To break out of frame in IE
+    elem.msRequestFullscreen();
+  }
+}
+
+function closeFullscreen(a) {
+  $(a).attr('onclick','openFullscreen(this)')
+  $(a).find('.main-nav-profile-profile-block-elem-text').text('На весь экран')
+  $(a).find('.main-nav-profile-profile-block-elem-ico').attr('class','main-nav-profile-profile-block-elem-ico icon-full')
+  if (document.exitFullscreen) {
+    document.exitFullscreen();
+  } else if (document.mozCancelFullScreen) {
+    document.mozCancelFullScreen();
+  } else if (document.webkitExitFullscreen) {
+    document.webkitExitFullscreen();
+  } else if (document.msExitFullscreen) {
+    window.top.document.msExitFullscreen();
+  }
+}
+
+document.addEventListener("fullscreenchange", function() {
+  if(true){
+    setTimeout(function(){
+      if(window.innerHeight == screen.height) {
+        $('#fullscreenBlock').attr('onclick','closeFullscreen(this)')
+        $('#fullscreenBlock').find('.main-nav-profile-profile-block-elem-text').text('Режим окна')
+        $('#fullscreenBlock').find('.main-nav-profile-profile-block-elem-ico').attr('class','main-nav-profile-profile-block-elem-ico icon-nofull')
+      } else{
+        $('#fullscreenBlock').attr('onclick','openFullscreen(this)')
+        $('#fullscreenBlock').find('.main-nav-profile-profile-block-elem-text').text('На весь экран')
+        $('#fullscreenBlock').find('.main-nav-profile-profile-block-elem-ico').attr('class','main-nav-profile-profile-block-elem-ico icon-full')
+      }
+    },20)
+  }
+});
+document.addEventListener("mozfullscreenchange", function() {
+  if(true){
+    setTimeout(function(){
+      if( window.innerHeight == screen.height) {
+        $('#fullscreenBlock').attr('onclick','closeFullscreen(this)')
+        $('#fullscreenBlock').find('.main-nav-profile-profile-block-elem-text').text('Режим окна')
+        $('#fullscreenBlock').find('.main-nav-profile-profile-block-elem-ico').attr('class','main-nav-profile-profile-block-elem-ico icon-nofull')
+
+      } else{
+        $('#fullscreenBlock').attr('onclick','openFullscreen(this)')
+        $('#fullscreenBlock').find('.main-nav-profile-profile-block-elem-text').text('На весь экран')
+        $('#fullscreenBlock').find('.main-nav-profile-profile-block-elem-ico').attr('class','main-nav-profile-profile-block-elem-ico icon-full')
+      }
+    },20)
+  }
+});
+document.addEventListener("webkitfullscreenchange", function() {
+  if(true){
+    setTimeout(function(){
+      if( window.innerHeight == screen.height) {
+        $('#fullscreenBlock').attr('onclick','closeFullscreen(this)')
+        $('#fullscreenBlock').find('.main-nav-profile-profile-block-elem-text').text('Режим окна')
+        $('#fullscreenBlock').find('.main-nav-profile-profile-block-elem-ico').attr('class','main-nav-profile-profile-block-elem-ico icon-nofull')
+
+      } else{
+        $('#fullscreenBlock').attr('onclick','openFullscreen(this)')
+        $('#fullscreenBlock').find('.main-nav-profile-profile-block-elem-text').text('На весь экран')
+        $('#fullscreenBlock').find('.main-nav-profile-profile-block-elem-ico').attr('class','main-nav-profile-profile-block-elem-ico icon-full')
+      }
+    },20)
+  }
+});
+document.addEventListener("msfullscreenchange", function() {
+  if(true){
+    setTimeout(function(){
+      if( window.innerHeight == screen.height) {
+        $('#fullscreenBlock').attr('onclick','closeFullscreen(this)')
+        $('#fullscreenBlock').find('.main-nav-profile-profile-block-elem-text').text('Режим окна')
+        $('#fullscreenBlock').find('.main-nav-profile-profile-block-elem-ico').attr('class','main-nav-profile-profile-block-elem-ico icon-nofull')
+
+      } else{
+        $('#fullscreenBlock').attr('onclick','openFullscreen(this)')
+        $('#fullscreenBlock').find('.main-nav-profile-profile-block-elem-text').text('На весь экран')
+        $('#fullscreenBlock').find('.main-nav-profile-profile-block-elem-ico').attr('class','main-nav-profile-profile-block-elem-ico icon-full')
+      }
+    },20)
+  }
+});
+
+
+
+$(document).ready(function(){
+
+  if(document.documentElement.clientWidth <= 835){
+    screenUser('small');
+  }else if(document.documentElement.clientWidth > 835 && document.documentElement.clientWidth < 1183){
+    screenUser('medium');
+  } else {
+    screenUser('high');
+  }
+
+  $(window).resize(function(){
+      if(document.documentElement.clientWidth <= 835){
+        NavStat = false;
+        screenUser('small');
+      }else if(document.documentElement.clientWidth > 835 && document.documentElement.clientWidth < 1183){
+        NavStat = false;
+        screenUser('medium');
+      } else {
+        NavStat = false;
+        screenUser('high');
+      }
+  });
+
+  if (navigator.userAgent.search(/MSIE/) > 0){
+    browser = 'Internet Explorer or Edge';
+    $('#fullscreenBlock').remove();
+  }
+
+
+  $('input[type="key"]').mask("9-999-999")
+
+  $("nav").scroll(function(){
+    $('.logo').css({top: -$("nav").scrollTop()/4})
+  });
+
+  GlobalName = $('#GlobalName').val();
+  GlobalDescription = $('#GlobalDescription').val();
+  GlobalEmailMain = $('#GlobalEmailMain').val();
+  GlobalEmailForm = $('#GlobalEmailForm').val();
+  GlobalTel = $('#GlobalTel').val();
+  localName = GlobalName;
+  localDescription = GlobalDescription;
+  localEmailMain = GlobalEmailMain;
+  localEmailForm = GlobalEmailForm;
+  localTel = GlobalTel;
+
+  if($('#ch1').prop("checked")){
+    GlobalTheme = 'black';
+    localTheme = 'black';
+  } else{
+    GlobalTheme = 'white';
+    localTheme = 'white';
+  }
+
+  GlobalLang = $("#LangPanel").val();
+  localLang = $("#LangPanel").val();
+  $("#LangPanel").change(langPanelF);
+
+  if($('#ch2').prop("checked")){
+    GlobalStat = true;
+    localStat = true;
+  } else{
+    GlobalStat = false;
+    localStat = false;
+  }
+
+  if($('#ch3').prop("checked")){
+    GlobalError = true;
+    localError = true;
+  } else{
+    GlobalError = false;
+    localError = false;
+  }
+
+  if($('#ch4').prop("checked")){
+    GlobalWinter = true;
+    localWinter = true;
+  } else{
+    GlobalWinter = false;
+    localWinter = false;
+  }
+
+  if($('#ch5').prop("checked")){
+    GlobalMsg = true;
+    localMsg = true;
+  } else{
+    GlobalMsg = false;
+    localMsg = false;
+  }
+
+  if($('#ch6').prop("checked")){
+    GlobalNoti = true;
+    localNoti = true;
+  } else{
+    GlobalNoti = false;
+    localNoti = false;
+  }
+
+  $(document).mouseup(function (e){ // событие клика по веб-документу
+		var div = $("#noti-nav"),
+        div1 = $(".menu-elem-btn-more-block-not"),
+        div2 = $("#mail-nav"),
+        div3 = $("#msgSettings1"),
+        div4 = $(".emoji-block"),
+        div5 = $("#msgSettings2"),
+        div6 = $("#profile-nav");
+
+		if (!div.is(e.target) && div.has(e.target).length === 0 && !$('.main-nav-profile-notification').is(e.target) && $('.main-nav-profile-notification').has(e.target).length === 0) {
+      div.css('opacity','0')
+      if(document.documentElement.clientWidth <= 835){
+        div.css('transform','translate(calc(0px),15px)')
+      } else{
+        div.css('transform','translate(calc(-50% + 20px),15px)')
+      }
+      setTimeout(function(){
+        div.css('display','none')
+      },200)
+		}
+
+    if (!div1.is(e.target) && div1.has(e.target).length === 0 && !$('.menu').is(e.target) && $('.menu').has(e.target).length === 0) {
+      div1.css('opacity','0')
+      div1.css('transform','translate(0px, 15px)')
+      setTimeout(function(){
+        div1.css('display','none')
+      },200)
+		}
+
+    if (!div2.is(e.target) && div2.has(e.target).length === 0 && !$('.main-nav-profile-mail').is(e.target) && $('.main-nav-profile-mail').has(e.target).length === 0) {
+      div2.css('opacity','0')
+      if(document.documentElement.clientWidth <= 835){
+        div2.css('transform','translate(calc(0px),15px)')
+      } else{
+        div2.css('transform','translate(calc(-50% + 20px),15px)')
+      }
+      setTimeout(function(){
+        div2.css('display','none')
+      },200)
+		}
+
+    if (!div3.is(e.target) && div3.has(e.target).length === 0 && !$('.panel-user-ab-btn-1').is(e.target) && $('.panel-user-ab-btn-1').has(e.target).length === 0) {
+      div3.css('opacity','0')
+      div3.css('transform','scale(1.25) translate(calc(-50% + 20px),15px)')
+      setTimeout(function(){
+        div3.css('display','none')
+      },200)
+		}
+
+    if (!div4.is(e.target) && div4.has(e.target).length === 0 && !$('.panel-msg-block-msg-textinput-textarea-emoji').is(e.target) && $('.panel-msg-block-msg-textinput-textarea-emoji').has(e.target).length === 0) {
+      div4.css('opacity','0')
+      div4.css('transform','translate(calc(-50% + 20px),15px)')
+      setTimeout(function(){
+        div4.css('display','none')
+      },200)
+		}
+
+    if (!div5.is(e.target) && div5.has(e.target).length === 0 && !$('.panel-user-ab-btn-1').is(e.target) && $('.panel-user-ab-btn-1').has(e.target).length === 0) {
+      div5.css('opacity','0')
+      div5.css('transform','scale(1.25) translate(calc(-50% + 20px),15px)')
+      setTimeout(function(){
+        div5.css('display','none')
+      },200)
+    }
+
+    if (!div6.is(e.target) && div6.has(e.target).length === 0 && !$('.main-nav-profile-profile').is(e.target) && $('.main-nav-profile-profile').has(e.target).length === 0) {
+      div6.css('opacity','0')
+      div6.css('transform','translate(0px,15px)')
+      setTimeout(function(){
+        div6.css('display','none')
+      },200)
+    }
+
+	});
+
+});
+
+function screenUser(type,status,degug){
+  if(true){
+    if(degug != true || degug == undefined){
+      degug = false;
+    } else{
+      degug = true;
+      console.log(type + ' screen')
+    }
+
+    if(status != true || status == undefined){
+      status = false;
+    } else{
+      status = true;
+    }
+
+    if(document.documentElement.clientWidth <= 365){
+      $('.main-nav-profile-notification').css('display','none')
+    } else{
+      $('.main-nav-profile-notification').css('display','inline-block')
+    }
+    if(document.documentElement.clientWidth <= 410){
+      $('.main-nav-profile-mail').css('display','none')
+    } else{
+      $('.main-nav-profile-mail').css('display','inline-block')
+    }
+
+    if(type == 'small'){
+      $('nav').css('position','fixed')
+      $('nav').css('width','270px')
+      $('nav').css('z-index','99')
+      $('nav').css('left','-100%')
+      $('.main').css('width','calc(100% + 5px)')
+      $('html').get(0).style.setProperty('--width-nav','250px')
+      $('.logo-img > svg').css('transform','scale(0.7)')
+      $('.logo-title').css('opacity','1')
+      $('.logo-title').css('display','inline-block')
+      $('.logo-info').css('opacity','1')
+      $('.menu').css('margin-top','140px')
+      $('.menu').css('border-radius','20px')
+      $('.menu-profile').css('background-color','var(--menu-profile)')
+      $('.menu-profile').css('padding-top','10px')
+      $('.menu-profile').css('margin-top','10px')
+      $('.menu-profile-img').css('width','50px')
+      $('.menu-profile-img').css('margin-left','10px')
+      $('.menu-profile-block').css('display','inline-block')
+      $('.menu-profile-btn').css('display','block')
+      $('.menu-profile-btn').css('height','30px')
+      $('.menu-profile-btn').css('margin-top','10px')
+      $('.menu-elem-title').css('display','block')
+      $('.menu-elem-title').css('margin-bottom','15px')
+      $('.menu-elem-btn-text').css('max-height','20px')
+      $('.menu-elem-btn-ico').css('font-size','16px')
+      $('.menu-elem-btn-ico').css('margin-left','0px')
+      $('.menu-elem-btn').css('margin-top','15px')
+      $('.menu-elem-btn').css('margin-bottom','15px')
+      $('.menu-elem-btn-more').css('opacity','1')
+      $('.menu-elem-btn-text-count-msg').css('right','15px')
+      $('.menu-elem-btn-text-count-msg').css('height','auto')
+      $('.menu-elem-btn-text-count-msg').css('width','auto')
+      $('.menu-elem-btn-text-count-msg').css('border','0px solid var(--dark)')
+      $('.menu-elem-btn-text-count-msg').css('overflow','auto')
+      $('.menu-elem-btn-text-count-msg').css('padding-left','7.5px')
+      $('.menu-elem-btn-text-count-msg').css('padding-right','7.5px')
+      $('.menu-elem-btn-text-count-msg').css('color','#fff')
+      $('.menu-elem-btn-text-count-msg').css('padding-top','2px')
+      $('.menu-elem-btn-text-count-msg').css('padding-bottom','2px')
+      $('.menu-elem-btn-text-count-msg').css('top','7px')
+      $('.menu-elem-btn-text-count-msg2').css('right','15px')
+      $('.menu-elem-btn-text-count-msg2').css('height','auto')
+      $('.menu-elem-btn-text-count-msg2').css('width','auto')
+      $('.menu-elem-btn-text-count-msg2').css('border','0px solid var(--dark)')
+      $('.menu-elem-btn-text-count-msg2').css('overflow','auto')
+      $('.menu-elem-btn-text-count-msg2').css('padding-left','7.5px')
+      $('.menu-elem-btn-text-count-msg2').css('padding-right','7.5px')
+      $('.menu-elem-btn-text-count-msg2').css('color','#fff')
+      $('.menu-elem-btn-text-count-msg2').css('padding-top','2px')
+      $('.menu-elem-btn-text-count-msg2').css('padding-bottom','2px')
+      $('.menu-elem-btn-text-count-msg2').css('top','7px')
+      $('.main-nav-profile-profile-name').css('max-width','0px')
+      $('#i1_label').css('width','153px')
+      $('#i1').css('width','115px')
+      $('.main-shadow').css('opacity','0')
+      $('.main-shadow').css('display','none')
+      $('#s1-not').attr('id','s1')
+      $('#s2-not').attr('id','s2')
+      $('#s3-not').attr('id','s3')
+      $('.main-nav-profile-mail-block').css('width','95%')
+      $('.main-nav-profile-mail-block').css('left','0px')
+      $('.main-nav-profile-mail-block').css('top','initial')
+      $('.main-nav-profile-mail-block').css('bottom','15px')
+      $('.main-nav-profile-mail-block').css('right','0px')
+      $('.main-nav-profile-mail-block').css('margin','auto')
+      $('.main-nav-profile-mail-block').css('border-radius','20px')
+      $('.main-nav-profile-mail-block').css('transform','translate(calc(0px),15px)')
+      setTimeout(function(){
+        $('.menu-elem-title').css('max-height','20px')
+        $('.menu-profile-block').css('opacity','1')
+        $('.menu-profile-btn').css('opacity','1')
+      }, 1)
+    }
+    if(type == 'medium'){
+      $('html').get(0).style.setProperty('--width-nav','60px')
+      $('nav').css('position','relative')
+      $('nav').css('width','var(--width-nav)')
+      $('nav').css('z-index','99')
+      $('nav').css('left','0px')
+      $('.main').css('width','calc(100% - var(--width-nav))')
+      $('.logo-img > svg').css('transform','scale(0.45) translate(-63px, -42px)')
+      $('.logo-title').css('opacity','0')
+      $('.logo-info').css('opacity','0')
+      $('.menu').css('margin-top','63px')
+      $('.menu').css('border-radius','100px')
+      $('.menu-profile').css('background-color','transparent')
+      $('.menu-profile').css('padding-top','19px')
+      $('.menu-profile').css('margin-top','-27px')
+      $('.menu-profile-img').css('width','39px')
+      $('.menu-profile-img').css('margin-left','-9px')
+      $('.menu-profile-block').css('opacity','0')
+      $('.menu-profile-btn').css('opacity','0')
+      $('.menu-profile-btn').css('height','0px')
+      $('.menu-profile-btn').css('margin-top','0px')
+      $('.menu-elem-title').css('max-height','0px')
+      $('.menu-elem-btn-text').css('max-height','0px')
+      $('.menu-elem-btn-ico').css('font-size','22px')
+      $('.menu-elem-btn-ico').css('margin-left','-10px')
+      $('.menu-elem-btn').css('margin-top','22px')
+      $('.menu-elem-btn').css('margin-bottom','22px')
+      $('.menu-elem-title').css('margin-bottom','-20px')
+      $('.menu-elem-btn-more').css('opacity','0')
+      $('.menu-elem-btn-text-count-msg').css('right','12px')
+      $('.menu-elem-btn-text-count-msg').css('height','8px')
+      $('.menu-elem-btn-text-count-msg').css('width','10px')
+      $('.menu-elem-btn-text-count-msg').css('border','3px solid var(--menu)')
+      $('.menu-elem-btn-text-count-msg').css('overflow','hidden')
+      $('.menu-elem-btn-text-count-msg').css('padding-left','0px')
+      $('.menu-elem-btn-text-count-msg').css('padding-right','0px')
+      $('.menu-elem-btn-text-count-msg').css('color','#fd397a')
+      $('.menu-elem-btn-text-count-msg').css('padding-top','0px')
+      $('.menu-elem-btn-text-count-msg').css('padding-bottom','2px')
+      $('.menu-elem-btn-text-count-msg').css('top','14px')
+      $('.menu-elem-btn-text-count-msg2').css('right','12px')
+      $('.menu-elem-btn-text-count-msg2').css('height','8px')
+      $('.menu-elem-btn-text-count-msg2').css('width','10px')
+      $('.menu-elem-btn-text-count-msg2').css('border','3px solid var(--menu)')
+      $('.menu-elem-btn-text-count-msg2').css('overflow','hidden')
+      $('.menu-elem-btn-text-count-msg2').css('padding-left','0px')
+      $('.menu-elem-btn-text-count-msg2').css('padding-right','0px')
+      $('.menu-elem-btn-text-count-msg2').css('color','#0abb87')
+      $('.menu-elem-btn-text-count-msg2').css('padding-top','0px')
+      $('.menu-elem-btn-text-count-msg2').css('padding-bottom','2px')
+      $('.menu-elem-btn-text-count-msg2').css('top','14px')
+      $('.main-nav-profile-profile-name').css('max-width','130px')
+      $('#i1_label').css('width','210px')
+      $('#i1').css('width','160px')
+      $('.main-nav-profile-mail').css('display','inline-block')
+      $('.main-nav-profile-notification').css('display','inline-block')
+      $('.main-shadow').css('opacity','0')
+      $('.main-shadow').css('display','none')
+      $('#s1').attr('id','s1-not')
+      $('#s2').attr('id','s2-not')
+      $('#s3').attr('id','s3-not')
+      $('.main-nav-profile-mail-block').css('width','350px')
+      $('.main-nav-profile-mail-block').css('bottom','')
+      $('.main-nav-profile-mail-block').css('top','70px')
+      $('.main-nav-profile-mail-block').css('left','')
+      $('.main-nav-profile-mail-block').css('right','')
+      $('.main-nav-profile-mail-block').css('margin','')
+      $('.main-nav-profile-mail-block').css('border-radius','0.25rem')
+      $('.main-nav-profile-mail-block').css('transform','translate(calc(-50% + 20px),15px)')
+      setTimeout(function(){
+        $('.logo-title').css('display','none')
+        $('.menu-profile-block').css('display','none')
+        $('.menu-profile-btn').css('display','none')
+      }, 250)
+    }
+    if(type == 'high'){
+      $('nav').css('position','relative')
+      $('nav').css('width','var(--width-nav)')
+      $('nav').css('z-index','99')
+      $('nav').css('left','0px')
+      $('.main').css('width','calc(100% - var(--width-nav))')
+      $('html').get(0).style.setProperty('--width-nav','250px')
+      $('.logo-img > svg').css('transform','scale(0.7)')
+      $('.logo-title').css('opacity','1')
+      $('.logo-title').css('display','inline-block')
+      $('.logo-info').css('opacity','1')
+      $('.menu').css('margin-top','140px')
+      $('.menu').css('border-radius','20px')
+      $('.menu-profile').css('background-color','var(--menu-profile)')
+      $('.menu-profile').css('padding-top','10px')
+      $('.menu-profile').css('margin-top','10px')
+      $('.menu-profile-img').css('width','50px')
+      $('.menu-profile-img').css('margin-left','10px')
+      $('.menu-profile-block').css('display','inline-block')
+      $('.menu-profile-btn').css('display','block')
+      $('.menu-profile-btn').css('height','30px')
+      $('.menu-profile-btn').css('margin-top','10px')
+      $('.menu-elem-title').css('display','block')
+      $('.menu-elem-title').css('margin-bottom','15px')
+      $('.menu-elem-btn-text').css('max-height','20px')
+      $('.menu-elem-btn-ico').css('font-size','16px')
+      $('.menu-elem-btn-ico').css('margin-left','0px')
+      $('.menu-elem-btn').css('margin-top','15px')
+      $('.menu-elem-btn').css('margin-bottom','15px')
+      $('.menu-elem-btn-more').css('opacity','1')
+      $('.menu-elem-btn-text-count-msg').css('right','15px')
+      $('.menu-elem-btn-text-count-msg').css('height','auto')
+      $('.menu-elem-btn-text-count-msg').css('width','auto')
+      $('.menu-elem-btn-text-count-msg').css('border','0px solid var(--dark)')
+      $('.menu-elem-btn-text-count-msg').css('overflow','auto')
+      $('.menu-elem-btn-text-count-msg').css('padding-left','7.5px')
+      $('.menu-elem-btn-text-count-msg').css('padding-right','7.5px')
+      $('.menu-elem-btn-text-count-msg').css('color','#fff')
+      $('.menu-elem-btn-text-count-msg').css('padding-top','2px')
+      $('.menu-elem-btn-text-count-msg').css('padding-bottom','2px')
+      $('.menu-elem-btn-text-count-msg').css('top','7px')
+      $('.menu-elem-btn-text-count-msg2').css('right','15px')
+      $('.menu-elem-btn-text-count-msg2').css('height','auto')
+      $('.menu-elem-btn-text-count-msg2').css('width','auto')
+      $('.menu-elem-btn-text-count-msg2').css('border','0px solid var(--dark)')
+      $('.menu-elem-btn-text-count-msg2').css('overflow','auto')
+      $('.menu-elem-btn-text-count-msg2').css('padding-left','7.5px')
+      $('.menu-elem-btn-text-count-msg2').css('padding-right','7.5px')
+      $('.menu-elem-btn-text-count-msg2').css('color','#fff')
+      $('.menu-elem-btn-text-count-msg2').css('padding-top','2px')
+      $('.menu-elem-btn-text-count-msg2').css('padding-bottom','2px')
+      $('.menu-elem-btn-text-count-msg2').css('top','7px')
+      $('.main-nav-profile-profile-name').css('max-width','130px')
+      $('#i1_label').css('width','210px')
+      $('#i1').css('width','160px')
+      $('.main-nav-profile-mail').css('display','inline-block')
+      $('.main-nav-profile-notification').css('display','inline-block')
+      $('#s1-not').attr('id','s1')
+      $('#s2-not').attr('id','s2')
+      $('#s3-not').attr('id','s3')
+      $('.main-nav-profile-mail-block').css('width','350px')
+      $('.main-nav-profile-mail-block').css('bottom','')
+      $('.main-nav-profile-mail-block').css('top','70px')
+      $('.main-nav-profile-mail-block').css('left','')
+      $('.main-nav-profile-mail-block').css('right','')
+      $('.main-nav-profile-mail-block').css('margin','')
+      $('.main-nav-profile-mail-block').css('transform','translate(calc(-50% + 20px),15px)')
+      $('.main-nav-profile-mail-block').css('border-radius','0.25rem')
+      setTimeout(function(){
+        $('.menu-elem-title').css('max-height','20px')
+        $('.menu-profile-block').css('opacity','1')
+        $('.menu-profile-btn').css('opacity','1')
+      }, 1)
+      $('.main-shadow').css('opacity','0')
+      $('.main-shadow').css('display','none')
+    }
+  }
+}
+
+function nav_open(){
+
+  if(document.documentElement.clientWidth <= 835){
+    if(!NavStat){
+      NavStat = true;
+      $('nav').css('left','0')
+      $('.main-shadow').css('display','block')
+      setTimeout(function(){
+        $('.main-shadow').css('opacity','1')
+      }, 1)
+    } else{
+      NavStat = false;
+      $('nav').css('left','-100%')
+      $('.main-shadow').css('opacity','0')
+      setTimeout(function(){
+        $('.main-shadow').css('display','none')
+      }, 250)
+    }
+  }else if(document.documentElement.clientWidth > 835 && document.documentElement.clientWidth < 1183){
+    if(!NavStat){
+      NavStat = true;
+      screenUser('high')
+    } else{
+      NavStat = false;
+      screenUser('medium')
+    }
+  } else {
+    if(!NavStat){
+      NavStat = true;
+      screenUser('medium')
+    } else{
+      NavStat = false;
+      screenUser('high')
+    }
+  }
+
+}
+
+function open_nav_elem(a){
+  var id = $(a).attr('id');
+  var offsetFromScreenTop = $("#" + id).offset().top - $(window).scrollTop();
+
+  if(document.documentElement.clientWidth > 835 && document.documentElement.clientWidth < 1183){
+    if(id == 'menu-elem-btn1'){
+      $('.menu-elem-btn-more-block-not').html("<div class='menu-elem-btn-more-block-not-elem' onclick=''>Новости</div><div class='menu-elem-btn-more-block-not-elem' onclick=''>Расписание</div><div class='menu-elem-btn-more-block-not-elem' onclick=''>Контакты</div><div class='menu-elem-btn-more-block-not-elem' onclick=''>Отзывы</div><div class='menu-elem-btn-more-block-not-elem' onclick=''>О компании</div>")
+      $('.menu-elem-btn-more-block-not').css('top', offsetFromScreenTop + 'px')
+      $('.menu-elem-btn-more-block-not').css('display','block')
+      setTimeout(function(){
+        $('.menu-elem-btn-more-block-not').css('opacity','1')
+        $('.menu-elem-btn-more-block-not').css('transform','translate(0px, 0px)')
+      }, 1)
+    } else if(id == 'menu-elem-btn2'){
+      $('.menu-elem-btn-more-block-not').html("<div class='menu-elem-btn-more-block-not-elem' onclick='open_panel(" + '"' + "#media_files" + '"' + ")'>Медиафайлы</div><div class='menu-elem-btn-more-block-not-elem' onclick='open_panel(" + '"' + "#file_manager" + '"' + ")'>Проводник</div>")
+      $('.menu-elem-btn-more-block-not').css('top', offsetFromScreenTop + 'px')
+      $('.menu-elem-btn-more-block-not').css('display','block')
+      setTimeout(function(){
+        $('.menu-elem-btn-more-block-not').css('opacity','1')
+        $('.menu-elem-btn-more-block-not').css('transform','translate(0px, 0px)')
+      }, 1)
+    } else if(id == 'menu-elem-btn3'){
+      $('.menu-elem-btn-more-block-not').html("<div class='menu-elem-btn-more-block-not-elem' onclick='open_panel(" + '"' + "#add_user" + '"' + ")'>Добавить нового</div><div class='menu-elem-btn-more-block-not-elem' onclick='open_panel(" + '"' + "#all_user" + '"' + ")'>Все пользователи</div><div class='menu-elem-btn-more-block-not-elem'>Ваш профиль</div>")
+      $('.menu-elem-btn-more-block-not').css('top', offsetFromScreenTop + 'px')
+      $('.menu-elem-btn-more-block-not').css('display','block')
+      setTimeout(function(){
+        $('.menu-elem-btn-more-block-not').css('opacity','1')
+        $('.menu-elem-btn-more-block-not').css('transform','translate(0px, 0px)')
+      }, 1)
+    }
+  } else{
+    // div1 = $(".menu-elem-btn-more-block-not");
+    // div1.css('opacity','0')
+    // div1.css('transform','translate(0px, 15px)')
+    // setTimeout(function(){
+    //   div1.css('display','none')
+    // },200)
+  }
+}
+
+function notification_add(type,title,text,timer,src){
+
+  let alphabet = '-_QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm0123456789',
+      id = '';
+  for(let i = 0; i < 15; i++){
+      id += alphabet[Math.round(Math.random() * (alphabet.length - 1))];
+  }
+
+  if(timer > 0){
+    setTimeout(function(){
+      close_notification("#" + id)
+    }, timer * 1000)
+  } else if(timer < 0){
+    console.error('Error: время не может быть отрицательным!')
+    return;
+  }
+
+  if($.cookie('sound_noti') == 'true' && (type == 'standart' || type == 'text' || type == 'line' || type == 'warning' || type == 'question')){
+    var audioNotification = new Audio();
+    audioNotification.src = 'media/audio/notification.mp3';
+    audioNotification.autoplay = true;
+  } else{
+    window.navigator.vibrate(35)
+  }
+
+  if($.cookie('sound_noti') == 'true' && type == 'error'){
+    var audioNotificationError = new Audio();
+    audioNotificationError.src = 'media/audio/notificationError.mp3';
+    audioNotificationError.autoplay = true;
+  } else{
+    window.navigator.vibrate(35)
+  }
+
+  if(type == 'standart'){
+    $('.notification').append("<div class='notification-standart'><div id='" + id + "' class='notification-close icon-close' title='Закрыть' onclick='close_notification(this)'></div><div class='notification-img'><img src='" + src + "' height='55px'></div><div class='notification-text'><div class='notification-text-title'>" + title + "</div><div class='notification-text-text'>" + text + "</div></div></div>")
+  } else if(type == 'text'){
+    $('.notification').append("<div class='notification-standart-2'><div id='" + id + "' class='notification-close icon-close' title='Закрыть' onclick='close_notification(this)'></div><div class='notification-text-2'><div class='notification-text-title'>" + title + "</div><div class='notification-text-text'>" + text + "</div></div></div>")
+  } else if(type == 'line'){
+    $('.notification').append("<div class='notification-line'><div id='" + id + "' class='notification-close-ab icon-close' title='Закрыть' onclick='close_notification(this)'></div><div class='notification-line-text'>" + text + "</div></div>")
+  } else if(type == 'error'){
+    $('.notification').append("<div class='notification-error'><div id='" + id + "' class='notification-close icon-close' title='Закрыть' onclick='close_notification(this)'></div><div class='notification-img-ico icon-error' style='color: #fd3939;'></div><div class='notification-text'><div class='notification-text-title'>" + title + "</div><div class='notification-text-text'>" + text + "</div></div></div>")
+  } else if(type == 'warning'){
+    $('.notification').append("<div class='notification-warning'><div id='" + id + "' class='notification-close icon-close' title='Закрыть' onclick='close_notification(this)'></div><div class='notification-img-ico icon-warning' style='color: #fdbd39;'></div><div class='notification-text'><div class='notification-text-title'>" + title + "</div><div class='notification-text-text'>" + text + "</div></div></div>")
+  } else if(type == 'question'){
+    $('.notification').append("<div class='notification-question'><div id='" + id + "' class='notification-close icon-close' title='Закрыть' onclick='close_notification(this)'></div><div class='notification-img-ico icon-question' style='color: #1d46cc;'></div><div class='notification-text'><div class='notification-text-title'>" + title + "</div><div class='notification-text-text'>" + text + "</div></div></div>")
+  } else{
+    console.error('Error: ошибка в типе уведомления!')
+    return;
+  }
+
+  $(".notification").scrollTop($(".notification").prop('scrollHeight'));
+
+}
+
+
+function close_notification(a){
+  var heightBlock = $(a).parent().height();
+
+
+  $(a).parent().css('height', heightBlock)
+  $(a).parent().css('opacity','0')
+  $(a).parent().css('transform','translate(0px, 10px)')
+  setTimeout(function(){
+    $(a).parent().css('margin-top', '0px')
+    $(a).parent().css('height', '0px')
+    setTimeout(function(){
+      $(a).parent().remove()
+    }, 250)
+  }, 1)
+
+}
+
+function strong_count(a){
+  var ta,ba,fa,fe
+  switch (a) {
+    case 1:
+      ta = $('#msg-input-1'),
+      ba = $('#panel-msg-block-msg-textinput-textarea'),
+      fa = $('#panel-msg-block-msg-textinput-file'),
+      fe = $('#panel-msg-block-msg-textinput-send');
+    break;
+    case 2:
+      ta = $('#msg-input-2'),
+      ba = $('#panel-msg-block-msg-textinput-textarea-2'),
+      fa = $('#panel-msg-block-msg-textinput-file-2'),
+      fe = $('#panel-msg-block-msg-textinput-send-2');
+    break;
+  }
+  var widthTS = ta.width() / 8.5;
+  if(ta.val().length > widthTS){
+    ba.css('height','66px')
+    ba.css('margin-top','2.5px')
+    fa.css('margin-top','5.5px')
+    fe.css('margin-top','5.5px')
+  } else{
+    ba.css('height','38px')
+    ba.css('margin-top','17.5px')
+    fa.css('margin-top','17.5px')
+    fe.css('margin-top','17.5px')
+  }
+}
+
+function add_emoji(a,b,d){
+  strong_count(d)
+  var emoji = $(a).html(),
+      text = $(b).val();
+
+  $(b).val(text + emoji);
+
+}
+
+function open_panel(a){
+  if(window.innerWidth <= 835){
+    NavStat = false;
+    $('nav').css('left','-100%')
+    $('.main-shadow').css('opacity','0')
+    setTimeout(function(){
+      $('.main-shadow').css('display','none')
+    }, 250)
+  }
+  $('.panel').css('opacity','0')
+  setTimeout(function(){
+    $('.panel').css('display','none')
+    setTimeout(function(){
+      $(a).css('display','block')
+      setTimeout(function(){
+        $(a).css('opacity','1')
+      }, 150)
+    },1)
+  }, 150)
+}
+
+function welcome_func_stage(a,b){
+  if(b == '1'){
+    $(a).attr('onclick','welcome_func_stage(this,"2")')
+    $('.window-block-hello-block-conteiner-stage1').css('transform','translate(-100%, 0px)')
+    $('.window-block-hello-block-conteiner-stage2').css('transform','translate(-100%, 0px)')
+    $('.window-block-hello-block-conteiner-stage3').css('transform','translate(-100%, 0px)')
+  } else if(b == '2'){
+    $(a).attr('onclick','welcome_func_stage(this,"save")')
+    $('.window-block-hello-block-conteiner-stage1').css('transform','translate(-200%, 0px)')
+    $('.window-block-hello-block-conteiner-stage2').css('transform','translate(-200%, 0px)')
+    $('.window-block-hello-block-conteiner-stage3').css('transform','translate(-200%, 0px)')
+    $(a).attr('onclick','welcome_func_stage(this,"save")')
+    $(a).css('display','none')
+    $('.window-block-hello-block-btn-further').text('Сохранить')
+  } else if(b == 'save'){
+
+  }
+}
+
+function opacity_save_settings_f(){
+  $('.window-block-settings-save').css('opacity','0.5')
+  $('.window-block-settings-save').css('cursor','default')
+  $('.window-block-settings-save').removeAttr('onclick')
+  setTimeout(function(){
+    $('.window-block-settings-save').css('transition','9999999999s all')
+  }, 150)
+}
+
+function opacity_save_settings(){
+  if(localName != GlobalName || localLang != GlobalLang || localMsg != GlobalMsg || localNoti != GlobalNoti || localDescription != GlobalDescription || localEmailMain != GlobalEmailMain || localEmailForm != GlobalEmailForm || localTel != GlobalTel || localTheme != GlobalTheme || localWinter != GlobalWinter || localStat != GlobalStat || localError != GlobalError){
+    $('.window-block-settings-save').css('transition','0.15s all')
+    setTimeout(function(){
+      $('.window-block-settings-save').css('opacity','1')
+      $('.window-block-settings-save').css('cursor','pointer')
+      $('.window-block-settings-save').attr('onclick','save_settings()')
+    },1)
+  } else{
+    $('.window-block-settings-save').css('opacity','0.5')
+    $('.window-block-settings-save').css('cursor','default')
+    $('.window-block-settings-save').removeAttr('onclick')
+    setTimeout(function(){
+      $('.window-block-settings-save').css('transition','9999999999s all')
+    }, 150)
+  }
+}
+
+function welcome_theme(a){
+  if(a == 'white'){
+    GlobalTheme = 'white';
+    $('html').get(0).style.setProperty('--color','#303036')
+    $('html').get(0).style.setProperty('--colorI','#fff')
+    $('html').get(0).style.setProperty('--dark','#101018')
+    $('html').get(0).style.setProperty('--menu','#1e1e2d')
+    $('html').get(0).style.setProperty('--menu-profile','#29293c')
+    $('html').get(0).style.setProperty('--main-bg-search','#f2f3f8')
+    $('html').get(0).style.setProperty('--main-bg','#f2f3f8')
+    $('html').get(0).style.setProperty('--white','#fff')
+    $('html').get(0).style.setProperty('--border-color','#d9e3e9')
+    $('html').get(0).style.setProperty('--main-bg-2','#4f4f67')
+    $('html').get(0).style.setProperty('--border-bg','#464646')
+    $('html').get(0).style.setProperty('--shadow-name','rgba(41, 41, 60, 1)')
+    $('html').get(0).style.setProperty('--menu-status','#41415b')
+    $('html').get(0).style.setProperty('--bg-color-btn','#29293c')
+    $('html').get(0).style.setProperty('--color-btn-hover','#303036')
+    $('html').get(0).style.setProperty('--bg-color-scrollbar','#1e1e2d')
+  } else{
+    GlobalTheme = 'black';
+    $('html').get(0).style.setProperty('--color','#fff')
+    $('html').get(0).style.setProperty('--colorI','#fff')
+    $('html').get(0).style.setProperty('--dark','#121212')
+    $('html').get(0).style.setProperty('--menu','#121212')
+    $('html').get(0).style.setProperty('--menu-profile','#2b2b2b')
+    $('html').get(0).style.setProperty('--main-bg-search','#2b2b2b')
+    $('html').get(0).style.setProperty('--main-bg','#1a1a1a')
+    $('html').get(0).style.setProperty('--white','#222')
+    $('html').get(0).style.setProperty('--border-color','#353535')
+    $('html').get(0).style.setProperty('--main-bg-2','#1e1e2d')
+    $('html').get(0).style.setProperty('--border-bg','#121212')
+    $('html').get(0).style.setProperty('--shadow-name','rgba(43, 43, 43, 1)')
+    $('html').get(0).style.setProperty('--menu-status','#434343')
+    $('html').get(0).style.setProperty('--bg-color-btn','#333')
+    $('html').get(0).style.setProperty('--color-btn-hover','#fff')
+    $('html').get(0).style.setProperty('--bg-color-scrollbar','#2b2b2b')
+  }
+  $.cookie('theme', GlobalTheme, {expires: 99999});
+}
+
+function save_settings(){
+  GlobalTheme        =  localTheme;
+  GlobalWinter       =  localWinter;
+  GlobalStat         =  localStat;
+  GlobalError        =  localError;
+  GlobalName         =  localName;
+  GlobalDescription  =  localDescription;
+  GlobalEmailMain    =  localEmailMain;
+  GlobalEmailForm    =  localEmailForm;
+  GlobalTel          =  localTel;
+  GlobalNoti         =  localNoti;
+  GlobalMsg          =  localMsg;
+  GlobalLang         =  localLang;
+
+  // смена темы start
+  $.cookie('theme', GlobalTheme, {expires: 99999});
+  $.cookie('sound_msg', GlobalMsg, {expires: 99999});
+  $.cookie('sound_noti', GlobalNoti, {expires: 99999});
+  $.cookie('language', GlobalLang, {expires: 99999});
+
+  if(GlobalTheme == 'black'){
+    $('html').get(0).style.setProperty('--color','#fff')
+    $('html').get(0).style.setProperty('--colorI','#fff')
+    $('html').get(0).style.setProperty('--dark','#121212')
+    $('html').get(0).style.setProperty('--menu','#121212')
+    $('html').get(0).style.setProperty('--menu-profile','#2b2b2b')
+    $('html').get(0).style.setProperty('--main-bg-search','#2b2b2b')
+    $('html').get(0).style.setProperty('--main-bg','#1a1a1a')
+    $('html').get(0).style.setProperty('--white','#222')
+    $('html').get(0).style.setProperty('--border-color','#353535')
+    $('html').get(0).style.setProperty('--main-bg-2','#1e1e2d')
+    $('html').get(0).style.setProperty('--border-bg','#121212')
+    $('html').get(0).style.setProperty('--shadow-name','rgba(43, 43, 43, 1)')
+    $('html').get(0).style.setProperty('--menu-status','#434343')
+    $('html').get(0).style.setProperty('--bg-color-btn','#333')
+    $('html').get(0).style.setProperty('--color-btn-hover','#fff')
+    $('html').get(0).style.setProperty('--bg-color-scrollbar','#2b2b2b')
+  } else if(GlobalTheme == 'white'){
+    $('html').get(0).style.setProperty('--color','#303036')
+    $('html').get(0).style.setProperty('--colorI','#fff')
+    $('html').get(0).style.setProperty('--dark','#101018')
+    $('html').get(0).style.setProperty('--menu','#1e1e2d')
+    $('html').get(0).style.setProperty('--menu-profile','#29293c')
+    $('html').get(0).style.setProperty('--main-bg-search','#f2f3f8')
+    $('html').get(0).style.setProperty('--main-bg','#f2f3f8')
+    $('html').get(0).style.setProperty('--white','#fff')
+    $('html').get(0).style.setProperty('--border-color','#d9e3e9')
+    $('html').get(0).style.setProperty('--main-bg-2','#4f4f67')
+    $('html').get(0).style.setProperty('--border-bg','#464646')
+    $('html').get(0).style.setProperty('--shadow-name','rgba(41, 41, 60, 1)')
+    $('html').get(0).style.setProperty('--menu-status','#41415b')
+    $('html').get(0).style.setProperty('--bg-color-btn','#29293c')
+    $('html').get(0).style.setProperty('--color-btn-hover','#303036')
+    $('html').get(0).style.setProperty('--bg-color-scrollbar','#1e1e2d')
+  }
+  // смена темы end
+
+  // тут должен быть запрос на сервер, если ошибка, то надо вывести уведомление об ошибке
+
+  close_window('#General_settings')
+}
+
+$(document).ready(function(){                                                                // проверка input на валидность
+  var nameSite         =  new RegExp(/^[A-zА-яЁё0-9 ]+$/),                                   // название сайта
+      descriptionSite  =  new RegExp(/^[ ()№#$%'"<>_+=|}{@&?A-zА-яЁё0-9!.,:-]+$/),           // описание сайта
+      emailSite        =  new RegExp(/^\w.+@[a-zA-Z_0-9]+?\.[a-zA-Z]{2,5}$/gm),              // email
+      telSite          =  new RegExp(/^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$/); // телефон
+
+  $("#GlobalName").on("input",function() {
+    if($("#GlobalName").val().length > 0 && $("#GlobalName").val().length < 50 && nameSite.test($("#GlobalName").val())){
+      $("#GlobalName").css('border','0.5px solid #6c757d')
+      if(GlobalName == $("#GlobalName").val()){
+        localName = $("#GlobalName").val();
+        opacity_save_settings()
+      } else{
+        localName = $("#GlobalName").val();
+        opacity_save_settings()
+      }
+    } else{
+      // ошибка в названии сайта
+      console.error('Ошибка в названии сайта')
+      $("#GlobalName").css('border','0.5px solid #b32424')
+      opacity_save_settings_f()
+    }
+  });
+
+
+  $("#GlobalDescription").on("input",function() {
+    if($("#GlobalDescription").val().length > 0 && $("#GlobalDescription").val().length < 200 && descriptionSite.test($("#GlobalDescription").val())){
+      $("#GlobalDescription").css('border','0.5px solid #6c757d')
+      if(GlobalDescription == $("#GlobalDescription").val()){
+        localDescription = $("#GlobalDescription").val();
+        opacity_save_settings()
+      } else{
+        localDescription = $("#GlobalDescription").val();
+        opacity_save_settings()
+      }
+    } else{
+      // ошибка в описании сайта
+      console.error('Ошибка в описании сайта')
+      $("#GlobalDescription").css('border','0.5px solid #b32424')
+      opacity_save_settings_f()
+    }
+  });
+
+  $("#GlobalEmailMain").on("input",function() {
+    if($("#GlobalEmailMain").val().length > 4 && $("#GlobalEmailMain").val().length < 50 && $("#GlobalEmailMain").val().match(emailSite)){
+      $("#GlobalEmailMain").css('border','0.5px solid #6c757d')
+      if(GlobalEmailMain == $("#GlobalEmailMain").val()){
+        localEmailMain = $("#GlobalEmailMain").val();
+        opacity_save_settings()
+      } else{
+        localEmailMain = $("#GlobalEmailMain").val();
+        opacity_save_settings()
+      }
+    } else{
+      // Ошибка в e-mail
+      console.error('Ошибка в e-mail')
+      $("#GlobalEmailMain").css('border','0.5px solid #b32424')
+      opacity_save_settings_f()
+    }
+  });
+
+  $("#GlobalEmailForm").on("input",function() {
+    if($("#GlobalEmailForm").val().length > 4 && $("#GlobalEmailForm").val().length < 50 && $("#GlobalEmailForm").val().match(emailSite)){
+      $("#GlobalEmailForm").css('border','0.5px solid #6c757d')
+      if(GlobalEmailForm == $("#GlobalEmailForm").val()){
+        localEmailForm = $("#GlobalEmailForm").val();
+        opacity_save_settings()
+      } else{
+        localEmailForm = $("#GlobalEmailForm").val();
+        opacity_save_settings()
+      }
+    } else{
+      // Ошибка в e-mail для форм
+      console.error('Ошибка в e-mail для форм')
+      $("#GlobalEmailForm").css('border','0.5px solid #b32424')
+      opacity_save_settings_f()
+    }
+  });
+
+  $("#GlobalTel").on("input",function() {
+    if($("#GlobalTel").val().length > 4 && $("#GlobalTel").val().length < 50 && $("#GlobalTel").val().match(telSite)){
+      $("#GlobalTel").css('border','0.5px solid #6c757d')
+
+      if(GlobalTel == $("#GlobalTel").val()){
+        localTel = $("#GlobalTel").val();
+        opacity_save_settings()
+      } else{
+        localTel = $("#GlobalTel").val();
+        opacity_save_settings()
+      }
+    } else{
+      // Ошибка в номере телефона
+      console.error('Ошибка в номере телефона')
+      $("#GlobalTel").css('border','0.5px solid #b32424')
+      opacity_save_settings_f()
+    }
+  });
+
+});
+
+function change_stat(a){
+  if(!$(a).prop("checked")){
+    localStat = true;
+    opacity_save_settings()
+  } else{
+    localStat = false;
+    opacity_save_settings()
+  }
+}
+
+function langPanelF(){
+  localLang = $('#LangPanel').val();
+  opacity_save_settings();
+}
+
+function change_error(a){
+  if(!$(a).prop("checked")){
+    localError = true;
+    opacity_save_settings()
+  } else{
+    localError = false;
+    opacity_save_settings()
+  }
+}
+
+function change_noti(a){
+  if(!$(a).prop("checked")){
+    localNoti = true;
+    opacity_save_settings()
+  } else{
+    localNoti = false;
+    opacity_save_settings()
+  }
+}
+
+function change_msg(a){
+  if(!$(a).prop("checked")){
+    localMsg = true;
+    opacity_save_settings()
+  } else{
+    localMsg = false;
+    opacity_save_settings()
+  }
+}
+
+function change_winter(a){
+  if(!$(a).prop("checked")){
+    localWinter = true;
+    opacity_save_settings()
+  } else{
+    localWinter = false;
+    opacity_save_settings()
+  }
+}
+
+function change_theme(a){
+  if(!$(a).prop("checked")){
+    localTheme = 'black';
+    $('html').get(0).style.setProperty('--color','#fff')
+    $('html').get(0).style.setProperty('--colorI','#fff')
+    $('html').get(0).style.setProperty('--dark','#121212')
+    $('html').get(0).style.setProperty('--menu','#121212')
+    $('html').get(0).style.setProperty('--menu-profile','#2b2b2b')
+    $('html').get(0).style.setProperty('--main-bg-search','#2b2b2b')
+    $('html').get(0).style.setProperty('--main-bg','#1a1a1a')
+    $('html').get(0).style.setProperty('--white','#222')
+    $('html').get(0).style.setProperty('--border-color','#353535')
+    $('html').get(0).style.setProperty('--main-bg-2','#1e1e2d')
+    $('html').get(0).style.setProperty('--border-bg','#121212')
+    $('html').get(0).style.setProperty('--shadow-name','rgba(43, 43, 43, 1)')
+    $('html').get(0).style.setProperty('--menu-status','#434343')
+    $('html').get(0).style.setProperty('--bg-color-btn','#333')
+    $('html').get(0).style.setProperty('--color-btn-hover','#fff')
+    $('html').get(0).style.setProperty('--bg-color-scrollbar','#2b2b2b')
+    opacity_save_settings()
+  } else{
+    localTheme = 'white';
+    $('html').get(0).style.setProperty('--color','#303036')
+    $('html').get(0).style.setProperty('--colorI','#fff')
+    $('html').get(0).style.setProperty('--dark','#101018')
+    $('html').get(0).style.setProperty('--menu','#1e1e2d')
+    $('html').get(0).style.setProperty('--menu-profile','#29293c')
+    $('html').get(0).style.setProperty('--main-bg-search','#f2f3f8')
+    $('html').get(0).style.setProperty('--main-bg','#f2f3f8')
+    $('html').get(0).style.setProperty('--white','#fff')
+    $('html').get(0).style.setProperty('--border-color','#d9e3e9')
+    $('html').get(0).style.setProperty('--main-bg-2','#4f4f67')
+    $('html').get(0).style.setProperty('--border-bg','#464646')
+    $('html').get(0).style.setProperty('--shadow-name','rgba(41, 41, 60, 1)')
+    $('html').get(0).style.setProperty('--menu-status','#41415b')
+    $('html').get(0).style.setProperty('--bg-color-btn','#29293c')
+    $('html').get(0).style.setProperty('--color-btn-hover','#303036')
+    $('html').get(0).style.setProperty('--bg-color-scrollbar','#1e1e2d')
+    opacity_save_settings()
+  }
+}
+
+function more_notification_close(a,b,c){
+  var Block        = $(c),
+      b            = $(b),
+      e            = "more_notification('" + a + "',this,'" + c + "')"
+
+  b.css('padding-top','5px')
+  b.css('padding-bottom','5px')
+  Block.css('max-height','350px')
+  b.text('Развернуть')
+  b.attr('onclick', e)
+}
+
+function more_notification(a,b,c){
+  var Block        = $(c),
+      b            = $(b),
+      e            = "more_notification_close('" + a + "',this,'" + c + "')"
+
+  b.css('padding-top','0px')
+  b.css('padding-bottom','0px')
+  Block.css('max-height','calc(100vh - 200px)')
+  b.text('Свернуть')
+  b.attr('onclick', e)
+}
+
+function open_block(a,b){
+  if(b == '1'){
+    $(a).css('display','block')
+    setTimeout(function(){
+      $(a).css('opacity','1')
+      $(a).css('transform','scale(1.25) translate(calc(-50% + 20px),0px)')
+    }, 1)
+  } else{
+    cursourPos = $('#msg-input-1').offset()
+    $(a).css('display','block')
+    setTimeout(function(){
+      $(a).css('opacity','1')
+      $(a).css('transform','translate(calc(-50% + 20px),0px)')
+    }, 1)
+  }
+
+}
+
+function open_win(a){
+  var b1 = $(a + ' > .main-nav-profile-mail-block-main > .main-nav-profile-mail-block-main-elem').length
+  if(a == '#profile-nav'){
+    $(a).css('display','block')
+    setTimeout(function(){
+      $(a).css('opacity','1')
+      $(a).css('transform','translate(0px,0px)')
+    }, 1)
+  } else{
+    if(document.documentElement.clientWidth <= 835){
+      if(b1 > 6){
+        $(a + ' > .main-nav-profile-mail-block-more').css('display','block')
+      } else{
+        $(a + ' > .main-nav-profile-mail-block-more').css('display','none')
+      }
+      $(a).css('display','block')
+      setTimeout(function(){
+        $(a).css('opacity','1')
+        $(a).css('transform','translate(calc(0px),0px)')
+      }, 1)
+    } else{
+      if(b1 > 6){
+        $(a + ' > .main-nav-profile-mail-block-more').css('display','block')
+      } else{
+        $(a + ' > .main-nav-profile-mail-block-more').css('display','none')
+      }
+      $(a).css('display','block')
+      setTimeout(function(){
+        $(a).css('opacity','1')
+        $(a).css('transform','translate(calc(-50% + 20px),0px)')
+      }, 1)
+    }
+  }
+}
+
+function tester(){
+  if(GlobalTheme == 'black'){
+    localTheme = 'black'
+    $('#ch1').prop('checked', true);
+    $('html').get(0).style.setProperty('--color','#fff')
+    $('html').get(0).style.setProperty('--colorI','#fff')
+    $('html').get(0).style.setProperty('--dark','#121212')
+    $('html').get(0).style.setProperty('--menu','#121212')
+    $('html').get(0).style.setProperty('--menu-profile','#2b2b2b')
+    $('html').get(0).style.setProperty('--main-bg-search','#2b2b2b')
+    $('html').get(0).style.setProperty('--main-bg','#1a1a1a')
+    $('html').get(0).style.setProperty('--white','#222')
+    $('html').get(0).style.setProperty('--border-color','#353535')
+    $('html').get(0).style.setProperty('--main-bg-2','#1e1e2d')
+    $('html').get(0).style.setProperty('--border-bg','#121212')
+    $('html').get(0).style.setProperty('--shadow-name','rgba(43, 43, 43, 1)')
+    $('html').get(0).style.setProperty('--menu-status','#434343')
+    $('html').get(0).style.setProperty('--bg-color-btn','#333')
+    $('html').get(0).style.setProperty('--color-btn-hover','#fff')
+    $('html').get(0).style.setProperty('--bg-color-scrollbar','#2b2b2b')
+  } else{
+    localTheme = 'white'
+    $('html').get(0).style.setProperty('--color','#303036')
+    $('html').get(0).style.setProperty('--colorI','#fff')
+    $('html').get(0).style.setProperty('--dark','#101018')
+    $('html').get(0).style.setProperty('--menu','#1e1e2d')
+    $('html').get(0).style.setProperty('--menu-profile','#29293c')
+    $('html').get(0).style.setProperty('--main-bg-search','#f2f3f8')
+    $('html').get(0).style.setProperty('--main-bg','#f2f3f8')
+    $('html').get(0).style.setProperty('--white','#fff')
+    $('html').get(0).style.setProperty('--border-color','#d9e3e9')
+    $('html').get(0).style.setProperty('--main-bg-2','#4f4f67')
+    $('html').get(0).style.setProperty('--border-bg','#464646')
+    $('html').get(0).style.setProperty('--shadow-name','rgba(41, 41, 60, 1)')
+    $('html').get(0).style.setProperty('--menu-status','#41415b')
+    $('html').get(0).style.setProperty('--bg-color-btn','#29293c')
+    $('html').get(0).style.setProperty('--color-btn-hover','#303036')
+    $('html').get(0).style.setProperty('--bg-color-scrollbar','#1e1e2d')
+    $('#ch1').prop('checked', false);
+  }
+
+  if(GlobalStat){
+    localStat = true
+    $('#ch2').prop('checked', true);
+  } else{
+    localStat = false
+    $('#ch2').prop('checked', false);
+  }
+
+  if(GlobalError){
+    localError = true
+    $('#ch3').prop('checked', true);
+  } else{
+    localError = false
+    $('#ch3').prop('checked', false);
+  }
+
+  if(GlobalLang == 'en'){
+    $('#LangPanel option[value="en"]').prop('selected', true);
+    localLang = GlobalLang;
+  } else if(GlobalLang == 'ru'){
+    $('#LangPanel option[value="ru"]').prop('selected', true);
+    localLang = GlobalLang;
+  } else if(GlobalLang == 'ua'){
+    $('#LangPanel option[value="ua"]').prop('selected', true);
+    localLang = GlobalLang;
+  }
+
+  if(GlobalWinter){
+    localWinter = true
+    $('#ch4').prop('checked', true);
+  } else{
+    localWinter = false
+    $('#ch4').prop('checked', false);
+  }
+
+  if(GlobalMsg){
+    localMsg = true
+    $('#ch5').prop('checked', true);
+  } else{
+    localMsg = false
+    $('#ch5').prop('checked', false);
+  }
+
+  if(GlobalNoti){
+    localNoti = true
+    $('#ch6').prop('checked', true);
+  } else{
+    localNoti = false
+    $('#ch6').prop('checked', false);
+  }
+
+  if(GlobalName != localName){
+    localName = GlobalName;
+    $("#GlobalName").val(GlobalName)
+  } else{
+    localName = GlobalName;
+    $("#GlobalName").val(localName)
+  }
+
+  if(GlobalDescription != localDescription){
+    localDescription = GlobalDescription;
+    $("#GlobalDescription").val(GlobalDescription)
+  } else{
+    localDescription = GlobalDescription;
+    $("#GlobalDescription").val(localDescription)
+  }
+
+  if(GlobalEmailMain != localEmailMain){
+    localEmailMain = GlobalEmailMain;
+    $("#GlobalEmailMain").val(GlobalEmailMain)
+  } else{
+    localEmailMain = GlobalEmailMain;
+    $("#GlobalEmailMain").val(localEmailMain)
+  }
+
+  if(GlobalEmailForm != localEmailForm){
+    localEmailForm = GlobalEmailForm;
+    $("#GlobalEmailForm").val(GlobalEmailForm)
+  } else{
+    localEmailForm = GlobalEmailForm;
+    $("#GlobalEmailForm").val(localEmailForm)
+  }
+
+  if(GlobalTel != localTel){
+    localTel = GlobalTel;
+    $("#GlobalTel").val(GlobalTel)
+  } else{
+    localTel = GlobalTel;
+    $("#GlobalTel").val(localTel)
+  }
+}
+
+function close_window(a){
+
+  $.cookie('theme', GlobalTheme, {expires: 99999});
+
+  $('.window').css('opacity','0')
+
+
+  setTimeout(function(){
+    $('.window').css('display','none')
+    $(a).parent().parent().css('display','none')
+    $(a).parent().parent().css('opacity','0')
+    tester()
+  }, 150)
+}
+
+function close_window_shadow(a){
+
+  $.cookie('theme', GlobalTheme, {expires: 99999});
+
+  $('.window').css('opacity','0')
+
+  setTimeout(function(){
+    $('.window').css('display','none')
+    $(a).parent().css('display','none')
+    $(a).parent().css('opacity','0')
+    tester()
+  }, 150)
+
+  opacity_save_settings()
+}
+
+function open_window(a){
+  opacity_save_settings()
+
+  $('.window').css('display','block')
+  $(a).css('display','block')
+  setTimeout(function(){
+    $('.window').css('opacity','1')
+    $(a).css('opacity','1')
+  },1)
+}
+
+function sendExitForm() {
+  if(user_token && (user_token != '') && (user_token.length > 1)) {
+    $.post('db.php', {
+      exitacc: 'true',
+      token: user_token
+    }).done(function(data) {
+      if(data == 'GRANTED.') {
+        document.location.reload(true);
+      }
+      else {
+        console.log('response: ' + data);
+      }
+    });
+  }
+}

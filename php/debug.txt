@@ -1,0 +1,756 @@
+﻿[31.05.2020 23:14:10] o hello there
+[31.05.2020 23:17:49] o hello there 46
+[31.05.2020 23:18:00] o hello there 46
+[31.05.2020 23:18:03] o hello there 46
+[31.05.2020 23:18:03] o hello there 46
+[31.05.2020 23:18:03] o hello there 46
+[31.05.2020 23:18:03] o hello there 46
+[31.05.2020 23:18:03] o hello there 46
+[31.05.2020 23:18:04] o hello there 46
+[02.06.2020 00:20:29] o hello there
+[02.06.2020 00:20:45] o hello there
+[02.06.2020 00:20:52] o hello there
+[02.06.2020 00:20:54] o hello there
+[02.06.2020 00:20:58] o hello there
+[02.06.2020 01:57:57] FILE I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_stat.php LINE 155 ERROR: 
+[02.06.2020 01:57:57] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'login' cannot be null in I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_stat.php:151
+Stack trace:
+#0 I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_stat.php(151): PDOStatement->execute(Array)
+#1 {main}
+[20.06.2020 22:47:04] ERROR IN FILE I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php AT LINE 74 ERROR EXCEPTION: 
+[20.06.2020 22:47:04] PDOException: SQLSTATE[42000]: Syntax error or access violation: 1142 DELETE command denied to user 'read_news'@'localhost' for table 'u_custom_timetable' in I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php:66
+Stack trace:
+#0 I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php(66): PDO->prepare('DELETE FROM `u_...')
+#1 {main}
+[20.06.2020 22:47:04] ERROR IN FILE I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php AT LINE 74 ERROR EXCEPTION: 
+[20.06.2020 22:47:04] PDOException: SQLSTATE[42000]: Syntax error or access violation: 1142 DELETE command denied to user 'read_news'@'localhost' for table 'u_custom_timetable' in I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php:66
+Stack trace:
+#0 I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php(66): PDO->prepare('DELETE FROM `u_...')
+#1 {main}
+[20.06.2020 22:47:04] ERROR IN FILE I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php AT LINE 74 ERROR EXCEPTION: 
+[20.06.2020 22:47:04] PDOException: SQLSTATE[42000]: Syntax error or access violation: 1142 DELETE command denied to user 'read_news'@'localhost' for table 'u_custom_timetable' in I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php:66
+Stack trace:
+#0 I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php(66): PDO->prepare('DELETE FROM `u_...')
+#1 {main}
+[20.06.2020 22:47:04] ERROR IN FILE I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php AT LINE 74 ERROR EXCEPTION: 
+[20.06.2020 22:47:04] PDOException: SQLSTATE[42000]: Syntax error or access violation: 1142 DELETE command denied to user 'read_news'@'localhost' for table 'u_custom_timetable' in I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php:66
+Stack trace:
+#0 I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php(66): PDO->prepare('DELETE FROM `u_...')
+#1 {main}
+[20.06.2020 22:47:04] ERROR IN FILE I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php AT LINE 74 ERROR EXCEPTION: 
+[20.06.2020 22:47:04] PDOException: SQLSTATE[42000]: Syntax error or access violation: 1142 DELETE command denied to user 'read_news'@'localhost' for table 'u_custom_timetable' in I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php:66
+Stack trace:
+#0 I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php(66): PDO->prepare('DELETE FROM `u_...')
+#1 {main}
+[20.06.2020 22:47:04] ERROR IN FILE I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php AT LINE 74 ERROR EXCEPTION: 
+[20.06.2020 22:47:04] PDOException: SQLSTATE[42000]: Syntax error or access violation: 1142 DELETE command denied to user 'read_news'@'localhost' for table 'u_custom_timetable' in I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php:66
+Stack trace:
+#0 I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php(66): PDO->prepare('DELETE FROM `u_...')
+#1 {main}
+[20.06.2020 22:47:04] ERROR IN FILE I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php AT LINE 74 ERROR EXCEPTION: 
+[20.06.2020 22:47:04] PDOException: SQLSTATE[42000]: Syntax error or access violation: 1142 DELETE command denied to user 'read_news'@'localhost' for table 'u_custom_timetable' in I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php:66
+Stack trace:
+#0 I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php(66): PDO->prepare('DELETE FROM `u_...')
+#1 {main}
+[20.06.2020 22:50:46] ERROR IN FILE I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php AT LINE 74 ERROR EXCEPTION: 
+[20.06.2020 22:50:46] PDOException: SQLSTATE[42000]: Syntax error or access violation: 1142 DELETE command denied to user 'read_news'@'localhost' for table 'u_custom_timetable' in I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php:66
+Stack trace:
+#0 I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php(66): PDO->prepare('DELETE FROM `u_...')
+#1 {main}
+[20.06.2020 22:50:46] ERROR IN FILE I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php AT LINE 74 ERROR EXCEPTION: 
+[20.06.2020 22:50:46] PDOException: SQLSTATE[42000]: Syntax error or access violation: 1142 DELETE command denied to user 'read_news'@'localhost' for table 'u_custom_timetable' in I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php:66
+Stack trace:
+#0 I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php(66): PDO->prepare('DELETE FROM `u_...')
+#1 {main}
+[20.06.2020 22:50:46] ERROR IN FILE I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php AT LINE 74 ERROR EXCEPTION: 
+[20.06.2020 22:50:46] PDOException: SQLSTATE[42000]: Syntax error or access violation: 1142 DELETE command denied to user 'read_news'@'localhost' for table 'u_custom_timetable' in I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php:66
+Stack trace:
+#0 I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php(66): PDO->prepare('DELETE FROM `u_...')
+#1 {main}
+[20.06.2020 22:50:46] ERROR IN FILE I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php AT LINE 74 ERROR EXCEPTION: 
+[20.06.2020 22:50:46] PDOException: SQLSTATE[42000]: Syntax error or access violation: 1142 DELETE command denied to user 'read_news'@'localhost' for table 'u_custom_timetable' in I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php:66
+Stack trace:
+#0 I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php(66): PDO->prepare('DELETE FROM `u_...')
+#1 {main}
+[20.06.2020 22:50:46] ERROR IN FILE I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php AT LINE 74 ERROR EXCEPTION: 
+[20.06.2020 22:50:46] PDOException: SQLSTATE[42000]: Syntax error or access violation: 1142 DELETE command denied to user 'read_news'@'localhost' for table 'u_custom_timetable' in I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php:66
+Stack trace:
+#0 I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php(66): PDO->prepare('DELETE FROM `u_...')
+#1 {main}
+[20.06.2020 22:50:46] ERROR IN FILE I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php AT LINE 74 ERROR EXCEPTION: 
+[20.06.2020 22:50:46] PDOException: SQLSTATE[42000]: Syntax error or access violation: 1142 DELETE command denied to user 'read_news'@'localhost' for table 'u_custom_timetable' in I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php:66
+Stack trace:
+#0 I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php(66): PDO->prepare('DELETE FROM `u_...')
+#1 {main}
+[20.06.2020 22:50:47] ERROR IN FILE I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php AT LINE 74 ERROR EXCEPTION: 
+[20.06.2020 22:50:47] PDOException: SQLSTATE[42000]: Syntax error or access violation: 1142 DELETE command denied to user 'read_news'@'localhost' for table 'u_custom_timetable' in I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php:66
+Stack trace:
+#0 I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php(66): PDO->prepare('DELETE FROM `u_...')
+#1 {main}
+[20.06.2020 23:10:42] ERROR IN FILE I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php AT LINE 100 ERROR EXCEPTION: 
+[20.06.2020 23:10:42] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'change' in 'field list' in I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php:88
+Stack trace:
+#0 I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php(88): PDO->prepare('INSERT INTO `u_...')
+#1 {main}
+[20.06.2020 23:10:42] ERROR IN FILE I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php AT LINE 100 ERROR EXCEPTION: 
+[20.06.2020 23:10:42] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'change' in 'field list' in I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php:88
+Stack trace:
+#0 I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php(88): PDO->prepare('INSERT INTO `u_...')
+#1 {main}
+[20.06.2020 23:20:53] ERROR IN FILE I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php AT LINE 100 ERROR EXCEPTION: 
+[20.06.2020 23:20:53] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'change' in 'field list' in I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php:88
+Stack trace:
+#0 I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php(88): PDO->prepare('INSERT INTO `u_...')
+#1 {main}
+[20.06.2020 23:20:53] ERROR IN FILE I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php AT LINE 100 ERROR EXCEPTION: 
+[20.06.2020 23:20:53] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'change' in 'field list' in I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php:88
+Stack trace:
+#0 I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php(88): PDO->prepare('INSERT INTO `u_...')
+#1 {main}
+[20.06.2020 23:21:43] ERROR IN FILE I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php AT LINE 100 ERROR EXCEPTION: 
+[20.06.2020 23:21:43] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'change' in 'field list' in I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php:88
+Stack trace:
+#0 I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php(88): PDO->prepare('INSERT INTO `u_...')
+#1 {main}
+[20.06.2020 23:21:43] ERROR IN FILE I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php AT LINE 100 ERROR EXCEPTION: 
+[20.06.2020 23:21:43] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'change' in 'field list' in I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php:88
+Stack trace:
+#0 I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\db_learning.php(88): PDO->prepare('INSERT INTO `u_...')
+#1 {main}
+[27.06.2020 01:57:54] mailing, line:914
+[06.02.2023 22:12:10] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 22:12:10] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 22:12:25] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 22:12:25] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 22:12:27] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 22:12:27] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 22:12:29] PDO
+[06.02.2023 22:12:30] PDO
+[06.02.2023 22:12:32] PDO
+[06.02.2023 22:12:33] PDO
+[06.02.2023 22:12:34] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 22:12:34] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 22:12:40] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 22:12:40] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 22:12:46] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 22:12:46] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 22:12:51] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 22:12:51] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 22:12:52] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 22:12:52] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 22:12:57] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 22:12:57] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 22:13:05] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 22:13:05] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 22:13:34] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 22:13:34] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 22:13:34] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 22:13:34] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 22:13:59] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 22:13:59] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 22:14:05] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 22:14:05] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 22:20:29] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 22:20:29] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 22:20:57] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 22:20:57] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 22:21:04] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 22:21:04] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 22:21:35] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 22:21:35] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 22:21:35] </var/www/u1878365/data/www/sbuddy.ru/php/db_finder.php : finder_how_much_memory_used> ERROR IN LINE 317
+[06.02.2023 22:21:57] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 22:21:57] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 22:22:24] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 22:22:24] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 22:22:26] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 22:22:26] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 22:22:27] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 22:22:27] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 22:22:37] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 22:22:37] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 22:22:48] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 22:22:48] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 22:22:52] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 22:22:52] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 22:23:19] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 22:23:19] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 22:23:20] </var/www/u1878365/data/www/sbuddy.ru/php/db_finder.php : finder_how_much_memory_used> ERROR IN LINE 317
+[06.02.2023 22:28:19] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 22:28:19] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 22:29:31] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 22:29:31] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 22:29:46] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 22:29:46] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 22:29:54] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 22:29:54] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 22:29:58] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 22:29:58] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 22:30:15] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 22:30:15] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 22:30:20] sql request fail /var/www/u1878365/data/www/sbuddy.ru/php/db_article.php IN LINE 67
+[06.02.2023 22:30:32] sql request fail /var/www/u1878365/data/www/sbuddy.ru/php/db_article.php IN LINE 126
+[06.02.2023 22:30:38] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 22:30:38] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 22:30:44] sql request fail /var/www/u1878365/data/www/sbuddy.ru/php/db_article.php IN LINE 67
+[06.02.2023 22:30:46] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 22:30:46] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 22:32:54] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 22:32:54] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 22:35:08] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 22:35:08] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 22:35:40] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 22:35:40] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 22:35:43] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 22:35:43] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 22:35:44] PDO
+[06.02.2023 22:35:44] PDO
+[06.02.2023 22:35:44] PDO
+[06.02.2023 22:35:49] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 22:35:49] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 22:37:35] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 22:37:35] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 22:37:36] </var/www/u1878365/data/www/sbuddy.ru/php/db_finder.php : finder_how_much_memory_used> ERROR IN LINE 317
+[06.02.2023 22:37:46] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 22:37:46] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 22:38:08] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 22:38:08] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 22:38:10] </var/www/u1878365/data/www/sbuddy.ru/php/db_finder.php : finder_how_much_memory_used> ERROR IN LINE 317
+[06.02.2023 22:39:42] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 22:39:42] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 22:40:22] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 22:40:22] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 22:40:22] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 22:40:22] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 22:40:36] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 22:40:36] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 22:41:05] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 22:41:05] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 22:41:10] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 22:41:10] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 22:41:10] PDO
+[06.02.2023 22:41:11] PDO
+[06.02.2023 22:41:11] PDO
+[06.02.2023 22:41:20] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 22:41:20] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 22:41:29] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 22:41:29] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 22:42:00] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 22:42:00] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 22:42:51] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 22:42:51] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 23:36:38] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 23:36:38] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 23:36:45] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 23:36:45] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 23:42:56] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 23:42:56] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 23:44:19] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 23:44:19] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 23:45:22] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 23:45:22] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 23:45:31] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 23:45:31] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 23:45:34] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 23:45:34] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 23:51:08] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 23:51:08] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 23:51:45] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 23:51:45] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 23:51:52] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 23:51:52] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 23:53:31] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 23:53:31] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 23:53:50] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 23:53:50] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 23:54:13] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 23:54:13] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 23:56:08] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 23:56:08] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 23:56:13] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 23:56:13] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 23:58:37] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 23:58:37] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 23:59:32] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 23:59:32] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[06.02.2023 23:59:57] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[06.02.2023 23:59:57] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[07.02.2023 00:00:00] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[07.02.2023 00:00:00] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[07.02.2023 00:00:02] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[07.02.2023 00:00:02] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[07.02.2023 00:00:12] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[07.02.2023 00:00:12] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[07.02.2023 00:00:14] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[07.02.2023 00:00:14] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[07.02.2023 00:00:17] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[07.02.2023 00:00:17] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[07.02.2023 00:00:29] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[07.02.2023 00:00:29] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[07.02.2023 00:01:04] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[07.02.2023 00:01:04] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[07.02.2023 00:01:35] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[07.02.2023 00:01:35] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[07.02.2023 00:01:59] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[07.02.2023 00:01:59] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[07.02.2023 00:02:00] PDO
+[07.02.2023 00:02:00] PDO
+[07.02.2023 00:02:00] PDO
+[07.02.2023 00:02:01] PDO
+[07.02.2023 00:02:02] PDO
+[07.02.2023 00:02:03] PDO
+[07.02.2023 00:02:03] PDO
+[07.02.2023 00:02:03] PDO
+[07.02.2023 00:02:04] PDO
+[07.02.2023 00:02:06] PDO
+[07.02.2023 00:02:17] PDO
+[07.02.2023 00:02:31] PDO
+[07.02.2023 00:02:37] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[07.02.2023 00:02:37] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[07.02.2023 00:03:09] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[07.02.2023 00:03:09] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[07.02.2023 00:03:19] sql request fail /var/www/u1878365/data/www/sbuddy.ru/php/db_article.php IN LINE 67
+[07.02.2023 00:03:45] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[07.02.2023 00:03:45] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[07.02.2023 00:04:06] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[07.02.2023 00:04:06] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[07.02.2023 00:04:16] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[07.02.2023 00:04:16] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[07.02.2023 00:04:18] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[07.02.2023 00:04:18] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[07.02.2023 00:04:20] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[07.02.2023 00:04:20] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[07.02.2023 00:04:34] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[07.02.2023 00:04:34] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[07.02.2023 00:04:59] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[07.02.2023 00:04:59] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[07.02.2023 00:05:02] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[07.02.2023 00:05:02] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[07.02.2023 00:05:03] PDO
+[07.02.2023 00:05:03] PDO
+[07.02.2023 00:05:03] PDO
+[07.02.2023 00:05:06] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[07.02.2023 00:05:06] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[07.02.2023 00:13:41] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[07.02.2023 00:13:41] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[07.02.2023 00:13:48] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[07.02.2023 00:13:48] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[07.02.2023 00:14:01] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[07.02.2023 00:14:01] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[07.02.2023 00:14:31] </000amTue, 07 Feb 2023 00:14:31 +0500/222/0000001878365/07am28am/222/31b000000070723.Tue, 07 Feb 2023 00:14:31 +0500000000/p12p/07b_am0000002812.p12p : 07Asia/Tashkentb00000012Tuesday202312> ERR+0500R 02 002E 875  
+[07.02.2023 00:14:50] </000amTue, 07 Feb 2023 00:14:50 +0500/222/0000001878365/07am28am/222/50b000000070723.Tue, 07 Feb 2023 00:14:50 +0500000000/p12p/07b_am0000002812.p12p : 07Asia/Tashkentb00000012Tuesday202312> ERR+0500R 02 002E 875  
+[07.02.2023 00:15:13] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[07.02.2023 00:15:13] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[07.02.2023 00:15:40] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[07.02.2023 00:15:40] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[07.02.2023 01:22:56] FILE /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php LINE 352 ERROR: 
+[07.02.2023 01:22:56] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php:282
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[10.02.2023 19:52:48] FILE C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php LINE 352 ERROR: 
+[10.02.2023 19:52:48] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php:282
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[10.02.2023 19:52:50] FILE C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php LINE 352 ERROR: 
+[10.02.2023 19:52:50] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php:282
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[10.02.2023 19:52:53] FILE C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php LINE 352 ERROR: 
+[10.02.2023 19:52:53] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php:282
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[10.02.2023 19:56:33] FILE C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php LINE 352 ERROR: 
+[10.02.2023 19:56:33] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php:282
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[10.02.2023 19:57:13] FILE C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php LINE 352 ERROR: 
+[10.02.2023 19:57:13] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php:282
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[10.02.2023 19:57:50] FILE C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php LINE 352 ERROR: 
+[10.02.2023 19:57:50] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php:282
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[10.02.2023 19:58:17] FILE C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php LINE 352 ERROR: 
+[10.02.2023 19:58:17] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php:282
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[10.02.2023 19:58:40] FILE C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php LINE 352 ERROR: 
+[10.02.2023 19:58:40] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php:282
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[10.02.2023 19:58:41] PDO
+[10.02.2023 19:58:41] PDO
+[10.02.2023 19:58:41] PDO
+[10.02.2023 19:58:56] PDO
+[10.02.2023 19:59:12] FILE C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php LINE 352 ERROR: 
+[10.02.2023 19:59:12] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php:282
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[10.02.2023 19:59:47] FILE C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php LINE 352 ERROR: 
+[10.02.2023 19:59:47] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php:282
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[10.02.2023 20:00:09] FILE C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php LINE 352 ERROR: 
+[10.02.2023 20:00:09] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php:282
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[10.02.2023 20:00:14] FILE C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php LINE 352 ERROR: 
+[10.02.2023 20:00:14] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php:282
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[10.02.2023 20:01:24] <C:U24Asia/TashkentFri, 10 Feb 2023 20:01:24 +050024МихаилDAsia/Tashkent24k282023psb000000101023w55p08pdb_pm0000002808.p08p : 10Asia/Tashkentb0000008Friday20238> ERR+0500R 05 005E 875  
+[10.02.2023 20:01:42] <C:U42Asia/TashkentFri, 10 Feb 2023 20:01:42 +050042МихаилDAsia/Tashkent42k282023psb000000101023w55p08pdb_pm0000002808.p08p : 10Asia/Tashkentb0000008Friday20238> ERR+0500R 05 005E 875  
+[10.02.2023 20:01:57] FILE C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php LINE 352 ERROR: 
+[10.02.2023 20:01:57] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php:282
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[10.02.2023 20:02:23] FILE C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php LINE 352 ERROR: 
+[10.02.2023 20:02:23] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php:282
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[10.02.2023 20:02:24] <C:\Users\Михаил\Desktop\sbuddy\www\php\db_finder.php : finder_how_much_memory_used> ERROR IN LINE 317
+[10.02.2023 20:02:54] <C:\Users\Михаил\Desktop\sbuddy\www\php\db_finder.php : finder_how_much_memory_used> ERROR IN LINE 317
+[10.02.2023 20:02:59] FILE C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php LINE 352 ERROR: 
+[10.02.2023 20:02:59] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php:282
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[10.02.2023 20:11:01] FILE C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php LINE 352 ERROR: 
+[10.02.2023 20:11:01] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php:282
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[10.02.2023 20:43:24] FILE C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php LINE 352 ERROR: 
+[10.02.2023 20:43:24] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php:282
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[10.02.2023 20:43:33] FILE C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php LINE 352 ERROR: 
+[10.02.2023 20:43:33] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php:282
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[10.02.2023 20:45:24] FILE C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php LINE 352 ERROR: 
+[10.02.2023 20:45:24] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php:282
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[10.02.2023 20:45:48] FILE C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php LINE 352 ERROR: 
+[10.02.2023 20:45:48] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php:282
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[10.02.2023 20:48:17] FILE C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php LINE 352 ERROR: 
+[10.02.2023 20:48:17] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php:282
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[10.02.2023 20:48:18] PDO
+[10.02.2023 20:48:18] PDO
+[10.02.2023 20:48:18] PDO
+[10.02.2023 20:49:33] FILE C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php LINE 352 ERROR: 
+[10.02.2023 20:49:33] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php:282
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}

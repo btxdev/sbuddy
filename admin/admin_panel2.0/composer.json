@@ -1,0 +1,9 @@
+{
+    "require": {
+        "phpoffice/phpword": "^0.17.0",
+        "laminas/laminas-escaper": "^2.6",
+        "twbs/bootstrap": "^4.4",
+        "zendframework/zend-escaper": "^2.6",
+        "zendframework/zend-stdlib": "^3.2"
+    }
+}

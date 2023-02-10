@@ -1,0 +1,40 @@
+
+# 4xx: Client Error
+ErrorDocument 400 /Cloud/INSOweb/Plugins/admin_panel2.0/admin_panel2.0/errorpage/error.php?error=400
+ErrorDocument 401 /Cloud/INSOweb/Plugins/admin_panel2.0/admin_panel2.0/errorpage/error.php?error=401
+ErrorDocument 402 /Cloud/INSOweb/Plugins/admin_panel2.0/admin_panel2.0/errorpage/error.php?error=402
+ErrorDocument 403 /Cloud/INSOweb/Plugins/admin_panel2.0/admin_panel2.0/errorpage/error.php?error=403
+ErrorDocument 404 /Cloud/INSOweb/Plugins/admin_panel2.0/admin_panel2.0/errorpage/error.php?error=404
+ErrorDocument 405 /Cloud/INSOweb/Plugins/admin_panel2.0/admin_panel2.0/errorpage/error.php?error=405
+ErrorDocument 406 /Cloud/INSOweb/Plugins/admin_panel2.0/admin_panel2.0/errorpage/error.php?error=406
+ErrorDocument 407 /Cloud/INSOweb/Plugins/admin_panel2.0/admin_panel2.0/errorpage/error.php?error=407
+ErrorDocument 408 /Cloud/INSOweb/Plugins/admin_panel2.0/admin_panel2.0/errorpage/error.php?error=408
+ErrorDocument 409 /Cloud/INSOweb/Plugins/admin_panel2.0/admin_panel2.0/errorpage/error.php?error=409
+ErrorDocument 410 /Cloud/INSOweb/Plugins/admin_panel2.0/admin_panel2.0/errorpage/error.php?error=410
+ErrorDocument 411 /Cloud/INSOweb/Plugins/admin_panel2.0/admin_panel2.0/errorpage/error.php?error=411
+ErrorDocument 412 /Cloud/INSOweb/Plugins/admin_panel2.0/admin_panel2.0/errorpage/error.php?error=412
+ErrorDocument 413 /Cloud/INSOweb/Plugins/admin_panel2.0/admin_panel2.0/errorpage/error.php?error=413
+ErrorDocument 414 /Cloud/INSOweb/Plugins/admin_panel2.0/admin_panel2.0/errorpage/error.php?error=414
+ErrorDocument 415 /Cloud/INSOweb/Plugins/admin_panel2.0/admin_panel2.0/errorpage/error.php?error=415
+ErrorDocument 416 /Cloud/INSOweb/Plugins/admin_panel2.0/admin_panel2.0/errorpage/error.php?error=416
+ErrorDocument 417 /Cloud/INSOweb/Plugins/admin_panel2.0/admin_panel2.0/errorpage/error.php?error=417
+ErrorDocument 422 /Cloud/INSOweb/Plugins/admin_panel2.0/admin_panel2.0/errorpage/error.php?error=422
+ErrorDocument 423 /Cloud/INSOweb/Plugins/admin_panel2.0/admin_panel2.0/errorpage/error.php?error=423
+ErrorDocument 424 /Cloud/INSOweb/Plugins/admin_panel2.0/admin_panel2.0/errorpage/error.php?error=424
+ErrorDocument 426 /Cloud/INSOweb/Plugins/admin_panel2.0/admin_panel2.0/errorpage/error.php?error=426
+
+# 5xx: Server Error
+ErrorDocument 500 /Cloud/INSOweb/Plugins/admin_panel2.0/admin_panel2.0/errorpage/error.php?error=500
+ErrorDocument 501 /Cloud/INSOweb/Plugins/admin_panel2.0/admin_panel2.0/errorpage/error.php?error=501
+ErrorDocument 502 /Cloud/INSOweb/Plugins/admin_panel2.0/admin_panel2.0/errorpage/error.php?error=502
+ErrorDocument 503 /Cloud/INSOweb/Plugins/admin_panel2.0/admin_panel2.0/errorpage/error.php?error=503
+ErrorDocument 504 /Cloud/INSOweb/Plugins/admin_panel2.0/admin_panel2.0/errorpage/error.php?error=504
+ErrorDocument 505 /Cloud/INSOweb/Plugins/admin_panel2.0/admin_panel2.0/errorpage/error.php?error=505
+ErrorDocument 506 /Cloud/INSOweb/Plugins/admin_panel2.0/admin_panel2.0/errorpage/error.php?error=506
+ErrorDocument 507 /Cloud/INSOweb/Plugins/admin_panel2.0/admin_panel2.0/errorpage/error.php?error=507
+ErrorDocument 510 /Cloud/INSOweb/Plugins/admin_panel2.0/admin_panel2.0/errorpage/error.php?error=510
+
+
+
+
+php_value max_execution_time 180

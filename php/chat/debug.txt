@@ -1,0 +1,510 @@
+[07.06.2020 00:45:28] ERROR I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\chat\chat.php : send_msg IN LINE 137: 
+[07.06.2020 00:45:28] PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'was_read' at row 1 in I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\chat\chat.php:113
+Stack trace:
+#0 I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\chat\chat.php(113): PDOStatement->execute(Array)
+#1 I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\chat\chat.php(339): send_msg('hello world')
+#2 {main}
+[07.06.2020 01:05:58] ERROR I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\chat\chat.php : log_action_method IN LINE 60: 
+[07.06.2020 01:05:58] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '16' for key 'PRIMARY' in I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\chat\chat.php:56
+Stack trace:
+#0 I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\chat\chat.php(56): PDOStatement->execute(Array)
+#1 I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\chat\chat.php(80): log_action_method('online')
+#2 I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\chat\chat.php(108): log_action(3)
+#3 I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\chat\chat.php(344): send_msg('zalupok')
+#4 {main}
+[07.06.2020 01:08:05] ERROR I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\chat\chat.php : log_action_method IN LINE 60: 
+[07.06.2020 01:08:05] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '13' for key 'PRIMARY' in I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\chat\chat.php:56
+Stack trace:
+#0 I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\chat\chat.php(56): PDOStatement->execute(Array)
+#1 I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\chat\chat.php(68): log_action_method('online')
+#2 I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\chat\chat.php(214): log_action(0)
+#3 I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\chat\chat.php(272): msg_monitor()
+#4 I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\chat\chat.php(387): read_last_messages()
+#5 {main}
+[07.06.2020 03:36:03] ERROR I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\chat\chat.php : send_msg IN LINE 143: 
+[07.06.2020 03:36:03] PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x98\x80' for column 'message' at row 1 in I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\chat\chat.php:119
+Stack trace:
+#0 I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\chat\chat.php(119): PDOStatement->execute(Array)
+#1 I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\chat\chat.php(345): send_msg('\xD0\xB4\xD0\xB0\xD0\xB2\xD0\xB0\xD0\xB9 \xF0\x9F\x98\x80')
+#2 {main}
+[07.06.2020 03:40:04] ERROR I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\chat\chat.php : send_msg IN LINE 143: 
+[07.06.2020 03:40:04] PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x98\x80' for column 'message' at row 1 in I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\chat\chat.php:119
+Stack trace:
+#0 I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\chat\chat.php(119): PDOStatement->execute(Array)
+#1 I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\chat\chat.php(345): send_msg('\xD0\xB4\xD0\xB0\xD0\xB2\xD0\xB0\xD0\xB9 \xF0\x9F\x98\x80')
+#2 {main}
+[07.06.2020 03:46:18] ERROR I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\chat\chat.php : send_msg IN LINE 143: 
+[07.06.2020 03:46:18] PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x98\x80' for column 'message' at row 1 in I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\chat\chat.php:119
+Stack trace:
+#0 I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\chat\chat.php(119): PDOStatement->execute(Array)
+#1 I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\chat\chat.php(345): send_msg('\xD0\xB4\xD0\xB0\xD0\xB2\xD0\xB0\xD0\xB9 \xF0\x9F\x98\x80')
+#2 {main}
+[07.06.2020 03:46:46] ERROR I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\chat\chat.php : send_msg IN LINE 143: 
+[07.06.2020 03:46:46] PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x98\x80' for column 'message' at row 1 in I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\chat\chat.php:119
+Stack trace:
+#0 I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\chat\chat.php(119): PDOStatement->execute(Array)
+#1 I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\chat\chat.php(345): send_msg('\xD0\xB4\xD0\xB0\xD0\xB2\xD0\xB0\xD0\xB9 \xF0\x9F\x98\x80')
+#2 {main}
+[08.06.2020 03:14:33] ERROR I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\chat\chat.php : send_msg IN LINE 143: 
+[08.06.2020 03:14:33] PDOException: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'message' at row 1 in I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\chat\chat.php:119
+Stack trace:
+#0 I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\chat\chat.php(119): PDOStatement->execute(Array)
+#1 I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\chat\chat.php(351): send_msg('\xE0\xB8\x94\xE0\xB9\x89\xE0\xB9\x87\xE0\xB9\x87\xE0\xB9\x87...')
+#2 {main}
+[08.06.2020 03:15:29] ERROR I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\chat\chat.php : send_msg IN LINE 143: 
+[08.06.2020 03:15:29] PDOException: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'message' at row 1 in I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\chat\chat.php:119
+Stack trace:
+#0 I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\chat\chat.php(119): PDOStatement->execute(Array)
+#1 I:\Cloud\INSOweb\Projects\Study Buddy\Сайт\ver 2\php\chat\chat.php(351): send_msg('\xE0\xB8\x8F\xE0\xB9\x8E\xE0\xB9\x8E\xE0\xB9\x8E\xE0\xB9\x8E...')
+#2 {main}
+[06.02.2023 23:41:11] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : log_action_method IN LINE 74: 
+[06.02.2023 23:41:11] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.chat__actions' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:66
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(66): PDO->prepare('INSERT INTO `ch...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(90): log_action_method('online')
+#2 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(272): log_action(0)
+#3 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(370): msg_monitor()
+#4 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(808): read_last_messages()
+#5 {main}
+[06.02.2023 23:41:47] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : who_online_details IN LINE 261: 
+[06.02.2023 23:41:47] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.chat__actions' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:207
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(207): PDO->prepare('SELECT * FROM `...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(794): who_online_details()
+#2 {main}
+[06.02.2023 23:42:11] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : log_action_method IN LINE 74: 
+[06.02.2023 23:42:11] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.chat__actions' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:66
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(66): PDO->prepare('INSERT INTO `ch...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(90): log_action_method('online')
+#2 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(272): log_action(0)
+#3 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(370): msg_monitor()
+#4 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(808): read_last_messages()
+#5 {main}
+[06.02.2023 23:42:56] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : log_action_method IN LINE 74: 
+[06.02.2023 23:42:56] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.chat__actions' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:66
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(66): PDO->prepare('INSERT INTO `ch...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(94): log_action_method('offline')
+#2 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(582): log_action(1)
+#3 {main}
+[06.02.2023 23:42:56] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : log_action_method IN LINE 74: 
+[06.02.2023 23:42:56] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.chat__actions' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:66
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(66): PDO->prepare('INSERT INTO `ch...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(90): log_action_method('online')
+#2 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(203): log_action(0)
+#3 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(794): who_online_details()
+#4 {main}
+[06.02.2023 23:42:56] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : who_online_details IN LINE 261: 
+[06.02.2023 23:42:56] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.chat__actions' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:207
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(207): PDO->prepare('SELECT * FROM `...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(794): who_online_details()
+#2 {main}
+[06.02.2023 23:42:57] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : read_messages IN LINE 354: 
+[06.02.2023 23:42:57] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.chat__messages' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:296
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(296): PDO->prepare('SELECT * FROM `...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(826): read_messages(0)
+#2 {main}
+[06.02.2023 23:42:57] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : read_messages IN LINE 354: 
+[06.02.2023 23:42:57] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.chat__messages' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:296
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(296): PDO->prepare('SELECT * FROM `...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(826): read_messages(0)
+#2 {main}
+[06.02.2023 23:43:11] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : log_action_method IN LINE 74: 
+[06.02.2023 23:43:11] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.chat__actions' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:66
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(66): PDO->prepare('INSERT INTO `ch...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(90): log_action_method('online')
+#2 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(272): log_action(0)
+#3 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(370): msg_monitor()
+#4 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(808): read_last_messages()
+#5 {main}
+[06.02.2023 23:44:11] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : log_action_method IN LINE 74: 
+[06.02.2023 23:44:11] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.chat__actions' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:66
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(66): PDO->prepare('INSERT INTO `ch...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(90): log_action_method('online')
+#2 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(272): log_action(0)
+#3 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(370): msg_monitor()
+#4 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(808): read_last_messages()
+#5 {main}
+[06.02.2023 23:44:19] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : log_action_method IN LINE 74: 
+[06.02.2023 23:44:19] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.chat__actions' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:66
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(66): PDO->prepare('INSERT INTO `ch...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(94): log_action_method('offline')
+#2 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(582): log_action(1)
+#3 {main}
+[06.02.2023 23:44:20] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : log_action_method IN LINE 74: 
+[06.02.2023 23:44:20] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.chat__actions' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:66
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(66): PDO->prepare('INSERT INTO `ch...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(90): log_action_method('online')
+#2 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(203): log_action(0)
+#3 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(794): who_online_details()
+#4 {main}
+[06.02.2023 23:44:20] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : who_online_details IN LINE 261: 
+[06.02.2023 23:44:20] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.chat__actions' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:207
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(207): PDO->prepare('SELECT * FROM `...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(794): who_online_details()
+#2 {main}
+[06.02.2023 23:44:20] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : read_messages IN LINE 354: 
+[06.02.2023 23:44:20] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.chat__messages' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:296
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(296): PDO->prepare('SELECT * FROM `...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(826): read_messages(0)
+#2 {main}
+[06.02.2023 23:44:20] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : read_messages IN LINE 354: 
+[06.02.2023 23:44:20] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.chat__messages' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:296
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(296): PDO->prepare('SELECT * FROM `...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(826): read_messages(0)
+#2 {main}
+[06.02.2023 23:45:11] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : log_action_method IN LINE 74: 
+[06.02.2023 23:45:11] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.chat__actions' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:66
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(66): PDO->prepare('INSERT INTO `ch...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(90): log_action_method('online')
+#2 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(272): log_action(0)
+#3 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(370): msg_monitor()
+#4 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(808): read_last_messages()
+#5 {main}
+[06.02.2023 23:45:36] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : read_messages IN LINE 354: 
+[06.02.2023 23:45:36] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.chat__messages' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:296
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(296): PDO->prepare('SELECT * FROM `...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(826): read_messages(0)
+#2 {main}
+[06.02.2023 23:45:36] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : who_online_details IN LINE 261: 
+[06.02.2023 23:45:36] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.chat__actions' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:207
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(207): PDO->prepare('SELECT * FROM `...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(794): who_online_details()
+#2 {main}
+[06.02.2023 23:45:36] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : read_messages IN LINE 354: 
+[06.02.2023 23:45:36] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.chat__messages' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:296
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(296): PDO->prepare('SELECT * FROM `...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(826): read_messages(0)
+#2 {main}
+[06.02.2023 23:45:37] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : log_action_method IN LINE 74: 
+[06.02.2023 23:45:37] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.chat__actions' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:66
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(66): PDO->prepare('INSERT INTO `ch...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(90): log_action_method('online')
+#2 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(272): log_action(0)
+#3 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(370): msg_monitor()
+#4 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(808): read_last_messages()
+#5 {main}
+[06.02.2023 23:46:37] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : log_action_method IN LINE 74: 
+[06.02.2023 23:46:37] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.chat__actions' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:66
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(66): PDO->prepare('INSERT INTO `ch...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(90): log_action_method('online')
+#2 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(272): log_action(0)
+#3 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(370): msg_monitor()
+#4 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(808): read_last_messages()
+#5 {main}
+[06.02.2023 23:47:37] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : log_action_method IN LINE 74: 
+[06.02.2023 23:47:37] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.chat__actions' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:66
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(66): PDO->prepare('INSERT INTO `ch...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(90): log_action_method('online')
+#2 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(272): log_action(0)
+#3 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(370): msg_monitor()
+#4 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(808): read_last_messages()
+#5 {main}
+[06.02.2023 23:48:06] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : who_online_details IN LINE 261: 
+[06.02.2023 23:48:06] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.chat__actions' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:207
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(207): PDO->prepare('SELECT * FROM `...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(794): who_online_details()
+#2 {main}
+[06.02.2023 23:48:37] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : log_action_method IN LINE 74: 
+[06.02.2023 23:48:37] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.chat__actions' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:66
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(66): PDO->prepare('INSERT INTO `ch...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(90): log_action_method('online')
+#2 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(272): log_action(0)
+#3 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(370): msg_monitor()
+#4 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(808): read_last_messages()
+#5 {main}
+[06.02.2023 23:49:37] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : log_action_method IN LINE 74: 
+[06.02.2023 23:49:37] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.chat__actions' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:66
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(66): PDO->prepare('INSERT INTO `ch...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(90): log_action_method('online')
+#2 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(272): log_action(0)
+#3 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(370): msg_monitor()
+#4 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(808): read_last_messages()
+#5 {main}
+[06.02.2023 23:51:14] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : read_last_messages IN LINE 434: 
+[06.02.2023 23:51:14] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name1' in 'field list' in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:409
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(409): PDO->prepare('SELECT `account...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(808): read_last_messages()
+#2 {main}
+[06.02.2023 23:51:46] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : read_messages IN LINE 354: 
+[06.02.2023 23:51:46] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name1' in 'field list' in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:328
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(328): PDO->prepare('SELECT `account...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(826): read_messages(0)
+#2 {main}
+[06.02.2023 23:51:46] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : read_messages IN LINE 354: 
+[06.02.2023 23:51:46] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name1' in 'field list' in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:328
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(328): PDO->prepare('SELECT `account...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(826): read_messages(0)
+#2 {main}
+[06.02.2023 23:51:49] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : read_last_messages IN LINE 434: 
+[06.02.2023 23:51:49] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name1' in 'field list' in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:409
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(409): PDO->prepare('SELECT `account...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(808): read_last_messages()
+#2 {main}
+[06.02.2023 23:51:52] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : read_last_messages IN LINE 434: 
+[06.02.2023 23:51:52] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name1' in 'field list' in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:409
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(409): PDO->prepare('SELECT `account...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(808): read_last_messages()
+#2 {main}
+[06.02.2023 23:51:53] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : read_messages IN LINE 354: 
+[06.02.2023 23:51:53] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name1' in 'field list' in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:328
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(328): PDO->prepare('SELECT `account...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(826): read_messages(0)
+#2 {main}
+[06.02.2023 23:51:53] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : read_messages IN LINE 354: 
+[06.02.2023 23:51:53] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name1' in 'field list' in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:328
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(328): PDO->prepare('SELECT `account...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(826): read_messages(0)
+#2 {main}
+[06.02.2023 23:53:32] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : read_messages IN LINE 354: 
+[06.02.2023 23:53:32] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name1' in 'field list' in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:328
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(328): PDO->prepare('SELECT `account...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(826): read_messages(0)
+#2 {main}
+[06.02.2023 23:53:32] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : read_messages IN LINE 354: 
+[06.02.2023 23:53:32] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name1' in 'field list' in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:328
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(328): PDO->prepare('SELECT `account...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(826): read_messages(0)
+#2 {main}
+[06.02.2023 23:53:46] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : read_last_messages IN LINE 434: 
+[06.02.2023 23:53:46] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name1' in 'field list' in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:409
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(409): PDO->prepare('SELECT `account...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(808): read_last_messages()
+#2 {main}
+[06.02.2023 23:53:52] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : read_messages IN LINE 354: 
+[06.02.2023 23:53:52] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name1' in 'field list' in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:328
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(328): PDO->prepare('SELECT `account...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(826): read_messages(0)
+#2 {main}
+[06.02.2023 23:53:52] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : read_messages IN LINE 354: 
+[06.02.2023 23:53:52] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name1' in 'field list' in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:328
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(328): PDO->prepare('SELECT `account...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(826): read_messages(0)
+#2 {main}
+[06.02.2023 23:56:10] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : read_messages IN LINE 354: 
+[06.02.2023 23:56:10] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name1' in 'field list' in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:328
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(328): PDO->prepare('SELECT `account...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(826): read_messages(0)
+#2 {main}
+[06.02.2023 23:56:10] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : read_messages IN LINE 354: 
+[06.02.2023 23:56:10] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name1' in 'field list' in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:328
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(328): PDO->prepare('SELECT `account...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(826): read_messages(0)
+#2 {main}
+[06.02.2023 23:56:13] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : read_last_messages IN LINE 434: 
+[06.02.2023 23:56:13] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name1' in 'field list' in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:409
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(409): PDO->prepare('SELECT `account...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(808): read_last_messages()
+#2 {main}
+[06.02.2023 23:56:14] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : read_messages IN LINE 354: 
+[06.02.2023 23:56:14] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name1' in 'field list' in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:328
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(328): PDO->prepare('SELECT `account...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(826): read_messages(0)
+#2 {main}
+[06.02.2023 23:56:14] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : read_messages IN LINE 354: 
+[06.02.2023 23:56:14] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name1' in 'field list' in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:328
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(328): PDO->prepare('SELECT `account...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(826): read_messages(0)
+#2 {main}
+[06.02.2023 23:58:38] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : read_messages IN LINE 354: 
+[06.02.2023 23:58:38] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name1' in 'field list' in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:328
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(328): PDO->prepare('SELECT `account...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(826): read_messages(0)
+#2 {main}
+[06.02.2023 23:58:38] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : read_messages IN LINE 354: 
+[06.02.2023 23:58:38] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name1' in 'field list' in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:328
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(328): PDO->prepare('SELECT `account...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(826): read_messages(0)
+#2 {main}
+[06.02.2023 23:59:13] </var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : finder_how_much_memory_used> ERROR IN LINE 474
+[06.02.2023 23:59:13] </var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : finder_update_memory> ERROR IN LINE 493
+[06.02.2023 23:59:13] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.drive' doesn't exist in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:484
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(484): PDO->prepare('INSERT INTO `dr...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(723): finder_update_memory(59579)
+#2 {main}
+[06.02.2023 23:59:17] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : read_last_messages IN LINE 434: 
+[06.02.2023 23:59:17] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name1' in 'field list' in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:409
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(409): PDO->prepare('SELECT `account...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(808): read_last_messages()
+#2 {main}
+[06.02.2023 23:59:21] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : read_last_messages IN LINE 434: 
+[06.02.2023 23:59:21] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name1' in 'field list' in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:409
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(409): PDO->prepare('SELECT `account...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(808): read_last_messages()
+#2 {main}
+[06.02.2023 23:59:24] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : read_last_messages IN LINE 434: 
+[06.02.2023 23:59:24] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name1' in 'field list' in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:409
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(409): PDO->prepare('SELECT `account...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(808): read_last_messages()
+#2 {main}
+[06.02.2023 23:59:29] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : read_last_messages IN LINE 434: 
+[06.02.2023 23:59:29] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name1' in 'field list' in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:409
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(409): PDO->prepare('SELECT `account...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(808): read_last_messages()
+#2 {main}
+[06.02.2023 23:59:33] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : read_messages IN LINE 354: 
+[06.02.2023 23:59:33] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name1' in 'field list' in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:328
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(328): PDO->prepare('SELECT `account...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(826): read_messages(0)
+#2 {main}
+[06.02.2023 23:59:33] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : read_messages IN LINE 354: 
+[06.02.2023 23:59:33] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name1' in 'field list' in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:328
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(328): PDO->prepare('SELECT `account...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(826): read_messages(0)
+#2 {main}
+[06.02.2023 23:59:58] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : read_messages IN LINE 354: 
+[06.02.2023 23:59:58] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name1' in 'field list' in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:328
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(328): PDO->prepare('SELECT `account...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(826): read_messages(0)
+#2 {main}
+[06.02.2023 23:59:58] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : read_messages IN LINE 354: 
+[06.02.2023 23:59:58] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name1' in 'field list' in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:328
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(328): PDO->prepare('SELECT `account...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(826): read_messages(0)
+#2 {main}
+[07.02.2023 00:00:01] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : read_messages IN LINE 354: 
+[07.02.2023 00:00:01] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name1' in 'field list' in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:328
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(328): PDO->prepare('SELECT `account...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(826): read_messages(0)
+#2 {main}
+[07.02.2023 00:00:01] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : read_messages IN LINE 354: 
+[07.02.2023 00:00:01] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name1' in 'field list' in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:328
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(328): PDO->prepare('SELECT `account...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(826): read_messages(0)
+#2 {main}
+[07.02.2023 00:00:03] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : read_messages IN LINE 354: 
+[07.02.2023 00:00:03] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name1' in 'field list' in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:328
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(328): PDO->prepare('SELECT `account...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(826): read_messages(0)
+#2 {main}
+[07.02.2023 00:00:03] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : read_messages IN LINE 354: 
+[07.02.2023 00:00:03] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name1' in 'field list' in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:328
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(328): PDO->prepare('SELECT `account...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(826): read_messages(0)
+#2 {main}
+[07.02.2023 00:00:13] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : read_messages IN LINE 354: 
+[07.02.2023 00:00:13] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name1' in 'field list' in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:328
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(328): PDO->prepare('SELECT `account...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(826): read_messages(0)
+#2 {main}
+[07.02.2023 00:00:13] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : read_messages IN LINE 354: 
+[07.02.2023 00:00:13] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name1' in 'field list' in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:328
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(328): PDO->prepare('SELECT `account...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(826): read_messages(0)
+#2 {main}
+[07.02.2023 00:00:15] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : read_messages IN LINE 354: 
+[07.02.2023 00:00:15] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name1' in 'field list' in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:328
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(328): PDO->prepare('SELECT `account...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(826): read_messages(0)
+#2 {main}
+[07.02.2023 00:00:16] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : read_messages IN LINE 354: 
+[07.02.2023 00:00:16] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name1' in 'field list' in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:328
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(328): PDO->prepare('SELECT `account...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(826): read_messages(0)
+#2 {main}
+[07.02.2023 00:00:18] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : read_messages IN LINE 354: 
+[07.02.2023 00:00:18] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name1' in 'field list' in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:328
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(328): PDO->prepare('SELECT `account...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(826): read_messages(0)
+#2 {main}
+[07.02.2023 00:00:18] ERROR /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php : read_messages IN LINE 354: 
+[07.02.2023 00:00:18] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name1' in 'field list' in /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php:328
+Stack trace:
+#0 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(328): PDO->prepare('SELECT `account...')
+#1 /var/www/u1878365/data/www/sbuddy.ru/php/chat/chat.php(826): read_messages(0)
+#2 {main}
+[10.02.2023 20:02:59] ERROR C:\Users\Михаил\Desktop\sbuddy\www\php\chat\chat.php : read_messages IN LINE 354: 
+[10.02.2023 20:02:59] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name1' in 'field list' in C:\Users\Михаил\Desktop\sbuddy\www\php\chat\chat.php:328
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\chat\chat.php(328): PDO->prepare('SELECT `account...')
+#1 C:\Users\Михаил\Desktop\sbuddy\www\php\chat\chat.php(826): read_messages(0)
+#2 {main}
+[10.02.2023 20:02:59] ERROR C:\Users\Михаил\Desktop\sbuddy\www\php\chat\chat.php : read_messages IN LINE 354: 
+[10.02.2023 20:02:59] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name1' in 'field list' in C:\Users\Михаил\Desktop\sbuddy\www\php\chat\chat.php:328
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\chat\chat.php(328): PDO->prepare('SELECT `account...')
+#1 C:\Users\Михаил\Desktop\sbuddy\www\php\chat\chat.php(826): read_messages(0)
+#2 {main}
+[10.02.2023 20:03:04] ERROR C:\Users\Михаил\Desktop\sbuddy\www\php\chat\chat.php : read_last_messages IN LINE 434: 
+[10.02.2023 20:03:04] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name1' in 'field list' in C:\Users\Михаил\Desktop\sbuddy\www\php\chat\chat.php:409
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\chat\chat.php(409): PDO->prepare('SELECT `account...')
+#1 C:\Users\Михаил\Desktop\sbuddy\www\php\chat\chat.php(808): read_last_messages()
+#2 {main}
+[10.02.2023 20:05:30] ERROR C:\Users\Михаил\Desktop\sbuddy\www\php\chat\chat.php : who_online_details IN LINE 261: 
+[10.02.2023 20:05:30] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name1' in 'field list' in C:\Users\Михаил\Desktop\sbuddy\www\php\chat\chat.php:244
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\chat\chat.php(244): PDO->prepare('SELECT `account...')
+#1 C:\Users\Михаил\Desktop\sbuddy\www\php\chat\chat.php(794): who_online_details()
+#2 {main}
+[10.02.2023 20:08:00] ERROR C:\Users\Михаил\Desktop\sbuddy\www\php\chat\chat.php : who_online_details IN LINE 261: 
+[10.02.2023 20:08:00] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name1' in 'field list' in C:\Users\Михаил\Desktop\sbuddy\www\php\chat\chat.php:244
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\chat\chat.php(244): PDO->prepare('SELECT `account...')
+#1 C:\Users\Михаил\Desktop\sbuddy\www\php\chat\chat.php(794): who_online_details()
+#2 {main}
+[10.02.2023 20:10:30] ERROR C:\Users\Михаил\Desktop\sbuddy\www\php\chat\chat.php : who_online_details IN LINE 261: 
+[10.02.2023 20:10:30] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name1' in 'field list' in C:\Users\Михаил\Desktop\sbuddy\www\php\chat\chat.php:244
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\chat\chat.php(244): PDO->prepare('SELECT `account...')
+#1 C:\Users\Михаил\Desktop\sbuddy\www\php\chat\chat.php(794): who_online_details()
+#2 {main}
