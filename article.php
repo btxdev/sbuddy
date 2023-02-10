@@ -19,7 +19,7 @@
 	}
 
 	// db parameters
-	$sql_news = $sql_site;
+	$sql_news = $sql_ap;
 
   $path_to_users_from_root = './admin/admin_panel2.0/media/users/';    // FROM ROOT OF SITE
 
@@ -29,7 +29,8 @@
 
 	// ===========================================================================
 
-	function not_found() {
+	function not_found($err = null) {
+		debuglog($err);
 		header('Location: errorpages/error.php?number=404');
 		exit();
 	}
@@ -67,15 +68,15 @@
 					}
 				}
 				else {
-					not_found();
+					not_found(__LINE__);
 				}
 			}
 			catch(Exception $e) {
-				not_found();
+				not_found(__LINE__.' '.$e);
 			}
 		}
 		else {
-			not_found();
+			not_found(__LINE__);
 		}
 	}
 
