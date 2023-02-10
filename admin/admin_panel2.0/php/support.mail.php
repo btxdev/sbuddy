@@ -32,14 +32,14 @@
 
             $mail->CharSet = 'utf-8';
             $mail->isSMTP();
-            $mail->Host = 'smtp.gmail.com';
+            $mail->Host = 'smtp.yandex.ru';
             $mail->SMTPAuth = true;
-            $mail->Username = 'inso.web59@gmail.com';
-            $mail->Password = 'poma098123';
+            $mail->Username = 'service@insoweb.ru';
+            $mail->Password = 'udzo@v4r%KkGIEZ';
             $mail->SMTPSecure = 'ssl';
             $mail->Port = 465;
 
-            $mail->setFrom('inso.web59@gmail.com');
+            $mail->setFrom('service@insoweb.ru');
             $mail->addAddress('support@insoweb.ru');     // Кому будет уходить письмо
             $mail->isHTML(true);
 

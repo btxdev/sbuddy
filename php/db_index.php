@@ -46,12 +46,12 @@
   $the_php_mailer->isSMTP();
   $the_php_mailer->CharSet = "UTF-8";
   $the_php_mailer->SMTPAuth = true;
-  $the_php_mailer->Host = 'smtp.gmail.com';
-  $the_php_mailer->Username = 'inso.web59@gmail.com';
-  $the_php_mailer->Password = 'poma098123';
+  $the_php_mailer->Host = 'smtp.yandex.ru';
+  $the_php_mailer->Username = 'service@insoweb.ru';
+  $the_php_mailer->Password = 'udzo@v4r%KkGIEZ';
   $the_php_mailer->SMTPSecure = 'ssl';
   $the_php_mailer->Port = 465;
-  $the_php_mailer->setFrom('inso.web59@gmail.com', 'INSOWEB.RU');
+  $the_php_mailer->setFrom('service@insoweb.ru', 'INSOWEB.RU');
 
   // === index functions =======================================================
 

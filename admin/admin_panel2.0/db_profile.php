@@ -53,10 +53,10 @@
 
   // == mailing ================================================================
 
-  $phpmailer_host = 'smtp.gmail.com';
-  $phpmailer_username = 'inso.web59@gmail.com';
-  $phpmailer_password = 'poma098123';
-  $phpmailer_setfrom_arg_1 = 'inso.web59@gmail.com';
+  $phpmailer_host = 'smtp.yandex.ru';
+  $phpmailer_username = 'service@insoweb.ru';
+  $phpmailer_password = 'udzo@v4r%KkGIEZ';
+  $phpmailer_setfrom_arg_1 = 'service@insoweb.ru';
   $phpmailer_setfrom_arg_2 = 'INSOWEB.RU';
 
   require_once('php/lib_php/phpmailerNew/PHPMailerAutoload.php');
