@@ -754,3 +754,74 @@ Stack trace:
 Stack trace:
 #0 C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php(282): PDO->prepare('SELECT * FROM `...')
 #1 {main}
+[10.02.2023 21:50:22] FILE C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php LINE 352 ERROR: 
+[10.02.2023 21:50:22] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php:282
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[10.02.2023 21:50:27] FILE C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php LINE 352 ERROR: 
+[10.02.2023 21:50:27] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php:282
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[10.02.2023 21:50:27] FILE C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php LINE 352 ERROR: 
+[10.02.2023 21:50:27] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php:282
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[10.02.2023 21:50:32] FILE C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php LINE 352 ERROR: 
+[10.02.2023 21:50:32] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php:282
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[10.02.2023 21:50:50] FILE C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php LINE 352 ERROR: 
+[10.02.2023 21:50:50] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php:282
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[10.02.2023 21:54:56] FILE C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php LINE 352 ERROR: 
+[10.02.2023 21:54:56] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php:282
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[10.02.2023 21:55:03] FILE C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php LINE 352 ERROR: 
+[10.02.2023 21:55:03] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php:282
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[10.02.2023 21:55:12] FILE C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php LINE 352 ERROR: 
+[10.02.2023 21:55:12] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php:282
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[10.02.2023 21:55:26] FILE C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php LINE 352 ERROR: 
+[10.02.2023 21:55:26] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php:282
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[10.02.2023 22:00:20] FILE C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php LINE 352 ERROR: 
+[10.02.2023 22:00:20] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php:282
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[10.02.2023 22:00:20] FILE C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php LINE 352 ERROR: 
+[10.02.2023 22:00:20] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php:282
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[10.02.2023 22:01:28] FILE C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php LINE 352 ERROR: 
+[10.02.2023 22:01:28] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php:282
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[10.02.2023 22:01:32] FILE C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php LINE 352 ERROR: 
+[10.02.2023 22:01:32] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php:282
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[10.02.2023 22:01:33] sql request fail C:\Users\Михаил\Desktop\sbuddy\www\php\db_article.php IN LINE 67
+[10.02.2023 22:01:39] FILE C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php LINE 352 ERROR: 
+[10.02.2023 22:01:39] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php:282
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}

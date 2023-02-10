@@ -95,3 +95,15 @@
 [10.02.2023 20:45:24] critical error C:\Users\Михаил\Desktop\sbuddy\www\index.php :: 223
 [10.02.2023 20:45:48] critical error C:\Users\Михаил\Desktop\sbuddy\www\index.php :: 223
 [10.02.2023 20:49:33] critical error C:\Users\Михаил\Desktop\sbuddy\www\index.php :: 223
+[10.02.2023 21:50:22] critical error C:\Users\Михаил\Desktop\sbuddy\www\index.php :: 223
+[10.02.2023 21:50:27] critical error C:\Users\Михаил\Desktop\sbuddy\www\index.php :: 223
+[10.02.2023 21:52:18] critical error C:\Users\Михаил\Desktop\sbuddy\www\index.php :: 223
+[10.02.2023 21:52:47] critical error C:\Users\Михаил\Desktop\sbuddy\www\index.php :: 223
+[10.02.2023 21:53:16] critical error C:\Users\Михаил\Desktop\sbuddy\www\index.php :: 223
+[10.02.2023 21:53:17] critical error C:\Users\Михаил\Desktop\sbuddy\www\index.php :: 223
+[10.02.2023 21:53:53] critical error C:\Users\Михаил\Desktop\sbuddy\www\index.php :: 223
+[10.02.2023 21:54:31] critical error C:\Users\Михаил\Desktop\sbuddy\www\index.php :: 223
+[10.02.2023 21:55:02] critical error C:\Users\Михаил\Desktop\sbuddy\www\index.php :: 223
+[10.02.2023 21:55:15] critical error C:\Users\Михаил\Desktop\sbuddy\www\index.php :: 223
+[10.02.2023 22:01:28] critical error C:\Users\Михаил\Desktop\sbuddy\www\index.php :: 223
+[10.02.2023 22:01:39] critical error C:\Users\Михаил\Desktop\sbuddy\www\index.php :: 223
