@@ -4137,7 +4137,7 @@
         <div class='main-text-text'>Вы были записаны в группу: <div class='main-text-password'>{$user->group->group}</div><br>Дата добавления: {$user->group->timestamp}</div><br><br>";
       }
       // logotype
-      $base64_logo = insert_base64_encoded_image_src('../../../Projects/Study Buddy/Сайт/ver 2/media/svg/logo.svg', true);
+      $base64_logo = insert_base64_encoded_image_src('../../media/svg/logo.svg', true);
       // link for timetable
       $mail_link = site_Link();
       // feedback

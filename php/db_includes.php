@@ -16,6 +16,28 @@
 
   $development_state = true;
 
+  if(!file_exists(__dir__.'/../admin/admin_panel2.0/php/configPHP/config.php')){
+    require(__dir__.'/../admin/admin_panel2.0/php/configPHP/config_default.php');
+  } else{
+    require(__dir__.'/../admin/admin_panel2.0/php/configPHP/config.php');
+  }
+
+  $sql_ap = Array(
+  'host' => $sql_host,
+  'db' => $sql_db,
+  'user' => $sql_user,
+  'password' => $sql_password,
+    'charset' => $sql_charset
+  );
+
+  $sql_site = Array(
+  'host' => $sql_site_host,
+  'db' => $sql_site_db,
+  'user' => $sql_site_user,
+  'password' => $sql_site_password,
+    'charset' => $sql_site_charset
+  );
+
   // == finder =================================================================
 
   $bad_filenames_array = Array('con', 'nul', 'prn', 'aux','com1','com2','com3','com4','com5','com6','com7','com8','com9','lpt1','lpt2','lpt3','lpt4','lpt5','lpt6','lpt7','lpt8','lpt9');

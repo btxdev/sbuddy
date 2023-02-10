@@ -23,28 +23,11 @@
 
   // === parameters ============================================================
 
-  $finder_users_dir = '../../../../../../Plugins/admin_panel2.0/USERS_FILES/';  // AP USERS_FILES
+  $finder_users_dir = './admin/USERS_FILES/';  // AP USERS_FILES
 
   $users_folder = '../../users/';
   $attachments_folder = '../../media/msga/';
   $msg_h_folder = 'msg/';
-
-  // === db information ========================================================
-
-  $sql_site = Array(
-  'host' => '127.0.0.1',
-  'db' => 'u1878365_sbinsoap',
-  'user' => 'u1878365_sbinsoa',
-  'password' => '9Y54WG911B',
-    'charset' => 'utf8mb4'
-  );
-  $sql_ap = Array(
-  'host' => '127.0.0.1',
-  'db' => 'u1878365_sbinsoap',
-  'user' => 'u1878365_sbinsoa',
-  'password' => '9Y54WG911B',
-    'charset' => 'utf8'
-  );
 
   // === PDO ===================================================================
 

@@ -19,15 +19,9 @@
 	}
 
 	// db parameters
-	$sql_news = Array(
-    'host' => '127.0.0.1',
-    'db' => 'u1878365_sbinsoap',
-    'user' => 'u1878365_sbinsoa',
-    'password' => '9Y54WG911B',
-    'charset' => 'utf8'
-  );
+	$sql_news = $sql_site;
 
-  $path_to_users_from_root = '../../../../Plugins/admin_panel2.0/admin_panel2.0/media/users/';    // FROM ROOT OF SITE
+  $path_to_users_from_root = './admin/admin_panel2.0/media/users/';    // FROM ROOT OF SITE
 
 	// establish connection
   $pdo_dsn = "mysql:host=".$sql_news['host'].";dbname=".$sql_news['db'].";charset=".$sql_news['charset'];
@@ -94,96 +88,101 @@
 
 <!DOCTYPE html>
 <html lang="ru" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title><?php if($article_data !== false) { echo($article_data->title); } ?> :: <?=$siteData['title']?></title>
-    <link rel="stylesheet" href="style/bootstrap.min.css" >
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style/main.css">
-    <link rel="stylesheet" href="style/footer.css">
-    <link rel="stylesheet" href="style/nav.css">
-    <link rel="stylesheet" href="style/window.css">
-    <link rel="stylesheet" href="style/notification.css">
 
-    <link rel="stylesheet" href="style/article.css">
-    <link rel="stylesheet" href="style/news.css">
+<head>
+  <meta charset="utf-8">
+  <title><?php if($article_data !== false) { echo($article_data->title); } ?> :: <?=$siteData['title']?></title>
+  <link rel="stylesheet" href="style/bootstrap.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style/main.css">
+  <link rel="stylesheet" href="style/footer.css">
+  <link rel="stylesheet" href="style/nav.css">
+  <link rel="stylesheet" href="style/window.css">
+  <link rel="stylesheet" href="style/notification.css">
 
-		<?php include('standartScriptJS.php'); ?>
+  <link rel="stylesheet" href="style/article.css">
+  <link rel="stylesheet" href="style/news.css">
 
-		<script type="application/javascript" src="js/article.js"></script>
+  <?php include('standartScriptJS.php'); ?>
 
-		<?php include('php/fingerprint.php'); ?>
+  <script type="application/javascript" src="js/article.js"></script>
 
-  </head>
-  <body>
+  <?php include('php/fingerprint.php'); ?>
 
-		<!-- Window (start) -->
-		<?php include('windows.php'); ?>
-		<!-- Window (end) -->
+</head>
 
-		<!-- Nav (start) -->
-		<?php include('nav.php'); ?>
-		<!-- Nav (end) -->
+<body>
 
-		<?php
+  <!-- Window (start) -->
+  <?php include('windows.php'); ?>
+  <!-- Window (end) -->
+
+  <!-- Nav (start) -->
+  <?php include('nav.php'); ?>
+  <!-- Nav (end) -->
+
+  <?php
 			if(!isset($_COOKIE['cookies_accepted'])) {
 				//include('cookies.php');а
 				echo(file_get_contents('cookies.html'));
 			}
 		?>
 
-    <notifications></notifications>
+  <notifications></notifications>
 
 
-    <div class='container-BigElem'>
-      <div class='container-BigElem-2'></div>
-      <div class='container background-main'>
-        <div class='col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12' style='margin-top: 100px; margin-bottom: 100px;'>
-          <!--<h2 class='Acquaintance-h2' style='text-align: center;'>10 признаков того, что пора начинать учить английский язык</h2>-->
-          <h2 class='Acquaintance-h2' style='text-align: center;'><?php if($article_data !== false) { echo($article_data->title); } ?></h2>
-          <div class='Acquaintance-title' style='text-align: center;'>
-            <div class='back-triangle2'></div>
-            <div class='Acquaintance-title-texth4'></div>
+  <div class='container-BigElem'>
+    <div class='container-BigElem-2'></div>
+    <div class='container background-main'>
+      <div class='col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12' style='margin-top: 100px; margin-bottom: 100px;'>
+        <!--<h2 class='Acquaintance-h2' style='text-align: center;'>10 признаков того, что пора начинать учить английский язык</h2>-->
+        <h2 class='Acquaintance-h2' style='text-align: center;'>
+          <?php if($article_data !== false) { echo($article_data->title); } ?></h2>
+        <div class='Acquaintance-title' style='text-align: center;'>
+          <div class='back-triangle2'></div>
+          <div class='Acquaintance-title-texth4'></div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <div class='article-text'><?php if($article_data !== false) { echo($article_data->text); } ?></div>
+
+        <!-- Слайдер -->
+        <div class='article-slider'>
+          <div class='col-xs-12 col-sm-12 col-md-12 col-lg-10 col-xl-10' style='height: 100%;'>
+            <div class='row' style='height: 100%;'>
+              <div class='article-slider-main' id='slider-big'>
+                <div class='article-slider-main-left' title='Предыдущая' onclick="sliderArrow('prev')">
+                  <div class='article-slider-main-left-ico icons-left' style='left: 15px;'></div>
+                </div>
+                <div class='article-slider-main-right' title='Следующая' onclick="sliderArrow('next')">
+                  <div class='article-slider-main-left-ico icons-right' style='right: 15px;'></div>
+                </div>
+                <div class='article-slider-main-full'>
+                  <div class='article-slider-main-full-ico icons-full' title='На весь экран' onclick="sliderFull(this)">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class='col-xs-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 hidden-xs hidden-sm hidden-md'
+            style='height: 100%;'>
+            <div class='row' style='height: 100%;'>
+              <div class='article-slider-photo'>
+                <div class='article-slider-photo-previous icons-top'></div>
+                <div class='article-slider-photo-main' id='slider-mini'>
+                  <!--<div class='article-slider-photo-main-elem' style='background-image: url("sample");'></div>-->
+                </div>
+                <div class='article-slider-photo-next icons-bottom'></div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-          <div class='article-text'><?php if($article_data !== false) { echo($article_data->text); } ?></div>
 
-          <!-- Слайдер -->
-          <div class='article-slider'>
-            <div class='col-xs-12 col-sm-12 col-md-12 col-lg-10 col-xl-10' style='height: 100%;'>
-              <div class='row' style='height: 100%;'>
-                <div class='article-slider-main' id='slider-big'>
-                  <div class='article-slider-main-left' title='Предыдущая' onclick="sliderArrow('prev')">
-                    <div class='article-slider-main-left-ico icons-left' style='left: 15px;'></div>
-                  </div>
-                  <div class='article-slider-main-right' title='Следующая' onclick="sliderArrow('next')">
-                    <div class='article-slider-main-left-ico icons-right' style='right: 15px;'></div>
-                  </div>
-                  <div class='article-slider-main-full'>
-                    <div class='article-slider-main-full-ico icons-full' title='На весь экран' onclick="sliderFull(this)"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class='col-xs-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 hidden-xs hidden-sm hidden-md' style='height: 100%;'>
-              <div class='row' style='height: 100%;'>
-                <div class='article-slider-photo'>
-                  <div class='article-slider-photo-previous icons-top'></div>
-                  <div class='article-slider-photo-main' id='slider-mini'>
-                    <!--<div class='article-slider-photo-main-elem' style='background-image: url("sample");'></div>-->
-                  </div>
-                  <div class='article-slider-photo-next icons-bottom'></div>
-                </div>
-              </div>
-            </div>
-          </div>
+        <!-- Файлы -->
 
-          <!-- Файлы -->
-
-          <div class="row">
-            <div class='col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4'>
-							<?php
+        <div class="row">
+          <div class='col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4'>
+            <?php
 								if($article_data !== false) {
 									$attachments = json_decode(html_entity_decode($article_data->attachments, ENT_QUOTES));
 									if(is_array($attachments) && !empty($attachments)) {
@@ -219,7 +218,7 @@
 									}
 								}
 							?>
-              <!--<div class='article-file'>
+            <!--<div class='article-file'>
                 <div class='article-file-ico'>📄</div>
                 <div class='article-file-text'>
                   <div class='article-file-text-name'>Имя файла.docx</div>
@@ -259,61 +258,68 @@
                 </div>
                 <div class='article-file-download icons-download' title='Скачать'></div>
               </div>-->
-            </div>
           </div>
+        </div>
 
 
-          <!-- Автор -->
-          <div class='article-author'>
-            <span style='margin-top: 5px; margin-right: 15px; display: inline-block; white-space: nowrap;'>
-              <div class='article-author-ico icons-user'></div>
-              <div class='article-author-line'></div>
-              <!--<div class='article-author-name'>Иван Федотов</div>-->
-              <div class='article-author-name'><?php if($article_data !== false) { echo($article_data->author); } ?></div>
-            </span>
-						<span style='margin-top: 5px; margin-right: 15px; display: inline-block; white-space: nowrap;'>
-              <div class='article-author-ico2 icons-eyeOpen'></div>
-              <div class='article-author-line'></div>
-							<?php if($article_data !== false) { echo('<script>$(document).ready(function(){articleViews('.$article_data->views.');});</script>'); } ?>
-              <div class='article-author-name' id='views-count'></div>
-            </span>
-            <span style='margin-top: 5px; display: inline-block; white-space: nowrap;'>
-              <div class='article-author-ico2 icons-date'></div>
-              <div class='article-author-line'></div>
-							<?php if($article_data !== false) { echo('<script>$(document).ready(function(){articleDate("'.$article_data->date.'");});</script>'); } ?>
-              <div class='article-author-name' id='publication-date'></div>
-            </span>
+        <!-- Автор -->
+        <div class='article-author'>
+          <span style='margin-top: 5px; margin-right: 15px; display: inline-block; white-space: nowrap;'>
+            <div class='article-author-ico icons-user'></div>
+            <div class='article-author-line'></div>
+            <!--<div class='article-author-name'>Иван Федотов</div>-->
+            <div class='article-author-name'><?php if($article_data !== false) { echo($article_data->author); } ?></div>
+          </span>
+          <span style='margin-top: 5px; margin-right: 15px; display: inline-block; white-space: nowrap;'>
+            <div class='article-author-ico2 icons-eyeOpen'></div>
+            <div class='article-author-line'></div>
+            <?php if($article_data !== false) { echo('<script>$(document).ready(function(){articleViews('.$article_data->views.');});</script>'); } ?>
+            <div class='article-author-name' id='views-count'></div>
+          </span>
+          <span style='margin-top: 5px; display: inline-block; white-space: nowrap;'>
+            <div class='article-author-ico2 icons-date'></div>
+            <div class='article-author-line'></div>
+            <?php if($article_data !== false) { echo('<script>$(document).ready(function(){articleDate("'.$article_data->date.'");});</script>'); } ?>
+            <div class='article-author-name' id='publication-date'></div>
+          </span>
 
-          </div>
+        </div>
 
-          <!-- Оценка -->
-					<?php if(isset($_SESSION['userid'])): ?>
-						<script>$(document).ready(function() { Article.recordId = <?= $article_data->record_id ?>; Article.auth = true; articleDBGetMark(); });</script>
-					<?php endif; ?>
+        <!-- Оценка -->
+        <?php if(isset($_SESSION['userid'])): ?>
+        <script>
+        $(document).ready(function() {
+          Article.recordId = <?= $article_data->record_id ?>;
+          Article.auth = true;
+          articleDBGetMark();
+        });
+        </script>
+        <?php endif; ?>
 
-          <div class='row' style='margin-bottom: 55px;'>
-            <div class='col-xs-0 col-sm-6 col-md-8 col-lg-9 col-xl-9'></div>
-            <div class='col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3'>
-              <div class='assessment'>
-                <div class='assessment-elem' onclick='setMark("like", true);'>
-                  <div class='assessment-elem-ico icons-like'></div>
-									<?php if($article_data !== false) { echo('<script>$(document).ready(function(){articleLikes('.$article_data->likes.', '.$article_data->dislikes.');});</script>'); } ?>
-                  <div class='assessment-elem-text' id='likes-count'>0</div>
-                </div>
-                <div class='assessment-elem' style='margin-right: 0px; margin-left: -2px;' onclick='setMark("dislike", true);'>
-                  <div class='assessment-elem-ico icons-dislike'></div>
-                  <div class='assessment-elem-text' id='dislikes-count'>0</div>
-                </div>
-                <div class='assessment-bar'>
-                  <div class='assessment-bar-line' style='width: 85%' id='likes-bar'></div>
-                </div>
+        <div class='row' style='margin-bottom: 55px;'>
+          <div class='col-xs-0 col-sm-6 col-md-8 col-lg-9 col-xl-9'></div>
+          <div class='col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3'>
+            <div class='assessment'>
+              <div class='assessment-elem' onclick='setMark("like", true);'>
+                <div class='assessment-elem-ico icons-like'></div>
+                <?php if($article_data !== false) { echo('<script>$(document).ready(function(){articleLikes('.$article_data->likes.', '.$article_data->dislikes.');});</script>'); } ?>
+                <div class='assessment-elem-text' id='likes-count'>0</div>
+              </div>
+              <div class='assessment-elem' style='margin-right: 0px; margin-left: -2px;'
+                onclick='setMark("dislike", true);'>
+                <div class='assessment-elem-ico icons-dislike'></div>
+                <div class='assessment-elem-text' id='dislikes-count'>0</div>
+              </div>
+              <div class='assessment-bar'>
+                <div class='assessment-bar-line' style='width: 85%' id='likes-bar'></div>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- Рекомендации -->
-          <div class='row'>
-						<?php
+        <!-- Рекомендации -->
+        <div class='row'>
+          <?php
 							// add id of current page to list
 							if(!isset($_SESSION['news_history'])) $_SESSION['news_history'] = Array();
 							if(!in_array($article_data->record_id, $_SESSION['news_history'])) $_SESSION['news_history'][] = $article_data->record_id;
@@ -446,15 +452,16 @@
 								}
 							}
 						?>
-          </div>
         </div>
       </div>
     </div>
+  </div>
 
 
-    <!-- Footer (start) -->
-    <?php include('footer.php'); ?>
-    <!-- Footer (end) -->
+  <!-- Footer (start) -->
+  <?php include('footer.php'); ?>
+  <!-- Footer (end) -->
 
-  </body>
+</body>
+
 </html>

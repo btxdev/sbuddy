@@ -18,18 +18,6 @@
 
   // === parameters ============================================================
 
-  // ...
-
-  // === db information ========================================================
-
-  $sql_site = Array(
-  'host' => '127.0.0.1',
-  'db' => 'u1878365_sbinsoap',
-  'user' => 'u1878365_sbinsoa',
-  'password' => '9Y54WG911B',
-    'charset' => 'utf8'
-  );
-
   // === PDO ===================================================================
 
   $pdo_dsn = "mysql:host=".$sql_site['host'].";dbname=".$sql_site['db'].";charset=".$sql_site['charset'];

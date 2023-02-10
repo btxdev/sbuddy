@@ -39,11 +39,27 @@
   $typeLearning                =  ['Групповое обучение','Онлайн обучение'];
 
 
-  if(!file_exists('php/configPHP/config.php')){
-    include_once('php/configPHP/config_default.php');
+  if(!file_exists(__dir__.'/php/configPHP/config.php')){
+    require(__dir__.'/php/configPHP/config_default.php');
   } else{
-    include_once('php/configPHP/config.php');
+    require(__dir__.'/php/configPHP/config.php');
   }
+
+  $sql_ap = Array(
+  'host' => $sql_host,
+  'db' => $sql_db,
+  'user' => $sql_user,
+  'password' => $sql_password,
+    'charset' => $sql_charset
+  );
+
+  $sql_site = Array(
+  'host' => $sql_site_host,
+  'db' => $sql_site_db,
+  'user' => $sql_site_user,
+  'password' => $sql_site_password,
+    'charset' => $sql_site_charset
+  );
 
   date_default_timezone_set($timezone);
 

@@ -900,10 +900,10 @@ var Chat = {
             }
           }
           else {
-            icon = '../../../Projects/Study Buddy/Сайт/ver 2/users/public/' + theMsg.user.login + '/avatar.png';
+            icon = '../../users/public/' + theMsg.user.login + '/avatar.png';
             if(theMsg.user.icon == 'null' || theMsg.user.icon == null || typeof(theMsg.user.icon) == 'null') {
-              if(theMsg.user.gender == 'male') { icon = '../../../Projects/Study Buddy/Сайт/ver 2/media/svg/male_avatar.svg'; }
-              else { icon = '../../../Projects/Study Buddy/Сайт/ver 2/media/svg/female_avatar.svg'; }
+              if(theMsg.user.gender == 'male') { icon = '../../media/svg/male_avatar.svg'; }
+              else { icon = '../../media/svg/female_avatar.svg'; }
             }
           }
           // get message type
@@ -1010,10 +1010,10 @@ var Chat = {
             }
             else {
               // icon
-              icon = '../../../Projects/Study Buddy/Сайт/ver 2/users/public/' + theMsg.user.login + '/avatar.png';
+              icon = '../../users/public/' + theMsg.user.login + '/avatar.png';
               if(theMsg.user.icon == 'null' || theMsg.user.icon == null || typeof(theMsg.user.icon) == 'null') {
-                if(theMsg.user.gender == 'male') { icon = '../../../Projects/Study Buddy/Сайт/ver 2/media/svg/male_avatar.svg'; }
-                else { icon = '../../../Projects/Study Buddy/Сайт/ver 2/media/svg/female_avatar.svg'; }
+                if(theMsg.user.gender == 'male') { icon = '../../media/svg/male_avatar.svg'; }
+                else { icon = '../../media/svg/female_avatar.svg'; }
               }
             }
           }
@@ -1094,10 +1094,10 @@ var Chat = {
           }
         }
         else {
-          icon = '../../../Projects/Study Buddy/Сайт/ver 2/users/public/' + user.login + '/avatar.png';
+          icon = '../../users/public/' + user.login + '/avatar.png';
           if(user.icon == 'null' || user.icon == null || typeof(user.icon) == 'null') {
-            if(user.gender == 'male') { icon = '../../../Projects/Study Buddy/Сайт/ver 2/media/svg/male_avatar.svg'; }
-            else { icon = '../../../Projects/Study Buddy/Сайт/ver 2/media/svg/female_avatar.svg'; }
+            if(user.gender == 'male') { icon = '../../media/svg/male_avatar.svg'; }
+            else { icon = '../../media/svg/female_avatar.svg'; }
           }
         }
         // add elements

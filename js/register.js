@@ -122,6 +122,7 @@ function register() {
         }, 1000);
       },
       success: function(response) {
+        console.log(response);
         function checkResponseCode(code, rsp) {
           if(typeof(rsp) == 'undefined') rsp = response;
           return (response.substring(0, code.length) == code);

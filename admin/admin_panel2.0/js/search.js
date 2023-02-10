@@ -242,10 +242,10 @@ var Search = {
             }
           }
           else {
-            icon = '../../../Projects/Study Buddy/Сайт/ver 2/users/public/' + login + '/avatar.png';
+            icon = '../../users/public/' + login + '/avatar.png';
             if(user.icon == 'null' || user.icon == null || typeof(user.icon) == 'null') {
-              if(user.gender == 'male') { icon = '../../../Projects/Study Buddy/Сайт/ver 2/media/svg/male_avatar.svg'; }
-              else { icon = '../../../Projects/Study Buddy/Сайт/ver 2/media/svg/female_avatar.svg'; }
+              if(user.gender == 'male') { icon = '../../media/svg/male_avatar.svg'; }
+              else { icon = '../../media/svg/female_avatar.svg'; }
             }
           }
           Search.add({

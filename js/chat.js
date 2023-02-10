@@ -448,10 +448,10 @@ var Chat = {
           if(file == 0) continue;
           var fileToken = files[file].token;
           if(admin) {
-            output += '<a href="../../../../Plugins/admin_panel2.0/admin_panel2.0/media/users/public/'+login+'/Общий чат - Вложения/'+msgToken+'/'+fileToken+'" target="_blank">\n';
+            output += '<a href="./admin/admin_panel2.0/media/users/public/'+login+'/Общий чат - Вложения/'+msgToken+'/'+fileToken+'" target="_blank">\n';
           }
           else {
-            output += '<a href="../../../../Plugins/admin_panel2.0/USERS_FILES/'+login+'/Общий чат - Вложения/'+msgToken+'/'+fileToken+'" target="_blank">\n';
+            output += '<a href="./admin/admin_panel2.0/USERS_FILES/'+login+'/Общий чат - Вложения/'+msgToken+'/'+fileToken+'" target="_blank">\n';
           }
           output += '<div class="chat-main-msg-msgs-text-main-elem-msg-file-elem" title="Нажмите для открытия">\n';
           output += '<div class="chat-main-msg-msgs-text-main-elem-msg-file-elem-ico icons-files"></div>\n';
@@ -653,11 +653,11 @@ var Chat = {
           var icon;
           if(theMsg.admin) {
             if(theMsg.user.icon == 'PROFILE') {
-              icon = '../../../../Plugins/admin_panel2.0/admin_panel2.0/media/users/public/' + theMsg.user.login + '/profile.jpg';
+              icon = '../admin/admin_panel2.0/media/users/public/' + theMsg.user.login + '/profile.jpg';
             }
             else {
               var iconId = theMsg.user.icon.substring(theMsg.user.icon.lastIndexOf('_') + 1, theMsg.user.icon.length);
-              icon = '../../../../Plugins/admin_panel2.0/admin_panel2.0/media/users/' + iconId + '.jpg';
+              icon = '../admin/admin_panel2.0/media/users/' + iconId + '.jpg';
             }
           }
           else {
@@ -737,11 +737,11 @@ var Chat = {
           var icon;
           if(theMsg.admin) {
             if(theMsg.user.icon == 'PROFILE') {
-              icon = '../../../../Plugins/admin_panel2.0/admin_panel2.0/media/users/public/' + theMsg.user.login + '/profile.jpg';
+              icon = '../admin/admin_panel2.0/media/users/public/' + theMsg.user.login + '/profile.jpg';
             }
             else {
               var iconId = theMsg.user.icon.substring(theMsg.user.icon.lastIndexOf('_') + 1, theMsg.user.icon.length);
-              icon = '../../../../Plugins/admin_panel2.0/admin_panel2.0/media/users/' + iconId + '.jpg';
+              icon = '../admin/admin_panel2.0/media/users/' + iconId + '.jpg';
             }
           }
           else {
@@ -807,11 +807,11 @@ var Chat = {
         var icon;
         if(data[i].admin) {
           if(data[i].icon == 'PROFILE') {
-            icon = '../../../../Plugins/admin_panel2.0/admin_panel2.0/media/users/public/' + data[i].login + '/profile.jpg';
+            icon = '../admin/admin_panel2.0/media/users/public/' + data[i].login + '/profile.jpg';
           }
           else {
             var iconId = data[i].icon.substring(data[i].icon.lastIndexOf('_') + 1, data[i].icon.length);
-            icon = '../../../../Plugins/admin_panel2.0/admin_panel2.0/media/users/' + iconId + '.jpg';
+            icon = '../admin/admin_panel2.0/media/users/' + iconId + '.jpg';
           }
         }
         else {

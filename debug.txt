@@ -107,3 +107,13 @@
 [10.02.2023 21:55:15] critical error C:\Users\Михаил\Desktop\sbuddy\www\index.php :: 223
 [10.02.2023 22:01:28] critical error C:\Users\Михаил\Desktop\sbuddy\www\index.php :: 223
 [10.02.2023 22:01:39] critical error C:\Users\Михаил\Desktop\sbuddy\www\index.php :: 223
+[10.02.2023 22:03:39] critical error C:\Users\Михаил\Desktop\sbuddy\www\index.php :: 223
+[10.02.2023 22:06:48] critical error C:\Users\Михаил\Desktop\sbuddy\www\index.php :: 223
+[10.02.2023 22:13:13] critical error C:\Users\Михаил\Desktop\sbuddy\www\index.php :: 223
+[10.02.2023 22:20:00] critical error C:\Users\Михаил\Desktop\sbuddy\www\index.php :: 223
+[10.02.2023 22:21:41] critical error C:\Users\Михаил\Desktop\sbuddy\www\index.php :: 223
+[10.02.2023 22:26:28] critical error C:\Users\Михаил\Desktop\sbuddy\www\index.php :: 223
+[10.02.2023 22:26:28] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.our_team' doesn't exist in C:\Users\Михаил\Desktop\sbuddy\www\index.php:148
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\index.php(148): PDO->prepare('SELECT * FROM `...')
+#1 {main}

@@ -19,27 +19,6 @@
 
   // === parameters ============================================================
 
-
-
-  // === db information ========================================================
-
-  $sql_ap = Array(
-  'host' => '127.0.0.1',
-  'db' => 'u1878365_sbinsoap',
-  'user' => 'u1878365_sbinsoa',
-  'password' => '9Y54WG911B',
-    'charset' => 'utf8'
-  );
-
-
-  $sql_site = Array(
-  'host' => '127.0.0.1',
-  'db' => 'u1878365_sbinsoap',
-  'user' => 'u1878365_sbinsoa',
-  'password' => '9Y54WG911B',
-    'charset' => 'utf8'
-  );
-
   // === PDO ===================================================================
 
   // establish connection to Admin Panel

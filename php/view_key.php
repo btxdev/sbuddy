@@ -27,13 +27,7 @@
   if($_SESSION[$view] != $view_key) exit();
 
   // === connect to DB =========================================================
-  $sql = Array(
-  'host' => '127.0.0.1',
-  'db' => 'u1878365_sbinsoap',
-  'user' => 'u1878365_sbinsoa',
-  'password' => '9Y54WG911B',
-    'charset' => 'utf8'
-  );
+  $sql = $sql_ap;
   $pdo_dsn = "mysql:host=".$sql['host'].";dbname=".$sql['db'].";charset=".$sql['charset'];
   $pdo = new PDO($pdo_dsn, $sql['user'], $sql['password'], $pdo_options);
 

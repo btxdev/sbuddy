@@ -28,26 +28,9 @@
   $finder_users_dir = '../../USERS_FILES/';                                     // SITE-USERS FILES
   $finder_ap_users_dir = '../media/users/public/';                              // AP-USERS FILES
 
-  $users_folder = '../../../../Projects/Study Buddy/Сайт/ver 2/users/';
-  $attachments_folder = '../../../../Projects/Study Buddy/Сайт/ver 2/media/msga/';
-  $msg_h_folder = '../../../../Projects/Study Buddy/Сайт/ver 2/php/chat/msg/';
-
-  // === db information ========================================================
-
-  $sql_site = Array(
-    'host' => '127.0.0.1',
-    'db' => 'u1878365_sbinsoap',
-    'user' => 'u1878365_sbinsoa',
-    'password' => '9Y54WG911B',
-    'charset' => 'utf8mb4'
-  );
-  $sql_ap = Array(
-    'host' => '127.0.0.1',
-    'db' => 'u1878365_sbinsoap',
-    'user' => 'u1878365_sbinsoa',
-    'password' => '9Y54WG911B',
-    'charset' => 'utf8'
-  );
+  $users_folder = '../../../users/';
+  $attachments_folder = '../../../media/msga/';
+  $msg_h_folder = '../../../php/chat/msg/';
 
   // === PDO ===================================================================
 

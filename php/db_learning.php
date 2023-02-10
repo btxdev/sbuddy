@@ -22,24 +22,6 @@
 
   $time_regex = '/^(0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]$/';
 
-  // === db information ========================================================
-
-  $sql_site = Array(
-  'host' => '127.0.0.1',
-  'db' => 'u1878365_sbinsoap',
-  'user' => 'u1878365_sbinsoa',
-  'password' => '9Y54WG911B',
-    'charset' => 'utf8'
-  );
-
-  $sql_ap = Array(
-  'host' => '127.0.0.1',
-  'db' => 'u1878365_sbinsoap',
-  'user' => 'u1878365_sbinsoa',
-  'password' => '9Y54WG911B',
-    'charset' => 'utf8'
-  );
-
   // === PDO ===================================================================
 
   // establish connection

@@ -825,3 +825,69 @@ Stack trace:
 Stack trace:
 #0 C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php(282): PDO->prepare('SELECT * FROM `...')
 #1 {main}
+[10.02.2023 22:03:39] FILE C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php LINE 352 ERROR: 
+[10.02.2023 22:03:39] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php:282
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[10.02.2023 22:06:48] FILE C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php LINE 352 ERROR: 
+[10.02.2023 22:06:48] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php:282
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[10.02.2023 22:09:15] sql request fail C:\Users\Михаил\Desktop\sbuddy\www\php\db_article.php IN LINE 67
+[10.02.2023 22:09:16] sql request fail C:\Users\Михаил\Desktop\sbuddy\www\php\db_article.php IN LINE 67
+[10.02.2023 22:09:17] sql request fail C:\Users\Михаил\Desktop\sbuddy\www\php\db_article.php IN LINE 67
+[10.02.2023 22:13:00] FILE C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php LINE 352 ERROR: 
+[10.02.2023 22:13:00] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php:282
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[10.02.2023 22:13:01] sql request fail C:\Users\Михаил\Desktop\sbuddy\www\php\db_article.php IN LINE 67
+[10.02.2023 22:13:10] FILE C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php LINE 352 ERROR: 
+[10.02.2023 22:13:10] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php:282
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[10.02.2023 22:13:10] sql request fail C:\Users\Михаил\Desktop\sbuddy\www\php\db_article.php IN LINE 67
+[10.02.2023 22:13:13] FILE C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php LINE 352 ERROR: 
+[10.02.2023 22:13:13] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php:282
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[10.02.2023 22:13:24] FILE C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php LINE 352 ERROR: 
+[10.02.2023 22:13:24] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php:282
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[10.02.2023 22:13:24] sql request fail C:\Users\Михаил\Desktop\sbuddy\www\php\db_article.php IN LINE 67
+[10.02.2023 22:13:25] FILE C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php LINE 352 ERROR: 
+[10.02.2023 22:13:25] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php:282
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[10.02.2023 22:13:25] sql request fail C:\Users\Михаил\Desktop\sbuddy\www\php\db_article.php IN LINE 67
+[10.02.2023 22:20:00] FILE C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php LINE 352 ERROR: 
+[10.02.2023 22:20:00] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php:282
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[10.02.2023 22:21:41] FILE C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php LINE 352 ERROR: 
+[10.02.2023 22:21:41] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php:282
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[10.02.2023 22:21:44] FILE C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php LINE 352 ERROR: 
+[10.02.2023 22:21:44] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php:282
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[10.02.2023 22:23:00] <C:U00Asia/TashkentFri, 10 Feb 2023 22:23:00 +050000МихаилDAsia/Tashkent00k282023psb000000101023w55p10pdb_pm0000002810.p10p : Fri, 10 Feb 2023 22:23:00 +0500Asia/Tashkent10230028Asia/TashkentFri, 10 Feb 2023 22:23:00 +0500_2Asia/Tashkent5> ERR+0500R 05 005E 698  
+[10.02.2023 22:23:29] <C:U29Asia/TashkentFri, 10 Feb 2023 22:23:29 +050029МихаилDAsia/Tashkent29k282023psb000000101023w55p10pdb_pm0000002810.p10p : Fri, 10 Feb 2023 22:23:29 +0500Asia/Tashkent10232928Asia/TashkentFri, 10 Feb 2023 22:23:29 +0500_2Asia/Tashkent5> ERR+0500R 05 005E 698  
+[10.02.2023 22:24:33] FILE C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php LINE 352 ERROR: 
+[10.02.2023 22:24:33] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u1878365_sbinsoap.view_stat' doesn't exist in C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php:282
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\db_stat.php(282): PDO->prepare('SELECT * FROM `...')
+#1 {main}
+[10.02.2023 22:24:53] <C:U53Asia/TashkentFri, 10 Feb 2023 22:24:53 +050053МихаилDAsia/Tashkent53k282023psb000000101023w55p10pdb_pm0000002810.p10p : Fri, 10 Feb 2023 22:24:53 +0500Asia/Tashkent10245328Asia/TashkentFri, 10 Feb 2023 22:24:53 +0500_2Asia/Tashkent5> ERR+0500R 05 005E 698  
+[10.02.2023 22:48:40] mailing, line:1053

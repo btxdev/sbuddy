@@ -105,9 +105,11 @@ var IndexNews = {
       success: function(response) {
         function checkResponseCode(code, rsp) { if(typeof(rsp) == 'undefined') rsp = response; return (response.substring(0, code.length) == code); }
         if(checkResponseCode('OK.')) {
+          console.log('НОВОСТИ ЗАГРУЖЕНЫ');
           // parse data
           var responseText = response.substring(3, response.length);
           var tmp = JSON.parse(responseText);
+          console.log(tmp);
           var responseData = [tmp[1], tmp[0], tmp[2]];
           // listing
           var output = '';

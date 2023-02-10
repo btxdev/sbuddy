@@ -508,3 +508,39 @@ Stack trace:
 #0 C:\Users\Михаил\Desktop\sbuddy\www\php\chat\chat.php(244): PDO->prepare('SELECT `account...')
 #1 C:\Users\Михаил\Desktop\sbuddy\www\php\chat\chat.php(794): who_online_details()
 #2 {main}
+[10.02.2023 22:50:09] ERROR C:\Users\Михаил\Desktop\sbuddy\www\php\chat\chat.php : read_messages IN LINE 354: 
+[10.02.2023 22:50:09] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name1' in 'field list' in C:\Users\Михаил\Desktop\sbuddy\www\php\chat\chat.php:328
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\chat\chat.php(328): PDO->prepare('SELECT `account...')
+#1 C:\Users\Михаил\Desktop\sbuddy\www\php\chat\chat.php(826): read_messages(0)
+#2 {main}
+[10.02.2023 22:50:09] ERROR C:\Users\Михаил\Desktop\sbuddy\www\php\chat\chat.php : read_messages IN LINE 354: 
+[10.02.2023 22:50:09] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name1' in 'field list' in C:\Users\Михаил\Desktop\sbuddy\www\php\chat\chat.php:328
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\chat\chat.php(328): PDO->prepare('SELECT `account...')
+#1 C:\Users\Михаил\Desktop\sbuddy\www\php\chat\chat.php(826): read_messages(0)
+#2 {main}
+[10.02.2023 22:50:13] ERROR C:\Users\Михаил\Desktop\sbuddy\www\php\chat\chat.php : read_last_messages IN LINE 434: 
+[10.02.2023 22:50:13] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name1' in 'field list' in C:\Users\Михаил\Desktop\sbuddy\www\php\chat\chat.php:409
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\chat\chat.php(409): PDO->prepare('SELECT `account...')
+#1 C:\Users\Михаил\Desktop\sbuddy\www\php\chat\chat.php(808): read_last_messages()
+#2 {main}
+[10.02.2023 22:51:24] ERROR C:\Users\Михаил\Desktop\sbuddy\www\php\chat\chat.php : read_messages IN LINE 354: 
+[10.02.2023 22:51:24] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name1' in 'field list' in C:\Users\Михаил\Desktop\sbuddy\www\php\chat\chat.php:328
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\chat\chat.php(328): PDO->prepare('SELECT `account...')
+#1 C:\Users\Михаил\Desktop\sbuddy\www\php\chat\chat.php(826): read_messages(0)
+#2 {main}
+[10.02.2023 22:51:24] ERROR C:\Users\Михаил\Desktop\sbuddy\www\php\chat\chat.php : who_online_details IN LINE 261: 
+[10.02.2023 22:51:24] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name1' in 'field list' in C:\Users\Михаил\Desktop\sbuddy\www\php\chat\chat.php:244
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\chat\chat.php(244): PDO->prepare('SELECT `account...')
+#1 C:\Users\Михаил\Desktop\sbuddy\www\php\chat\chat.php(794): who_online_details()
+#2 {main}
+[10.02.2023 22:51:24] ERROR C:\Users\Михаил\Desktop\sbuddy\www\php\chat\chat.php : read_messages IN LINE 354: 
+[10.02.2023 22:51:24] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name1' in 'field list' in C:\Users\Михаил\Desktop\sbuddy\www\php\chat\chat.php:328
+Stack trace:
+#0 C:\Users\Михаил\Desktop\sbuddy\www\php\chat\chat.php(328): PDO->prepare('SELECT `account...')
+#1 C:\Users\Михаил\Desktop\sbuddy\www\php\chat\chat.php(826): read_messages(0)
+#2 {main}

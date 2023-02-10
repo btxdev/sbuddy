@@ -11,7 +11,7 @@
   $sql_charset                 =  'utf8';
 
   $sql_site_host               =  '127.0.0.1';
-  $sql_site_db                 =  'u1878365_sbinsoap';
+  $sql_site_db                 =  'u1878365_sbuddy';
   $sql_site_user               =  'u1878365_sbinsoa';
   $sql_site_password           =  '9Y54WG911B';
   $sql_site_charset            =  'utf8';
